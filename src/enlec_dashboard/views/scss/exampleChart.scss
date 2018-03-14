@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////
-//Estilos gráfico de barras No. 1
+//Estilos gráfico de barras
 ////////////////////////////////////////////////////////////////////////////////
 .barChart
 {
@@ -18,31 +18,41 @@
     margin:5px;
     box-shadow:4px 2px 2px #DBDBDB;
   }
-	.label{
-		font-size:14px !important;
-		
+	.label
+  {
+	   font-size:14px !important;
 	}
 }
 
+@media(min-width:1441px)
+{
+  .barChart
+  {
+	   div
+     {
+		     font-size:14px;
+	   }
+	}
+}
 
-@media (min-width: 1441px) {
-	.barChart {
-	  div {
-		font-size:14px;
-	  }
+@media(min-width:1200px)
+{
+	.barChart
+  {
+	   div
+     {
+		     font-size:14px;
+	   }
 	}
 }
-@media (min-width: 1200px) {
-	.barChart {
-	  div {
-		font-size:14px;
-	  }
-	}
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-	.barChart {
-	  div {
-		font-size:14px;
-	  }
+
+@media(min-width:992px) and (max-width: 1199px)
+{
+  .barChart
+  {
+	   div
+     {
+		     font-size:14px;
+	   }
 	}
 }

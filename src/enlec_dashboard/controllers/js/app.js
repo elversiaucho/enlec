@@ -1,64 +1,91 @@
-'use strict';
-
 //Módulo de la aplicación
-var app_enlec = angular.module('enlec', ['ngRoute', 'ngResource']);
+var app_enlec = angular.module('enlec', ['ui.router', 'ngResource']);
 
 //Navegación
-app_enlec.config(['$routeProvider', function ($routeProvider)
+app_enlec.config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider)
 {
-	$routeProvider.when("/", {templateUrl:'views/dashboard.html', controller:'globalController'}).otherwise("/", {templateUrl:'views/dashboard.html'});
+    $urlRouterProvider.otherwise('/');
+
+    $stateProvider.state('main', {
+                                    url: '/',
+                                    views:
+                                    {
+                                        '':
+                                            {
+                                                templateUrl:'views/main.html',
+                                                controller:'mainController'
+                                            },
+                                        'exampleView@main':
+                                        {
+                                            templateUrl:'views/subviews/exampleView.html',
+                                            controller:'exampleController'
+                                        },
+                                        'infoView@main':
+                                        {
+                                            templateUrl:'views/subviews/infoView.html',
+                                            controller:'infoController'
+                                        },
+                                        'header@main':
+                                        {
+                                            templateUrl:'views/template/header.html'
+                                        },
+                                        'footer@main':
+                                        {
+                                            templateUrl:'views/template/footer.html'
+                                        }
+                                    }
+                        });
 }]);
 
-//Controlador global
-app_enlec.controller('globalController', globalController);
+//Asignación controladores
+app_enlec.controller('mainController', mainController);
+app_enlec.controller('exampleController', exampleController);
+app_enlec.controller('infoController', infoController);
 
-/**
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Servicios
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
-//Servicio para el componente gráfico exampleChart
-app_enlec.service('exampleService', ['$http', function($http)
+//Injección controladores
+mainController.$inject = ['$scope'];
+exampleController.$inject = ['$rootScope', '$scope', '$http', 'exampleService'];
+infoController.$inject= ['$scope'];
+
+//Definición controladores
+function infoController($scope)
 {
-		var endpointExampleChart = 'models/json/exampleChart/dataExampleChart.json';
+		$scope.ms = "Información";
+};
 
-  	this.findDataExample = function ()
-  	{
-  		return $http.get(endpointExampleChart);
-  	};
-}]);
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-globalController.$inject = ['$rootScope', '$scope', '$http', 'exampleService'];
-
-function globalController($rootScope, $scope, $http, exampleService)
+function mainController($scope)
 {
-		$scope.year_2012 = 2012;
-    $scope.year_2013 = 2013;
+		$scope.mensaje = "Welcome 10";
+};
 
-    $scope.findDataByYear = function findDataByYear(year)
-    {
-				var itemsUniversitario = [];
+function exampleController($rootScope, $scope, $http, exampleService)
+{
+		  $scope.year_2012 = 2012;
+      $scope.year_2013 = 2013;
 
-				exampleService.findDataExample().then(function(response)
-				{
-		 				angular.forEach(response.data, function(value)
-			 			{
-				 				if(value.year == year)
-				 				{
-					 				itemsUniversitario.push(value);
-				 				}
-			 			});
+      $scope.findDataByYear = function findDataByYear(year)
+      {
+				    var itemsUniversitario = [];
 
-						$scope.dataExampleList = itemsUniversitario;
-						$scope.maxValue = Math.max.apply(Math, $scope.dataExampleList.map(function(item){ return item.valueSalario; }));
-		 		},
-				function(error)
-	 			{
-			 		$scope.status = 'No se pudo cargar la data para el servicio exampleService (findDataExample): ' + error.message;
-	 			});
-			};
+				        exampleService.findDataExample().then(function(response)
+				        {
+		 				           angular.forEach(response.data, function(value)
+			 			           {
+				 				           if(value.year == year)
+				 				           {
+					 				              itemsUniversitario.push(value);
+				 				           }
+			 			           });
 
-			//Data por default
-			$scope.findDataByYear($scope.year_2013);
-}
+						           $scope.dataExampleList = itemsUniversitario;
+						           $scope.maxValue = Math.max.apply(Math, $scope.dataExampleList.map(function(item){ return item.valueSalario; }));
+		 	          },
+			          function(error)
+	 		          {
+			               $scope.status = 'No se pudo cargar la data para el servicio exampleService (findDataExample): ' + error.message;
+	 		          });
+    };
+
+    //Data por default
+    $scope.findDataByYear($scope.year_2013);
+};

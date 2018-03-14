@@ -7,24 +7,27 @@
     <title>Encuesta Nacional de Lectura - ENLEC</title>
 
     <!-- D3 -->
-    <script type="text/javascript" src="bower_components/d3/d3.js"></script> 
+    <script type="text/javascript" src="bower_components/d3/d3.js"></script>
 
     <!-- AngularJs -->
     <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-    <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
     <script type="text/javascript" src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
 
     <!-- JQuery -->
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap -->
     <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
     <script type="text/javascript" src="bower_components/bootstrap/js/scrollspy.js"></script>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" >
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <script type="text/javascript" src="bower_components/bootstrap/js/affix.js"></script>
 
     <!-- Controller -->
     <script type="text/javascript" src="controllers/min/d3EnlecDane.min.js"></script>
+
+    <!-- Servicio -->
+    <script type="text/javascript" src="services/services.js"></script>
 
     <!-- Estilos -->
     <link rel="stylesheet" href="views/css/custom.css" >
@@ -32,16 +35,14 @@
 
     <!-- Favicon -->
     <link href="views/img/favicon-big.png" rel="shortcut icon" type="views/img/vnd.microsoft.icon">
-   <!--  <link rel="shortcut icon" href="http://www.dane.gov.co/templates/beez_20/favicon.ico"> -->
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
-    <script type="text/javascript" src="bower_components/bootstrap/js/affix.js"></script>
-</head>
-<activity android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" android:name="VncCanvasActivity">
+  </head>
+
+  <activity android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" android:name="VncCanvasActivity">
+
   <body ng-app="enlec" data-spy="scroll" data-target="#pageLocator" data-offset="400">
-   <h1 class="hidden">Encuesta Nacional de Lectura - ENLEC</h1>
-    <div ng-include="'views/template/header.html'"></div>
-    <div ng-view>&nbsp;</div>
-    <div ng-include="'views/template/footer.html'"></div>
+    <h1 class="hidden">Encuesta Nacional de Lectura - ENLEC</h1>
+    <div ui-view></div>
   </body>
 </html>
