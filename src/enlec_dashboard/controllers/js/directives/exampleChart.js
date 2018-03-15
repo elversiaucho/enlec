@@ -2,6 +2,7 @@ app_enlec.directive('exampleChart', function()
 {
 		var iFrame = {
 										restrict:'A',
+										replace:false,
 										scope:{
 														 data:'=data',
 											       max:'=max'
@@ -25,19 +26,9 @@ function chartController($scope, $element, $attrs)
 
 		$scope.$watch('data', function(data)
 		{
-				if(!data)
-				{
-					return;
-				}
-
-				drawChart(data);
-		});
-
-		function drawChart(data)
-		{
-		 		svg = d3.select($element[0])
-			 						.append("div")
-			 	 						.attr("class", "barChart");
+				svg = d3.select($element[0])
+									.append("div")
+										.attr("class", "barChart");
 
 				function format(number)
 				{
@@ -45,10 +36,10 @@ function chartController($scope, $element, $attrs)
 																					 .replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 				}
 
-			 	path =	svg.selectAll('div')
-			 	 						.data(data).enter().append("div")
-			 	 									.style("width", function(d) { return (d * 100) / $scope.max + "% "; })
-			 	 									.text(function(d) { return format(d); })
+				path =	svg.selectAll('div')
+										.data(data).enter().append("div")
+													.style("width", function(d) { return (d * 100) / $scope.max + "% "; })
+													.text(function(d) { return format(d); })
 													.style("text-anchor", "middle");
-	}
+		});
 }

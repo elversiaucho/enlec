@@ -63,6 +63,8 @@ function exampleController($rootScope, $scope, $http, exampleService)
 		  $scope.year_2012 = 2012;
       $scope.year_2013 = 2013;
 
+      var year = 2013;
+
       $scope.findDataByYear = function findDataByYear(year)
       {
 				    var itemsUniversitario = [];
