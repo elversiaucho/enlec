@@ -8,23 +8,19 @@ app_enlec.directive('exampleChart', function()
 											       max:'=max'
 													 },
 										templateUrl:'views/directives/example-chart.html',
-										controller:'chartController'
+										link:link
   								};
 
 		return iFrame;
 });
 
-app_enlec.controller('chartController', chartController);
-
-chartController.$inject = ['$scope', '$element', '$attrs'];
-
-function chartController($scope, $element, $attrs)
+var link = function($scope, $element, $attrs)
 {
 	  //Declaración de variables
 		var svg;
 		var path;
 
-		$scope.$watch('data', function(data)
+		function drawChart(data)
 		{
 				svg = d3.select($element[0])
 									.append("div")
@@ -41,5 +37,7 @@ function chartController($scope, $element, $attrs)
 													.style("width", function(d) { return (d * 100) / $scope.max + "% "; })
 													.text(function(d) { return format(d); })
 													.style("text-anchor", "middle");
-		});
+		};
+
+		$scope.$watch('data', drawChart);
 }
