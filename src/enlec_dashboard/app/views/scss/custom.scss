@@ -171,28 +171,28 @@ a:active, a:focus, a:hover {
 }
 
 .ml {
-  background: url("../img/mail.png") no-repeat;
+  background: url("../imgs/mail.png") no-repeat;
 }
 .tw {
-  background: url("../img/twitter.png") no-repeat;
+  background: url("../imgs/twitter.png") no-repeat;
 }
 .fb {
-  background: url("../img/facebook.png") no-repeat;
+  background: url("../imgs/facebook.png") no-repeat;
 }
 .yt {
-  background: url("../img/youtube.png") no-repeat;
+  background: url("../imgs/youtube.png") no-repeat;
 }
 .ml:active, .ml:hover, .ml:focus {
-  background: url("../img/mail_hv.png") no-repeat;
+  background: url("../imgs/mail_hv.png") no-repeat;
 }
 .tw:active, .tw:hover, .tw:focus {
-  background: url("../img/twitter_hv.png") no-repeat;
+  background: url("../imgs/twitter_hv.png") no-repeat;
 }
 .fb:active, .fb:hover, .fb:focus {
-  background: url("../img/facebook_hv.png") no-repeat;
+  background: url("../imgs/facebook_hv.png") no-repeat;
 }
 .yt:active, .yt:hover, .yt:focus {
-  background: url("../img/youtube_hv.png") no-repeat;
+  background: url("../imgs/youtube_hv.png") no-repeat;
 }
 
 
@@ -791,7 +791,7 @@ hr{
 	height: 9.5rem;
 }
 .enlecHeader:after{
-    background: url(../img/colorLines.svg) repeat-y;
+    background: url(../imgs/colorLines.svg) repeat-y;
     background-position: right;
     content: '';
     position: absolute;

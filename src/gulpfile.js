@@ -7,8 +7,8 @@
 // // //////////////////////////////////////////////
 var config =
 {
-  jsConcatFilesApi:['./enlec_dashboard/controllers/js/**/*.js',],
-  scssStyles:['./enlec_dashboard/views/scss/**/*.scss',]
+  jsConcatFilesApi:['./enlec_dashboard/app/js/**/*.js',],
+  scssStyles:['./enlec_dashboard/app/views/scss/**/*.scss',]
 };
 
 // ////////////////////////////////////////////////
@@ -18,7 +18,6 @@ var config =
 // // /////////////////////////////////////////////
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
-    sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync'),
     reload = browserSync.reload,
@@ -43,13 +42,11 @@ function errorlog(err)
 gulp.task('scriptsApi', function()
 {
   return gulp.src(config.jsConcatFilesApi)
-	           .pipe(sourcemaps.init())
 	           .pipe(concat('temp.js'))
           	 .pipe(uglify())
           	 .on('error', errorlog)
           	 .pipe(rename('d3EnlecDane.min.js'))
-          	 .pipe(sourcemaps.write('./maps/'))
-          	 .pipe(gulp.dest('./enlec_dashboard/controllers/min/'))
+          	 .pipe(gulp.dest('./enlec_dashboard/app/min/'))
           	 .pipe(reload({stream:true}));
 });
 
@@ -59,11 +56,10 @@ gulp.task('scriptsApi', function()
 gulp.task('styles', function()
 {
   gulp.src(config.scssStyles)
-	    .pipe(sourcemaps.init())
 	    .pipe(sass({outputStyle:'compressed'}))
 	    .on('error', errorlog)
 	    .pipe(autoprefixer({browsers:['last 3 versions'], cascade:false}))
-	    .pipe(gulp.dest('./enlec_dashboard/views/css/'));
+	    .pipe(gulp.dest('./enlec_dashboard/app/views/css/'));
 });
 
 // ////////////////////////////////////////////////
@@ -71,7 +67,7 @@ gulp.task('styles', function()
 // // /////////////////////////////////////////////
 gulp.task('html', function()
 {
-  gulp.src('./enlec_dashboard/views/**/*.html')
+  gulp.src('./enlec_dashboard/app/views/**/*.html')
 	    .pipe(reload({stream:true}));
 });
 
@@ -120,9 +116,9 @@ gulp.task('build', ['build:copy', 'build:remove', 'directiveString','minString']
 // // /////////////////////////////////////////////
 gulp.task('watch', function()
 {
-  gulp.watch('./enlec_dashboard/views/scss/**/*.scss', ['styles']);
-  gulp.watch('./enlec_dashboard/controllers/js/**/*.js', ['scriptsApi']);
-  gulp.watch('./enlec_dashboard/views/**/*.html', ['html']);
+  gulp.watch('./enlec_dashboard/app/views/scss/**/*.scss', ['styles']);
+  gulp.watch('./enlec_dashboard/app/js/**/*.js', ['scriptsApi']);
+  gulp.watch('./enlec_dashboard/app/views/**/*.html', ['html']);
 });
 
 gulp.task('default', ['scriptsApi', 'styles', 'html', 'browser-sync', 'watch']);

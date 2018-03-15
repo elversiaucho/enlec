@@ -43,10 +43,7 @@ src/enlec_dashboard/bower_components/
 *.css-map
 build/
 dist/
-src/enlec_dashboard/views/css/
-src/enlec_dashboard/views/maps/
-src/enlec_dashboard/controllers/maps
-src/enlec_dashboard/controllers/min
+src/enlec_dashboard/app/views/css/
 
 #django migrations#
 .pyc

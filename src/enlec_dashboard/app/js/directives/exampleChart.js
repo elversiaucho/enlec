@@ -7,7 +7,7 @@ app_enlec.directive('exampleChart', function()
 														 data:'=data',
 											       max:'=max'
 													 },
-										templateUrl:'views/directives/example-chart.html',
+										templateUrl:'app/views/templates/example-chart.html',
 										link:link
   								};
 

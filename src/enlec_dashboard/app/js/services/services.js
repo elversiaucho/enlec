@@ -4,13 +4,15 @@ Servicios
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 */
 //Servicio para el componente gráfico exampleChart
-app_enlec.service('exampleService', ['$http', function($http)
+app_enlec.service('exampleService', service);
+service.$inject = ['$http'];
+
+function service($http)
 {
-		var endpointExampleChart = 'models/json/exampleChart/dataExampleChart.json';
+		var endpointExampleChart = 'app/models/json/exampleChart/dataExampleChart.json';
 
   	this.findDataExample = function ()
   	{
   		return $http.get(endpointExampleChart);
   	};
-}]);
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+};
