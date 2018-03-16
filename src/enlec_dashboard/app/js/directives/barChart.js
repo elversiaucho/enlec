@@ -106,7 +106,7 @@ var linkBarChart = function($scope, $element, $attrs)
 
 
        }
-alert('holas2');
+
        function drawChart(nested) {
            var t = d3.transition()
                .duration(1000)
