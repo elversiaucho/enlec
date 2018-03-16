@@ -28,11 +28,7 @@ function configuracion($stateProvider, $urlRouterProvider)
                                             {
                                                 templateUrl:'app/views/dashboard/infoView.html',
                                                 controller:'infoController'
-                                            },
-                                            'barChartView@main':
-                                            {
-                                                templateUrl:'app/views/dashboard/barChartView.html'
-                                            },
+                                            },                                          
                                             'footer@main':
                                             {
                                                 templateUrl:'app/views/templates/footer.html'
