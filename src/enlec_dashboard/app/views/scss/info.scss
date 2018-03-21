@@ -1,8 +1,16 @@
 /**
-    * file: horizontalBarChart.scss
-    * description: Estilo directiva horizontal-bar-Chart
+    * file: infoChart.scss
+    * description: Estilo directiva info
     * author: Andrea del Pilar Forero W - apforerow@dane.gov.co
     * version: 1.0.0
     * date: 28/03/2018
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
+.barInfo
+{
+  fill:steelblue;
+}
+.barSecundario
+{
+  fill:RED;
+}
