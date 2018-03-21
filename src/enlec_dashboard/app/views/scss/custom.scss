@@ -1,399 +1,532 @@
-/*@import url('http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans');*/
-
-/*------------Fonts--------------*/
-@font-face {
-  font-family: 'Open Sans';
-  src: url('../../bower_components/google-open-sans/open-sans/regular.eot'); /* IE9 Compat Modes */
-  src: local('Open Sans'), local('Open Sans'),
-       url('../../bower_components/google-open-sans/open-sans/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
-       url('../../bower_components/google-open-sans/open-sans/regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../../bower_components/google-open-sans/open-sans/regular.ttf')  format('truetype'), /* Safari, Android, iOS */
-	   url('../../bower_components/google-open-sans/open-sans/regular.svg')  format('svg'); /* Legacy iOS */
- font-style: normal;
- font-weight: 400;
-}
-
-@font-face {
-font-family: 'Roboto Slab';
-src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-	 url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.eot') format('embedded-opentype'),
-     url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.woff') format('woff'),
-	 url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.ttf') format('truetype'),
-	url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.svg') format('svg');
-font-style: normal;
-font-weight: 400;
-}
-@font-face {
-  font-family: 'FontAwesome';
-  src: url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.eot') format('embedded-opentype'),
-    url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.svg') format('svg'),
-	  url(../../bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2),url(../../bower_components/components-font-awesome/fonts/FontAwesome.otf);
-  font-weight: normal;
+/**
+    * file: custom.scss
+    * description: Estilo general de la aplicación
+    * author: Andrea del Pilar Forero W - apforerow@dane.gov.co
+    * version: 1.0.0
+    * date: 28/03/2018
+    * company: Departamento Administrativo Nacional de Estadística - DANE
+**/
+@font-face
+{
+  font-family:'Open Sans';
+  src:url('../../bower_components/google-open-sans/open-sans/regular.eot'); /* IE9 Compat Modes */
+  src:local('Open Sans'), local('Open Sans'),
+      url('../../bower_components/google-open-sans/open-sans/regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+      url('../../bower_components/google-open-sans/open-sans/regular.woff') format('woff'), /* Pretty Modern Browsers */
+      url('../../bower_components/google-open-sans/open-sans/regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	    url('../../bower_components/google-open-sans/open-sans/regular.svg') format('svg'); /* Legacy iOS */
   font-style: normal;
+  font-weight: 400;
 }
+
+@font-face
+{
+  font-family:'Roboto Slab';
+  src:local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
+	    url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.eot') format('embedded-opentype'),
+      url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.woff') format('woff'),
+	    url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.ttf') format('truetype'),
+	    url('../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.svg') format('svg');
+  font-style:normal;
+  font-weight:400;
+}
+
+@font-face
+{
+  font-family:'FontAwesome';
+  src:url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+      url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.woff') format('woff'), url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.ttf') format('truetype'), url('../../bower_components/components-font-awesome/fonts/fontawesome-webfont.svg') format('svg'),
+	    url(../../bower_components/components-font-awesome/fonts/fontawesome-webfont.woff2),url(../../bower_components/components-font-awesome/fonts/FontAwesome.otf);
+  font-weight:normal;
+  font-style:normal;
+}
+
 /*------------End Fonts--------*/
-.fa {
-  display: inline-block;
-  font-family: FontAwesome;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
+.fa
+{
+  display:inline-block;
+  font-family:FontAwesome;
+  font-style:normal;
+  font-weight:normal;
+  line-height:1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 /* makes the font 33% larger relative to the icon container */
-.fa-lg {
-  font-size: 1.3333333333333333em;
-  line-height: 0.75em;
-  vertical-align: -15%;
+.fa-lg
+{
+  font-size:1.3333333333333333em;
+  line-height:0.75em;
+  vertical-align:-15%;
 }
-.fa-2x {
-  font-size: 2em;
+
+.fa-2x
+{
+  font-size:2em;
 }
-.fa-3x {
-  font-size: 3em;
+
+.fa-3x
+{
+  font-size:3em;
 }
-.fa-4x {
-  font-size: 4em;
+
+.fa-4x
+{
+  font-size:4em;
 }
-.fa-5x {
-  font-size: 5em;
+
+.fa-5x
+{
+  font-size:5em;
 }
-.fa-fw {
-  width: 1.2857142857142858em;
-  text-align: center;
+
+.fa-fw
+{
+  width:1.2857142857142858em;
+  text-align:center;
 }
-.fa-ul {
-  padding-left: 0;
-  margin-left: 2.142857142857143em;
-  list-style-type: none;
+
+.fa-ul
+{
+  padding-left:0;
+  margin-left:2.142857142857143em;
+  list-style-type:none;
 }
-.fa-ul > li {
-  position: relative;
+
+.fa-ul > li
+{
+  position:relative;
 }
-.fa-li {
-  position: absolute;
-  left: -2.142857142857143em;
-  width: 2.142857142857143em;
-  top: 0.14285714285714285em;
-  text-align: center;
+
+.fa-li
+{
+  position:absolute;
+  left:-2.142857142857143em;
+  width:2.142857142857143em;
+  top:0.14285714285714285em;
+  text-align:center;
 }
-.fa-li.fa-lg {
-  left: -1.8571428571428572em;
+
+.fa-li.fa-lg
+{
+  left:-1.8571428571428572em;
 }
-.fa-border {
-  padding: .2em .25em .15em;
-  border: solid 0.08em #eeeeee;
-  border-radius: .1em;
+
+.fa-border
+{
+  padding:.2em .25em .15em;
+  border:solid 0.08em #eeeeee;
+  border-radius:.1em;
 }
-body {
-  overflow-x: hidden !important;
-  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding: 0px !important;
+
+body
+{
+  overflow-x:hidden !important;
+  font-family:'Open Sans',Arial, Helvetica, sans-serif;
+  font-size:14px;
+  padding:0px !important;
   margin-top:0px !important;
-color:#3c3c3b;
-	position: relative;
+  color:#3c3c3b;
+	position:relative;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Slab', serif;
-    line-height: 1.3;
+h1, h2, h3, h4, h5, h6
+{
+  font-family:'Roboto Slab', serif;
+  line-height:1.3;
 }
 
-a {
-  color: rgb(182,1,76);
-}
-a:active, a:focus, a:hover {
-  color: rgb(120,20,79);
+a
+{
+  color:rgb(182,1,76);
 }
 
-.btn-link {
-  color: rgb(182,1,76);
-}
-.btn-link:active, .btn-link:focus, .btn-link:hover {
-  color: rgb(120,20,79);
+a:active, a:focus, a:hover
+{
+  color:rgb(120,20,79);
 }
 
-.btn-link {
-  color: rgb(182,1,76);
-}
-.btn-link:active, .btn-link:focus, .btn-link:hover {
-  color: rgb(120,20,79);
-}
-.container {
-  /*background: #aaa;*/
+.btn-link
+{
+  color:rgb(182,1,76);
 }
 
-#dane-logo img {
-	height:16vh;
+.btn-link:active, .btn-link:focus, .btn-link:hover
+{
+  color:rgb(120,20,79);
 }
 
-#bar {
-  left: 60px;
+.btn-link
+{
+  color:rgb(182,1,76);
 }
 
-#titulo {
-  padding-right: 30px;
-  color: #a70b3c !important;
+.btn-link:active, .btn-link:focus, .btn-link:hover
+{
+  color:rgb(120,20,79);
 }
 
-#idioma {
-  text-align: right;
+#dane-logo img
+{
+  height:16vh;
 }
 
-#search {
-  margin-top: 10px;
+#bar
+{
+  left:60px;
 }
 
-.form-control:focus {
-  border-color: rgb(182,1,76);
-  outline: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(182,1,76,.6);
-  /* box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(182,1,76,.6); */
+#titulo
+{
+  padding-right:30px;
+  color:#a70b3c !important;
 }
 
-.glyphicon {
-    top: 0px;
+#idioma
+{
+  text-align:right;
 }
 
-.redes {
-  border-top: solid 5px rgb(182,1,76);
-  padding: 15px 0px 10px;
-  position: relative;
+#search
+{
+  margin-top:10px;
 }
 
-.ml, .tw, .fb, .yt {
-  margin: 10px 5px 10px;
-  float: right;
-  width: 30px;
-  height: 30px;
+.form-control:focus
+{
+  border-color:rgb(182,1,76);
+  outline:0;
+  -webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(182,1,76,.6);
 }
 
-.ml {
-  background: url("../imgs/mail.png") no-repeat;
-}
-.tw {
-  background: url("../imgs/twitter.png") no-repeat;
-}
-.fb {
-  background: url("../imgs/facebook.png") no-repeat;
-}
-.yt {
-  background: url("../imgs/youtube.png") no-repeat;
-}
-.ml:active, .ml:hover, .ml:focus {
-  background: url("../imgs/mail_hv.png") no-repeat;
-}
-.tw:active, .tw:hover, .tw:focus {
-  background: url("../imgs/twitter_hv.png") no-repeat;
-}
-.fb:active, .fb:hover, .fb:focus {
-  background: url("../imgs/facebook_hv.png") no-repeat;
-}
-.yt:active, .yt:hover, .yt:focus {
-  background: url("../imgs/youtube_hv.png") no-repeat;
+.glyphicon
+{
+  top:0px;
 }
 
+.redes
+{
+  border-top:solid 5px rgb(182,1,76);
+  padding:15px 0px 10px;
+  position:relative;
+}
+
+.ml, .tw, .fb, .yt
+{
+  margin:10px 5px 10px;
+  float:right;
+  width:30px;
+  height:30px;
+}
+
+.ml
+{
+  background:url("../imgs/mail.png") no-repeat;
+}
+
+.tw
+{
+  background:url("../imgs/twitter.png") no-repeat;
+}
+
+.fb
+{
+  background:url("../imgs/facebook.png") no-repeat;
+}
+
+.yt
+{
+  background:url("../imgs/youtube.png") no-repeat;
+}
+
+.ml:active, .ml:hover, .ml:focus
+{
+  background:url("../imgs/mail_hv.png") no-repeat;
+}
+
+.tw:active, .tw:hover, .tw:focus
+{
+  background:url("../imgs/twitter_hv.png") no-repeat;
+}
+
+.fb:active, .fb:hover, .fb:focus
+{
+  background:url("../imgs/facebook_hv.png") no-repeat;
+}
+
+.yt:active, .yt:hover, .yt:focus
+{
+  background:url("../imgs/youtube_hv.png") no-repeat;
+}
 
 /* ___________ Colorbar ____________________ */
+/*Color DANE presidencia*/
+#colorbar
+{
+  position:relative;
+  height:15px;
+  background-color:rgb(182,0,75);
+  z-index:898;
+}
 
-#colorbar {/*Color DANE presidencia*/
-  position: relative;
-  height: 15px;
-  background-color: rgb(182,0,75);
-  z-index: 898;
+/*Magenta DANE*/
+.color0
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(226,0,122);
 }
-.color0 {/*Magenta DANE*/
-  position: inherit;
-  float: left;
-  background-color: rgb(226,0,122);
+
+/*Amarillo*/
+.color1
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(255,207,0);
 }
-.color1 {/*Amarillo*/
-  position: inherit;
-  float: left;
-  background-color: rgb(255,207,0);
+
+/*Naranja*/
+.color2
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(241,155,0);
 }
-.color2 {/*Naranja*/
-  position: inherit;
-  float: left;
-  background-color: rgb(241,155,0);
+
+/*Verde vivo*/
+.color3
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(216,214,0);
 }
-.color3 {/*Verde vivo*/
-  position: inherit;
-  float: left;
-  background-color: rgb(216,214,0);
+
+/*verde*/
+.color4
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(152,189,30);
 }
-.color4 {/*verde*/
-  position: inherit;
-  float: left;
-  background-color: rgb(152,189,30);
+
+/*Cian*/
+.color5
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(43,171,227);
 }
-.color5 {/*Cian*/
-  position: inherit;
-  float: left;
-  background-color: rgb(43,171,227);
+
+/*Azul*/
+.color6
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(0,123,151);
 }
-.color6 {/*Azul*/
-  position: inherit;
-  float: left;
-  background-color: rgb(0,123,151);
+
+/*Gris*/
+.color7
+{
+  position:inherit;
+  float:left;
+  background-color:rgb(111,111,110);
 }
-.color7 {/*Gris*/
-  position: inherit;
-  float: left;
-  background-color: rgb(111,111,110);
+
+#color_container
+{
+  position:inherit;
+  height:35px;
+  top:-10px;
+  width:80%;
+  left:6.84%;
 }
-#color_container {
-  position: inherit;
-  height: 35px;
-  top: -10px;
-  width: 80%;
-  left: 6.84%;
+
+#areaa
+{
+  position:inherit;
+  float:left;
+  width:4%;
+  margin-top:10px;
+  height:25px;
 }
-#areaa {
-  position: inherit;
-  float: left;
-  width: 4%;
-  margin-top: 10px;
-  height: 25px;
+
+#area1
+{
+  width:100%;
+  height:15px;
 }
-#area1 {
-  width: 100%;
-  height: 15px ;
+
+#area2
+{
+  width:20%;
+  height:10px;
 }
-#area2 {
-  width: 20%;
-  height: 10px ;
+
+#area3
+{
+  width:5%;
+  margin-top:10px;
+  height:15px;
 }
-#area3 {
-  width: 5%;
-  margin-top: 10px;
-  height: 15px;
+
+#area4
+{
+  width:15%;
+  margin-top:10px;
+  height:15px;
 }
-#area4 {
-  width: 15%;
-  margin-top: 10px;
-  height: 15px;
+
+#areab
+{
+  position:inherit;
+  float:left;
+  width:12%;
+  margin-top:10px;
+  height:25px;
 }
-#areab {
-  position: inherit;
-  float: left;
-  width: 12%;
-  margin-top: 10px;
-  height: 25px;
+
+#area5
+{
+  width:100%;
+  height:15px;
 }
-#area5 {
-  width: 100%;
-  /*margin-top: 10px;*/
-  height: 15px ;
+
+#area6
+{
+  width:40%;
+  height:10px;
 }
-#area6 {
-  width: 40%;
-  height: 10px ;
+
+#area7
+{
+  width:10%;
+  height:10px;
 }
-#area7 {
-  width: 10%;
-  /*margin-top: 10px;*/
-  height: 10px;
+
+#areac
+{
+  position:inherit;
+  float:left;
+  width:8%;
+  margin-top:10px;
+  height:25px;
 }
-#areac {
-  position: inherit;
-  float: left;
-  width: 8%;
-  margin-top: 10px;
-  height: 25px;
+
+#area8
+{
+  width:100%;
+  height:15px;
 }
-#area8 {
-  width: 100%;
-  /*margin-top: 10px;*/
-  height: 15px ;
+
+#area9
+{
+  width:15%;
+  height:10px;
 }
-#area9 {
-  width: 15%;
-  height: 10px ;
+
+#area10
+{
+  width:3.5%;
+  margin-top:10px;
+  height:15px;
 }
-#area10 {
-  width: 3.5%;
-  margin-top: 10px;
-  height: 15px;
+
+#area11
+{
+  width:5%;
+  margin-top:10px;
+  height:15px;
 }
-#area11 {
-  width: 5%;
-  margin-top: 10px;
-  height: 15px ;
+
+#aread
+{
+  position:inherit;
+  float:left;
+  width:8%;
+  height:25px;
 }
-#aread {
-  position: inherit;
-  float: left;
-  width: 8%;
-  /*margin-top: 10px;*/
-  height: 25px;
+
+#area12
+{
+  width:15%;
+  height:10px;
 }
-#area12 {
-  width:  15%;
-  height: 10px ;
+
+#area13
+{
+  width:100%;
+  height:15px;
 }
-#area13 {
-  width: 100%;
-  /*margin-top: 10px;*/
-  height: 15px ;
+
+#area14
+{
+  width:4%;
+  margin-top:10px;
+  height:15px;
 }
-#area14 {
-  width: 4%;
-  margin-top: 10px;
-  height: 15px ;
+
+#areae
+{
+  position:inherit;
+  float:left;
+  width:5%;
+  margin-top:10px;
+  height:25px;
 }
-#areae {
-  position: inherit;
-  float: left;
-  width: 5%;
-  margin-top: 10px;
-  height: 25px;
+
+#area15
+{
+  width:100%;
+  height:15px;
 }
-#area15 {
-  width: 100%;
-  height: 15px ;
+
+#area16
+{
+  width:25%;
+  height:10px;
+  float:right;
 }
-#area16 {
-  width: 25%;
-  /*margin-top: 10px;*/
-  height: 10px;
-  float: right;
+
+#areaf
+{
+  position:inherit;
+  float:left;
+  width:15%;
+  height:35px;
 }
-#areaf {
-  position: inherit;
-  float: left;
-  width: 15%;
-  /*margin-top: 10px;*/
-  height: 35px;
+
+#area17
+{
+  width:10%;
+  height:10px;
+  float:right;
 }
-#area17 {
-  width: 10%;
-  /*margin-top: 10px;*/
-  height: 10px;
-  float: right;
+
+#area18
+{
+  width:100%;
+  height:15px;
 }
-#area18 {
-  width: 100%;
-  height: 15px ;
+
+#area19
+{
+  width:10%;
+  height:10px;
 }
-#area19 {
-  width: 10%;
-  /*margin-top: 10px;*/
-  height: 10px ;
+
+#areag
+{
+  position:inherit;
+  float:left;
+  width:10%;
+  height:25px;
 }
-#areag {
-  position: inherit;
-  float: left;
-  width: 10%;
-  /*margin-top: 10px;*/
-  height: 25px;
-}
+
 #area20 {
   float: right;
   width: 15%;
-  /*margin-top: 10px;*/
   height: 10px;
 }
 #area21 {
@@ -412,7 +545,6 @@ a:active, a:focus, a:hover {
  {
   color: rgb(255,255,255);
 }
-
 
 .col-md-2 {
 }
@@ -433,7 +565,6 @@ a:active, a:focus, a:hover {
 }
 
 /*footer*/
-
 footer {
   background:#FFFFFF;
   color: rgb(255,255,255);
@@ -718,7 +849,6 @@ blockquote {
 	text-align: justify;
 }
 
-
 /*---------------------- ESTILOS PERSONALES DE ENLEC ------------------*/
 #section1, #section2, section3, #section4, #section5{
   position:relative;
@@ -727,7 +857,6 @@ blockquote {
 
 hr{
 	border:0.1em solid #C2C0C0;
-
 }
 
 #pageLocator{
@@ -778,12 +907,8 @@ hr{
 			top:1.6rem;
 			left: -1rem;
 		}
-
 	}
-
-
 }
-
 
 .enlecHeader{
 	background-color: rgba(249,170,43,1.00);
@@ -880,7 +1005,6 @@ margin: 0px !important;
 
 	}
 }
-
 
 .graphTitle{
 	font-size: 1.8rem;
@@ -1009,14 +1133,12 @@ table tr:first-child {
 	font-size: 2.4rem;
 	font-weight: bold;
 	color:#f09924;
-
 	}
 }
 
 	.legend .fa-lg {
 		margin-right: 5px;
 	}
-
 
 @media (max-width: 376px) and (orientation:portrait){
 	h1{
@@ -1040,7 +1162,6 @@ table tr:first-child {
 			top:1rem;
 			left:4rem;
 		}
-
 	}
 	.enlecHeader:after{
 		display: none !important;
@@ -1066,8 +1187,6 @@ table tr:first-child {
 	.collapse, .collapsing{
 		text-align: left;
 	}
-
-
 }
 @media (min-width: 425px) and (max-width: 767px){
 		h1{
@@ -1082,7 +1201,6 @@ table tr:first-child {
 			top: 1.2rem !important;
 			left:3rem;
 			width: 21rem !important;
-
 		}
 	}
 	.menuAble, .menuDisable{
@@ -1188,7 +1306,6 @@ table tr:first-child {
 			}
 		}
 	}
-
 }
 
 /*/ Large devices (desktops, 992px and up)*/

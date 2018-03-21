@@ -1,0 +1,19 @@
+<!--
+      subvista: definición filtros generales de la aplicación
+-->
+<h1>{{ mensaje }}</h1>
+<div>
+    TEMA
+    <select>
+      <option ng-repeat="objTema in temaList">{{ objTema.name }}</option>
+    </select>
+
+    <select ng-model="valor" ng-change="findDataBar1()">
+      <option ng-repeat="objUbicacion in ubicacionList">{{ objUbicacion.name }}</option>
+    </select>
+
+    RANGO DE EDAD
+    <select>
+      <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
+    </select>
+</div>

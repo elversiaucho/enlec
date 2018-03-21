@@ -1,0 +1,24 @@
+<!--
+      Vista principal: permite dibujar los componentes del dashbord
+-->
+<head>
+<meta charset="utf-8">
+</head>
+
+<div>
+  <!-- Header de la aplicación -->
+  <div ui-view="header"></div>
+  <h1>{{ mensaje }}</h1>
+
+  <!-- Filtros o selectores generales de toda la vista principal -->
+  <div ui-view="filterView"></div>
+
+  <!-- Llamado vistas del dashboard -->
+  <div ui-view="horizontalBarChart1View"></div>
+  <div ui-view="horizontalBarChart2View"></div>
+  <div ui-view="infoView"></div>
+  <div ui-view="exampleView"></div>
+
+  <!-- Footer de la aplicación -->
+  <div ui-view="footer"></div>
+</div>

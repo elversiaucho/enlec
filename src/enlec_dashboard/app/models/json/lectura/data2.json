@@ -1,0 +1,74 @@
+[
+   {
+      "category":"Celular",
+      "ubicacion":"nacional",
+      "data":
+              [
+                {"key":"hombres", "value":5},
+                {"key":"mujeres", "value":10}
+              ]
+   },
+   {
+      "category":"Escritorio",
+      "ubicacion":"nacional",
+      "data":
+              [
+                {"key":"hombres", "value":20},
+                {"key":"mujeres", "value":25}
+              ]
+   },
+   {
+      "category":"Portátil",
+      "ubicacion":"nacional",
+      "data":
+              [
+                {"key":"hombres", "value":35},
+                {"key":"mujeres", "value":40}
+              ]
+   },
+   {
+      "category":"Tableta",
+      "ubicacion":"nacional",
+      "data":
+              [
+                {"key":"hombres", "value":50},
+                {"key":"mujeres", "value":55}
+              ]
+   },
+   {
+      "category":"Celular",
+      "ubicacion":"cabecera",
+      "data":
+              [
+                {"key":"hombres", "value":590},
+                {"key":"mujeres", "value":808}
+              ]
+   },
+   {
+      "category":"Escritorio",
+      "ubicacion":"cabecera",
+      "data":
+              [
+                {"key":"hombres", "value":810},
+                {"key":"mujeres", "value":798}
+              ]
+   },
+   {
+      "category":"Portátil",
+      "ubicacion":"cabecera",
+      "data":
+              [
+                {"key":"hombres", "value":658},
+                {"key":"mujeres", "value":539}
+              ]
+   },
+   {
+      "category":"Tableta",
+      "ubicacion":"cabecera",
+      "data":
+              [
+                {"key":"hombres", "value":14},
+                {"key":"mujeres", "value":13}
+              ]
+   }
+]

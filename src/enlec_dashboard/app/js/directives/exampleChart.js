@@ -1,3 +1,11 @@
+/**
+    * file: exampleChart.js
+    * description: Configuración directiva exampleChart
+    * author: Eduardo José Suárez Diaz - ejsuarezd@dane.gov.co
+    * version: 1.0.0
+    * date: 28/03/2018
+    * company: Departamento Administrativo Nacional de Estadística - DANE
+**/
 app_enlec.directive('exampleChart', function()
 {
 		var iFrame = {
@@ -7,19 +15,23 @@ app_enlec.directive('exampleChart', function()
 														 data:'=data',
 											       max:'=max'
 													 },
-										templateUrl:'app/views/templates/example-chart.html',
-										link:link
+										templateUrl:'app/views/directives/example-chart.html',
+										link:linkExampleChart
   								};
 
 		return iFrame;
 });
 
-var link = function($scope, $element, $attrs)
+var linkExampleChart = function($scope, $element, $attrs)
 {
 	  //Declaración de variables
 		var svg;
 		var path;
 
+		//Data
+		$scope.$watch('data', drawChart);
+
+		//Dibujar gráfico
 		function drawChart(data)
 		{
 				svg = d3.select($element[0])
@@ -38,6 +50,4 @@ var link = function($scope, $element, $attrs)
 													.text(function(d) { return format(d); })
 													.style("text-anchor", "middle");
 		};
-
-		$scope.$watch('data', drawChart);
-}
+};
