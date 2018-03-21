@@ -576,10 +576,17 @@ border-bottom: 0px;
     color: #54b8c0;
     }
 
-.detalle-valor-general{
-	text-align: center;
-	margin: 0;
-	color: #000;
+.titulo-detalle-valor-general{
+  text-align: center;
+  margin: 0;
+  color: #000;
+}
+.texto-detalle-valor-general{
+  text-align: center;
+  margin: 0;
+  color: #000;
+  font-weight: 700;
+  font-size: 1.1rem;
 }
 .radio-button-porcentaje{
 	border: 1px solid #cecece;
