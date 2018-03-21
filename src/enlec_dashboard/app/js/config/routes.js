@@ -47,6 +47,16 @@ function configuration($stateProvider, $urlRouterProvider)
                             templateUrl:'app/views/main/horizontalBarChart2View.html',
                             controller:'horizontalBarController'
                         },
+                        'circularChart1View@main':
+                        {
+                            templateUrl:'app/views/main/circularChart1View.html',
+                            controller:'circularController'
+                        },
+                        'numeroChart1View@main':
+                        {
+                            templateUrl:'app/views/main/numeroChart1View.html',
+                            controller:'numeroController'
+                        },
                         'filterView@main':
                         {
                             templateUrl:'app/views/main/filterView.html',
