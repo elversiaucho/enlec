@@ -1,0 +1,290 @@
+{
+	"nacional": {
+		"totalPersonas5": [{
+			"pregunta": "Total de personas de 5 años y más que visitaron bibliotecas",
+			"respuesta": "Total",
+			"Total": 12148,
+			"pTotal": 100,
+			"hombres": 5689,
+			"pHombres": 46.8,
+			"mujeres": 6460,
+			"pMujeres": 53.2
+		}],
+		"bibliotecaPublica": [{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "si",
+				"Total": 5340,
+				"pTotal": 44,
+				"hombres": 2487,
+				"pHombres": 43.7,
+				"mujeres": 2853,
+				"pMujeres": 44.2
+			},
+			{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "no",
+				"Total": 6808,
+				"pTotal": 56,
+				"hombres": 3201,
+				"pHombres": 56.3,
+				"mujeres": 3606,
+				"pMujeres": 55.8
+			}
+		],
+		"bibliotecaEscolar": [{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "si",
+				"Total": 2323,
+				"pTotal": 19.1,
+				"hombres": 1167,
+				"pHombres": 20.5,
+				"mujeres": 1155,
+				"pMujeres": 17.9
+			},
+			{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "no",
+				"Total": 9826,
+				"pTotal": 80.9,
+				"hombres": 4521,
+				"pHombres": 79.5,
+				"mujeres": 5304,
+				"pMujeres": 82.1
+			}
+		],
+		"bibliotecaUniversitaria": [{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "si",
+				"Total": 472,
+				"pTotal": 3.9,
+				"hombres": 230,
+				"pHombres": 4,
+				"mujeres": 241,
+				"pMujeres": 3.7
+			},
+			{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "no",
+				"Total": 11677,
+				"pTotal": 96.1,
+				"hombres": 5459,
+				"pHombres": 96,
+				"mujeres": 6218,
+				"pMujeres": 96.3
+			}
+		],
+		"bibliotecaEspecializada": [{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "si",
+				"Total": 6392,
+				"pTotal": 52.6,
+				"hombres": 2924,
+				"pHombres": 51.4,
+				"mujeres": 3467,
+				"pMujeres": 53.7
+			},
+			{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "no",
+				"Total": 5757,
+				"pTotal": 47.4,
+				"hombres": 2765,
+				"pHombres": 48.6,
+				"mujeres": 2992,
+				"pMujeres": 46.3
+			}
+		]
+	},
+	"cabeceras": {
+		"totalPersonas5": [{
+			"pregunta": "Total de personas de 5 años y más que visitaron bibliotecas",
+			"respuesta": "Total",
+			"Total": 10054,
+			"pTotal": 100,
+			"hombres": 4657,
+			"pHombres": 46.3,
+			"mujeres": 5397,
+			"pMujeres": 53.7
+		}],
+		"bibliotecaPublica": [{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "si",
+				"Total": 3915,
+				"pTotal": 38.9,
+				"hombres": 1773,
+				"pHombres": 38.1,
+				"mujeres": 2142,
+				"pMujeres": 39.7
+			},
+			{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "no",
+				"Total": 6139,
+				"pTotal": 61.1,
+				"hombres": 2884,
+				"pHombres": 61.9,
+				"mujeres": 3255,
+				"pMujeres": 60.3
+			}
+		],
+		"bibliotecaEscolar": [{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "si",
+				"Total": 2108,
+				"pTotal": 21,
+				"hombres": 1060,
+				"pHombres": 22.8,
+				"mujeres": 1048,
+				"pMujeres": 19.4
+			},
+			{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "no",
+				"Total": 7946,
+				"pTotal": 79,
+				"hombres": 3597,
+				"pHombres": 77.2,
+				"mujeres": 4349,
+				"pMujeres": 80.6
+			}
+		],
+		"bibliotecaUniversitaria": [{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "si",
+				"Total": 414,
+				"pTotal": 4.1,
+				"hombres": 209,
+				"pHombres": 4.5,
+				"mujeres": 206,
+				"pMujeres": 3.8
+			},
+			{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "no",
+				"Total": 9640,
+				"pTotal": 95.9,
+				"hombres": 4449,
+				"pHombres": 95.5,
+				"mujeres": 5191,
+				"pMujeres": 96.2
+			}
+		],
+		"bibliotecaEspecializada": [{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "si",
+				"Total": 5694,
+				"pTotal": 56.6,
+				"hombres": 2596,
+				"pHombres": 55.7,
+				"mujeres": 3098,
+				"pMujeres": 57.4
+			},
+			{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "no",
+				"Total": 4360,
+				"pTotal": 43.4,
+				"hombres": 2061,
+				"pHombres": 44.3,
+				"mujeres": 2299,
+				"pMujeres": 42.6
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonas5": [{
+			"pregunta": "Total de personas de 5 años y más que visitaron bibliotecas",
+			"respuesta": "Total",
+			"Total": 2094,
+			"pTotal": 100,
+			"hombres": 1032,
+			"pHombres": 49.3,
+			"mujeres": 1063,
+			"pMujeres": 50.7
+		}],
+		"bibliotecaPublica": [{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "si",
+				"Total": 1426,
+				"pTotal": 68.1,
+				"hombres": 715,
+				"pHombres": 69.3,
+				"mujeres": 711,
+				"pMujeres": 66.9
+			},
+			{
+				"pregunta": "Biblioteca pública o comunitaria",
+				"respuesta": "no",
+				"Total": 669,
+				"pTotal": 31.9,
+				"hombres": 317,
+				"pHombres": 30.7,
+				"mujeres": 352,
+				"pMujeres": 33.1
+			}
+		],
+		"bibliotecaEscolar": [{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "si",
+				"Total": 214,
+				"pTotal": 10.2,
+				"hombres": 107,
+				"pHombres": 10.4,
+				"mujeres": 108,
+				"pMujeres": 10.1
+			},
+			{
+				"pregunta": "Biblioteca escolar",
+				"respuesta": "no",
+				"Total": 1880,
+				"pTotal": 89.8,
+				"hombres": 925,
+				"pHombres": 89.6,
+				"mujeres": 955,
+				"pMujeres": 89.9
+			}
+		],
+		"bibliotecaUniversitaria": [{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "si",
+				"Total": 58,
+				"pTotal": 2.7,
+				"hombres": 22,
+				"pHombres": 2.1,
+				"mujeres": 36,
+				"pMujeres": 3.4
+			},
+			{
+				"pregunta": "Biblioteca universitaria",
+				"respuesta": "no",
+				"Total": 2037,
+				"pTotal": 97.3,
+				"hombres": 1010,
+				"pHombres": 97.9,
+				"mujeres": 1027,
+				"pMujeres": 96.6
+			}
+		],
+		"bibliotecaEspecializada": [{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "si",
+				"Total": 698,
+				"pTotal": 33.3,
+				"hombres": 328,
+				"pHombres": 31.8,
+				"mujeres": 369,
+				"pMujeres": 34.8
+			},
+			{
+				"pregunta": "Biblioteca especializada",
+				"respuesta": "no",
+				"Total": 1397,
+				"pTotal": 66.7,
+				"hombres": 703,
+				"pHombres": 68.2,
+				"mujeres": 693,
+				"pMujeres": 65.2
+			}
+		]
+	}
+}

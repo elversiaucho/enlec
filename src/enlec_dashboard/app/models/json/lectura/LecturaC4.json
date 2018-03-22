@@ -1,0 +1,353 @@
+{
+	"nacional": {
+		"totalPersonas": [{
+			"pregunta": "Total personas de 5 años y más*",
+			"respuesta": "total",
+			"total": 42326.11,
+			"pTotal": 100,
+			"hombres": 20731.68,
+			"pHombres": 48.98,
+			"mujeres": 21594.43,
+			"pMujeres": 51.02
+		}],
+		"periodicos": [{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "Si",
+				"total": 20302.26,
+				"pTotal": 47.97,
+				"hombres": 10243,
+				"pHombres": 49.41,
+				"mujeres": 10059.27,
+				"pMujeres": 46.58
+			},
+			{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "No",
+				"total": 22023.85,
+				"pTotal": 52.03,
+				"hombres": 10488.68,
+				"pHombres": 50.59,
+				"mujeres": 11535.17,
+				"pMujeres": 53.42
+			}
+		],
+		"revistas": [{
+				"pregunta": "Revistas impresas",
+				"respuesta": "Si",
+				"total": 13623.17,
+				"pTotal": 32.19,
+				"hombres": 5286.37,
+				"pHombres": 25.5,
+				"mujeres": 8336.81,
+				"pMujeres": 38.61
+			},
+			{
+				"pregunta": "Revistas impresas",
+				"respuesta": "No",
+				"total": 28702.94,
+				"pTotal": 67.81,
+				"hombres": 15445.31,
+				"pHombres": 74.5,
+				"mujeres": 13257.63,
+				"pMujeres": 61.39
+			}
+		],
+		"docImpresos": [{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "Si",
+				"total": 8269.95,
+				"pTotal": 19.54,
+				"hombres": 4506.26,
+				"pHombres": 21.74,
+				"mujeres": 3763.68,
+				"pMujeres": 17.43
+			},
+			{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "No",
+				"total": 34056.16,
+				"pTotal": 80.46,
+				"hombres": 16225.41,
+				"pHombres": 78.26,
+				"mujeres": 17830.75,
+				"pMujeres": 82.57
+			}
+		],
+		"librosImpresos": [{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "Si",
+				"total": 21893.09,
+				"pTotal": 51.72,
+				"hombres": 9828.73,
+				"pHombres": 47.41,
+				"mujeres": 12064.37,
+				"pMujeres": 55.87
+			},
+			{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "No",
+				"total": 20433.02,
+				"pTotal": 48.28,
+				"hombres": 10902.95,
+				"pHombres": 52.59,
+				"mujeres": 9530.07,
+				"pMujeres": 44.13
+			}
+		],
+		"docAcademicos": [{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "Si",
+				"total": 12285.8,
+				"pTotal": 29.03,
+				"hombres": 5840.13,
+				"pHombres": 28.17,
+				"mujeres": 6445.68,
+				"pMujeres": 29.85
+			},
+			{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "No",
+				"total": 30040.31,
+				"pTotal": 70.97,
+				"hombres": 14891.55,
+				"pHombres": 71.83,
+				"mujeres": 15148.76,
+				"pMujeres": 70.15
+			}
+		]
+	},
+	"cabeceras": {
+		"totalPersonas": [{
+			"pregunta": "Total personas de 5 años y más*",
+			"respuesta": "total",
+			"total": 33456.11,
+			"pTotal": 100,
+			"hombres": 16095.84,
+			"pHombres": 48.11,
+			"mujeres": 17360.27,
+			"pMujeres": 51.89
+		}],
+		"periodicos": [{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "Si",
+				"total": 16627.6,
+				"pTotal": 49.7,
+				"hombres": 8260.08,
+				"pHombres": 51.32,
+				"mujeres": 8367.52,
+				"pMujeres": 48.2
+			},
+			{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "No",
+				"total": 16828.5,
+				"pTotal": 50.3,
+				"hombres": 7835.75,
+				"pHombres": 48.68,
+				"mujeres": 8992.75,
+				"pMujeres": 51.8
+			}
+		],
+		"revistas": [{
+				"pregunta": "Revistas impresas",
+				"respuesta": "Si",
+				"total": 10970.41,
+				"pTotal": 32.79,
+				"hombres": 4158.67,
+				"pHombres": 25.84,
+				"mujeres": 6811.74,
+				"pMujeres": 39.24
+			},
+			{
+				"pregunta": "Revistas impresas",
+				"respuesta": "No",
+				"total": 22485.7,
+				"pTotal": 67.21,
+				"hombres": 11937.17,
+				"pHombres": 74.16,
+				"mujeres": 10548.53,
+				"pMujeres": 60.76
+			}
+		],
+		"docImpresos": [{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "Si",
+				"total": 7285.83,
+				"pTotal": 21.78,
+				"hombres": 3921.08,
+				"pHombres": 24.36,
+				"mujeres": 3364.75,
+				"pMujeres": 19.38
+			},
+			{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "No",
+				"total": 26170.27,
+				"pTotal": 78.22,
+				"hombres": 12174.76,
+				"pHombres": 75.64,
+				"mujeres": 13995.51,
+				"pMujeres": 80.62
+			}
+		],
+		"librosImpresos": [{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "Si",
+				"total": 17543.04,
+				"pTotal": 52.44,
+				"hombres": 7827.68,
+				"pHombres": 48.63,
+				"mujeres": 9715.36,
+				"pMujeres": 55.96
+			},
+			{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "No",
+				"total": 15913.06,
+				"pTotal": 47.56,
+				"hombres": 8268.15,
+				"pHombres": 51.37,
+				"mujeres": 7644.91,
+				"pMujeres": 44.04
+			}
+		],
+		"docAcademicos": [{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "Si",
+				"total": 9982.79,
+				"pTotal": 29.84,
+				"hombres": 4707.43,
+				"pHombres": 29.25,
+				"mujeres": 5275.35,
+				"pMujeres": 30.39
+			},
+			{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "No",
+				"total": 23473.32,
+				"pTotal": 70.16,
+				"hombres": 11388.4,
+				"pHombres": 70.75,
+				"mujeres": 12084.91,
+				"pMujeres": 69.61
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonas": [{
+			"pregunta": "Total personas de 5 años y más*",
+			"respuesta": "total",
+			"total": 8870.01,
+			"pTotal": 100,
+			"hombres": 4635.84,
+			"pHombres": 52.26,
+			"mujeres": 4234.17,
+			"pMujeres": 47.74
+		}],
+		"periodicos": [{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "Si",
+				"total": 3674.66,
+				"pTotal": 41.43,
+				"hombres": 1982.91,
+				"pHombres": 42.77,
+				"mujeres": 1691.75,
+				"pMujeres": 39.95
+			},
+			{
+				"pregunta": "Peri�dicos impresos",
+				"respuesta": "No",
+				"total": 5195.35,
+				"pTotal": 58.57,
+				"hombres": 2652.93,
+				"pHombres": 57.23,
+				"mujeres": 2542.42,
+				"pMujeres": 60.05
+			}
+		],
+		"revistas": [{
+				"pregunta": "Revistas impresas",
+				"respuesta": "Si",
+				"total": 2652.77,
+				"pTotal": 29.91,
+				"hombres": 1127.7,
+				"pHombres": 24.33,
+				"mujeres": 1525.07,
+				"pMujeres": 36.02
+			},
+			{
+				"pregunta": "Revistas impresas",
+				"respuesta": "No",
+				"total": 6217.24,
+				"pTotal": 70.09,
+				"hombres": 3508.15,
+				"pHombres": 75.67,
+				"mujeres": 2709.1,
+				"pMujeres": 63.98
+			}
+		],
+		"docImpresos": [{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "Si",
+				"total": 984.12,
+				"pTotal": 11.09,
+				"hombres": 585.19,
+				"pHombres": 12.62,
+				"mujeres": 398.93,
+				"pMujeres": 9.42
+			},
+			{
+				"pregunta": "Documentos de trabajo impresos",
+				"respuesta": "No",
+				"total": 7885.89,
+				"pTotal": 88.91,
+				"hombres": 4050.65,
+				"pHombres": 87.38,
+				"mujeres": 3835.24,
+				"pMujeres": 90.58
+			}
+		],
+		"librosImpresos": [{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "Si",
+				"total": 4350.05,
+				"pTotal": 49.04,
+				"hombres": 2001.04,
+				"pHombres": 43.16,
+				"mujeres": 2349,
+				"pMujeres": 55.48
+			},
+			{
+				"pregunta": "Libros impresos (total o parcialmente)",
+				"respuesta": "No",
+				"total": 4519.96,
+				"pTotal": 50.96,
+				"hombres": 2634.8,
+				"pHombres": 56.84,
+				"mujeres": 1885.16,
+				"pMujeres": 44.52
+			}
+		],
+		"docAcademicos": [{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "Si",
+				"total": 2303.02,
+				"pTotal": 25.96,
+				"hombres": 1132.69,
+				"pHombres": 24.43,
+				"mujeres": 1170.32,
+				"pMujeres": 27.64
+			},
+			{
+				"pregunta": "Documentos académicos impresos",
+				"respuesta": "No",
+				"total": 6566.99,
+				"pTotal": 74.04,
+				"hombres": 3503.15,
+				"pHombres": 75.57,
+				"mujeres": 3063.84,
+				"pMujeres": 72.36
+			}
+		]
+	}
+}

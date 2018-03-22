@@ -1,0 +1,143 @@
+{
+   "nacional": {
+      "totMayoresde12": {
+         "respuesta": "Total de personas de 12 años y más*",
+         "total": 36338.09,
+         "pTotal": 100,
+         "Hombres": 17649.99,
+         "pHombres": 48.57,
+         "Mujeres": 18688.09,
+         "pMujeres": 51.43
+      },
+      "sileGustaEscribir": {
+         "respuesta":"Sí le gusta escribir",
+         "total": 12598.43,
+         "pTotal": 34.67,
+         "Hombres": 5292.53,
+         "pHombres": 29.99,
+         "Mujeres": 7305.9,
+         "pMujeres": 39.09
+      },
+      "nilegustaNidisgusta": {
+         "respuesta": "Ni le gusta ni le disgusta escribir",
+         "total": 13402.77,
+         "pTotal": 36.88,
+         "Hombres": 6762.22,
+         "pHombres": 38.31,
+         "Mujeres": 6640.56,
+         "pMujeres": 35.53
+      },
+      "noleGustaEscribir": {
+         "respuesta": "No le gusta escribir",
+         "total": 10241.23,
+         "pTotal": 28.18,
+         "Hombres": 5552.49,
+         "pHombres": 31.46,
+         "Mujeres": 4688.74,
+         "pMujeres": 25.09
+      },
+      "noSabenoInforma": {
+         "respuesta": "No sabe / No informa**",
+         "total": 95.65,
+         "pTotal": 0.26,
+         "Hombres": 42.75,
+         "pHombres": 0.24,
+         "Mujeres": 52.9,
+         "pMujeres": 0.28
+      }
+   },
+   "cabeceras": {
+      "totMayoresde12": {
+         "respuesta": "Total de personas de 12 años y más*",
+         "total": 29032.89,
+         "pTotal": 100,
+         "Hombres": 13828.7,
+         "pHombres": 47.63,
+         "Mujeres": 15204.2,
+         "pMujeres": 52.37
+      },
+      "sileGustaEscribir": {
+         "respuesta":"Sí le gusta escribir",
+         "total": 10742.44,
+         "pTotal": 37,
+         "Hombres": 4543.88,
+         "pHombres": 32.86,
+         "Mujeres": 6198.56,
+         "pMujeres": 40.77
+      },
+      "nilegustaNidisgusta": {
+         "respuesta": "Ni le gusta ni le disgusta escribir",
+         "total": 10911.85,
+         "pTotal": 37.58,
+         "Hombres": 5431.19,
+         "pHombres": 39.27,
+         "Mujeres": 5480.67,
+         "pMujeres": 36.05
+      },
+      "noleGustaEscribir": {
+         "respuesta": "No le gusta escribir",
+         "total": 7327.23,
+         "pTotal": 25.24,
+         "Hombres": 3831.08,
+         "pHombres": 27.7,
+         "Mujeres": 3496.14,
+         "pMujeres": 22.99
+      },
+      "noSabenoInforma": {
+         "respuesta": "No sabe / No informa**",
+         "total": 51.37,
+         "pTotal": 0.18,
+         "Hombres": 22.55,
+         "pHombres": 0.16,
+         "Mujeres": 28.82,
+         "pMujeres": 0.19
+      }
+   },
+   "centrosPoblados": {
+      "totMayoresde12": {
+         "respuesta": "Total de personas de 12 años y más*",
+         "total": 7305.19,
+         "pTotal": 100,
+         "Hombres": 3821.3,
+         "pHombres": 52.31,
+         "Mujeres": 3483.9,
+         "pMujeres": 47.69
+      },
+      "sileGustaEscribir": {
+         "respuesta":"Sí le gusta escribir",
+         "total": 1855.99,
+         "pTotal": 25.41,
+         "Hombres": 748.65,
+         "pHombres": 19.59,
+         "Mujeres": 1107.34,
+         "pMujeres": 31.78
+      },
+      "nilegustaNidisgusta": {
+         "respuesta": "Ni le gusta ni le disgusta escribir",
+         "total": 2490.92,
+         "pTotal": 34.1,
+         "Hombres": 1331.03,
+         "pHombres": 34.83,
+         "Mujeres": 1159.89,
+         "pMujeres": 33.29
+      },
+      "noleGustaEscribir": {
+         "respuesta": "No le gusta escribir",
+         "total": 2914,
+         "pTotal": 39.89,
+         "Hombres": 1721.41,
+         "pHombres": 45.05,
+         "Mujeres": 1192.59,
+         "pMujeres": 34.23
+      },
+      "noSabenoInforma": {
+         "respuesta": "No sabe / No informa**",
+         "total": 44.28,
+         "pTotal": 0.61,
+         "Hombres": 20.2,
+         "pHombres": 0.53,
+         "Mujeres": 24.08,
+         "pMujeres": 0.69
+      }
+   }
+}
