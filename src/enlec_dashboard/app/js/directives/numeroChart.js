@@ -21,16 +21,36 @@ app_enlec.directive('numeroChart', function()
 
 var linkNumeroChart = function($scope, $element, $attrs)
 {
-		//Declaración de variables
-		var margin, width, height;
-		var x, y0;
-		var svg;
+	//Declaración de variables
+	var svg;
+	var path;
+	var path1;
+	var data;
+	var columns;
 
-		//Data
-		$scope.$watch('data', drawChart);
+	//Data
+	$scope.$watch('data', drawChart);
 
-		//Dibujar gráfico
-		function drawChart(data)
-		{
-		};
+	//Dibujar gráfico
+	function drawChart(data)
+	{
+		  data = [
+								{ "title" : "Indicador", "valuePorcentaje":70.4, "area":"Total Nacional", "valueArea":42326, "unidad":"miles"}
+
+						];
+
+		columns = ['date', 'close'];
+
+		var span = d3.select($element[0])
+		    .selectAll('div')
+		    .data(data)
+		    .enter()
+		    .append('p')
+		    .text("Hola")
+				.attr("class","div");
+
+
+
+
+	};
 };
