@@ -1,0 +1,89 @@
+{
+	"nacional": {
+		"totalPersonas5": {
+			"respuesta": "Total personas de 5 años y más",
+			"Total": 44445,
+			"pTotal": 100,
+			"Hombres": 21847,
+			"Phombres": 49.2,
+			"Mujeres": 22597,
+			"Pmujeres": 50.8
+		},
+		"siVisito": {
+			"respuesta": "S�  visitó",
+			"Total": 12148,
+			"pTotal": 27.3,
+			"Hombres": 5689,
+			"Phombres": 26,
+			"Mujeres": 6460,
+			"Pmujeres": 28.6
+		},
+		"noVisito": {
+			"respuesta": "No visitó",
+			"Total": 32296,
+			"pTotal": 72.7,
+			"Hombres": 16158,
+			"Phombres": 74,
+			"Mujeres": 16138,
+			"Pmujeres": 71.4
+		}
+	},
+	"cabeceras": {
+		"totalPersonas5": {
+			"pregunta": "Total personas de 5 años y más",
+			"Total": 34661,
+			"pTotal": 100,
+			"Hombres": 16679,
+			"Phombres": 48.1,
+			"Mujeres": 17981,
+			"Pmujeres": 51.9
+		},
+		"siVisito": {
+			"pregunta": "S�  visitó",
+			"Total": 10054,
+			"pTotal": 29,
+			"Hombres": 4657,
+			"Phombres": 27.9,
+			"Mujeres": 5397,
+			"Pmujeres": 30
+		},
+		"noVisito": {
+			"pregunta": "No visitó",
+			"Total": 24607,
+			"pTotal": 71,
+			"Hombres": 12022,
+			"Phombres": 72.1,
+			"Mujeres": 12584,
+			"Pmujeres": 70
+		}
+	},
+	"centrosPoblados": {
+		"totalPersonas5": {
+			"pregunta": "Total personas de 5 años y más",
+			"Total": 9784,
+			"pTotal": 100,
+			"Hombres": 5168,
+			"Phombres": 52.8,
+			"Mujeres": 4616,
+			"Pmujeres": 47.2
+		},
+		"siVisito": {
+			"pregunta": "S�  visitó",
+			"Total": 2094,
+			"pTotal": 21.4,
+			"Hombres": 1032,
+			"Phombres": 20,
+			"Mujeres": 1063,
+			"Pmujeres": 23
+		},
+		"noVisito": {
+			"pregunta": "No visitó",
+			"Total": 7689,
+			"pTotal": 78.6,
+			"Hombres": 4136,
+			"Phombres": 80,
+			"Mujeres": 3553,
+			"Pmujeres": 77
+		}
+	}
+}

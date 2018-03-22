@@ -1,0 +1,89 @@
+{
+	"nacional": {
+		"totalPersonas": {
+			"65": 1390,
+			"pregunta": "Total de personas de 5 anos y mas que leyeron libros",
+			"Total": 22951,
+			"5a11": 3824,
+			"12a25": 7598,
+			"26a40": 5035,
+			"41a64": 5104
+		},
+		"totalLibros": {
+			"65": 5389,
+			"pregunta": "Total de libros leídos en los últimos 12 meses",
+			"Total": 117900,
+			"5a11": 18606,
+			"12a25": 40986,
+			"26a40": 28272,
+			"41a64": 24646
+		},
+		"promedioLibros": {
+			"65": 3.9,
+			"pregunta": "Promedio de libros leídos por persona",
+			"Total": 5.1,
+			"5a11": 4.9,
+			"12a25": 5.4,
+			"26a40": 5.6,
+			"41a64": 4.8
+		}
+	},
+	"cabeceras": {
+		"totalPersonas": {
+			"65": 1138,
+			"pregunta": "Total de personas de 5 anos y mas que leyeron libros",
+			"Total": 18471,
+			"5a11": 2904,
+			"12a25": 6014,
+			"26a40": 4158,
+			"41a64": 4257
+		},
+		"totalLibros": {
+			"65": 4299,
+			"pregunta": "Total de libros leídos en los últimos 12 meses",
+			"Total": 98983,
+			"5a11": 14818,
+			"12a25": 33747,
+			"26a40": 24176,
+			"41a64": 21943
+		},
+		"promedioLibros": {
+			"65": 3.8,
+			"pregunta": "Promedio de libros leídos por persona",
+			"Total": 5.4,
+			"5a11": 5.1,
+			"12a25": 5.6,
+			"26a40": 5.8,
+			"41a64": 5.2
+		}
+	},
+	"centrosPoblados": {
+		"totalPersonas": {
+			"65": 252,
+			"pregunta": "Total de personas de 5 anos y mas que leyeron libros",
+			"Total": 4480,
+			"5a11": 920,
+			"12a25": 1584,
+			"26a40": 877,
+			"41a64": 846
+		},
+		"totalLibros": {
+			"65": 1090,
+			"pregunta": "Total de libros leídos en los últimos 12 meses",
+			"Total": 18917,
+			"5a11": 3788,
+			"12a25": 7240,
+			"26a40": 4097,
+			"41a64": 2703
+		},
+		"promedioLibros": {
+			"65": 4.3,
+			"pregunta": "Promedio de libros leídos por persona",
+			"Total": 4.2,
+			"5a11": 4.1,
+			"12a25": 4.6,
+			"26a40": 4.7,
+			"41a64": 3.2
+		}
+	}
+}

@@ -1,0 +1,89 @@
+{
+	"nacional": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 4061,
+			"pTotal": 100,
+			"hombres": 2086,
+			"pHombres": 51.4,
+			"mujeres": 1975,
+			"pMujeres": 48.6
+		},
+		"siGusta": {
+			"pregunta": "Si le gusta",
+			"total": 2452,
+			"pTotal": 60.4,
+			"hombres": 1214,
+			"pHombres": 58.2,
+			"mujeres": 1238,
+			"pMujeres": 62.7
+		},
+		"noGusta": {
+			"pregunta": "No le gusta",
+			"total": 1609,
+			"pTotal": 39.6,
+			"hombres": 872,
+			"pHombres": 41.8,
+			"mujeres": 737,
+			"pMujeres": 37.3
+		}
+	},
+	"cabeceras": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 2930,
+			"pTotal": 100,
+			"hombres": 1486,
+			"pHombres": 50.7,
+			"mujeres": 1444,
+			"pMujeres": 49.3
+		},
+		"siGusta": {
+			"pregunta": "Si le gusta",
+			"total": 1856,
+			"pTotal": 63.4,
+			"hombres": 933,
+			"pHombres": 62.8,
+			"mujeres": 923,
+			"pMujeres": 63.9
+		},
+		"noGusta": {
+			"pregunta": "No le gusta",
+			"total": 1074,
+			"pTotal": 36.6,
+			"hombres": 552,
+			"pHombres": 37.2,
+			"mujeres": 521,
+			"pMujeres": 36.1
+		}
+	},
+	"centrosPoblados": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 1131,
+			"pTotal": 100,
+			"hombres": 600,
+			"pHombres": 53.1,
+			"mujeres": 530,
+			"pMujeres": 46.9
+		},
+		"siGusta": {
+			"pregunta": "Si le gusta",
+			"total": 595,
+			"pTotal": 52.7,
+			"hombres": 281,
+			"pHombres": 46.7,
+			"mujeres": 315,
+			"pMujeres": 59.4
+		},
+		"noGusta": {
+			"pregunta": "No le gusta",
+			"total": 535,
+			"pTotal": 47.3,
+			"hombres": 320,
+			"pHombres": 53.3,
+			"mujeres": 216,
+			"pMujeres": 40.6
+		}
+	}
+}

@@ -1,0 +1,164 @@
+{
+	"nacional": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 5 años y más*",
+			"respuesta": "total",
+			"total": 42326.11,
+			"pTotal": 100,
+			"Hombres": 20731.68,
+			"pHombres": 48.98,
+			"Mujeres": 21594.43,
+			"pMujeres": 51.02
+		}],
+		"soporteImpreso": [{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "S� leyó",
+				"total": 34714.64,
+				"pTotal": 82.02,
+				"Hombres": 16707.1,
+				"pHombres": 80.59,
+				"Mujeres": 18007.53,
+				"pMujeres": 83.39
+			},
+			{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "No leyó",
+				"total": 7611.48,
+				"pTotal": 17.98,
+				"Hombres": 4024.58,
+				"pHombres": 19.41,
+				"Mujeres": 3586.9,
+				"pMujeres": 16.61
+			}
+		],
+		"soporteDigital": [{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "S� leyó",
+				"total": 29793.5,
+				"pTotal": 70.39,
+				"Hombres": 14527.72,
+				"pHombres": 70.08,
+				"Mujeres": 15265.78,
+				"pMujeres": 70.69
+			},
+			{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "No leyó",
+				"total": 12532.61,
+				"pTotal": 29.61,
+				"Hombres": 6203.96,
+				"pHombres": 29.93,
+				"Mujeres": 6328.65,
+				"pMujeres": 29.31
+			}
+		]
+	},
+	"cabeceras": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 5 años y mas*",
+			"respuesta": "total",
+			"total": 33456,
+			"pTotal": 100,
+			"Hombres": 16096,
+			"pHombres": 48.1,
+			"Mujeres": 17360,
+			"pMujeres": 51.9
+		}],
+		"soporteImpreso": [{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "Si leyo",
+				"total": 27968,
+				"pTotal": 83.6,
+				"Hombres": 13304,
+				"pHombres": 82.7,
+				"Mujeres": 14664,
+				"pMujeres": 84.5
+			},
+			{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "No leyo",
+				"total": 5488,
+				"pTotal": 16.4,
+				"Hombres": 2792,
+				"pHombres": 17.3,
+				"Mujeres": 2696,
+				"pMujeres": 15.5
+			}
+		],
+		"soporteDigital": [{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "Si leyo",
+				"total": 24996,
+				"pTotal": 74.7,
+				"Hombres": 12019,
+				"pHombres": 74.7,
+				"Mujeres": 12977,
+				"pMujeres": 74.8
+			},
+			{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "No leyo",
+				"total": 8460,
+				"pTotal": 25.3,
+				"Hombres": 4077,
+				"pHombres": 25.3,
+				"Mujeres": 4383,
+				"pMujeres": 25.2
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 5 años y mas*",
+			"respuesta": "total",
+			"total": 8870,
+			"pTotal": 100,
+			"Hombres": 4636,
+			"pHombres": 52.3,
+			"Mujeres": 4234,
+			"pMujeres": 47.7
+		}],
+		"soporteImpreso": [{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "Si leyo",
+				"total": 6747,
+				"pTotal": 76.1,
+				"Hombres": 3403,
+				"pHombres": 73.4,
+				"Mujeres": 3343,
+				"pMujeres": 79
+			},
+			{
+				"pregunta": "Material en soporte impreso",
+				"respuesta": "No leyo",
+				"total": 2123,
+				"pTotal": 23.9,
+				"Hombres": 1232,
+				"pHombres": 26.6,
+				"Mujeres": 891,
+				"pMujeres": 21
+			}
+		],
+		"soporteDigital": [{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "Si leyo",
+				"total": 4798,
+				"pTotal": 54.1,
+				"Hombres": 2509,
+				"pHombres": 54.1,
+				"Mujeres": 2289,
+				"pMujeres": 54.1
+			},
+			{
+				"pregunta": "Material en soporte digital",
+				"respuesta": "No leyo",
+				"total": 4072,
+				"pTotal": 45.9,
+				"Hombres": 2127,
+				"pHombres": 45.9,
+				"Mujeres": 1945,
+				"pMujeres": 45.9
+			}
+		]
+	}
+}

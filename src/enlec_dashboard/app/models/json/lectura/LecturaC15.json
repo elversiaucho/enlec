@@ -1,0 +1,89 @@
+{
+	"nacional": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 años y mas ",
+			"Total": 42326,
+			"Ptotal": 100,
+			"Hombres": 20732,
+			"Phombres": 49,
+			"Mujeres": 21594,
+			"Pmujeres": 51
+		},
+		"otraActividad": {
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 6757,
+			"Ptotal": 16,
+			"Hombres": 3390,
+			"Phombres": 16.4,
+			"Mujeres": 3366,
+			"Pmujeres": 15.6
+		},
+		"noOtraActividad": {
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 35570,
+			"Ptotal": 84,
+			"Hombres": 17341,
+			"Phombres": 83.6,
+			"Mujeres": 18228,
+			"Pmujeres": 84.4
+		}
+	},
+	"cabeceras": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 años y mas ",
+			"Total": 33456,
+			"Ptotal": 100,
+			"Hombres": 16096,
+			"Phombres": 48.1,
+			"Mujeres": 17360,
+			"Pmujeres": 51.9
+		},
+		"otraActividad": {
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 5563,
+			"Ptotal": 16.6,
+			"Hombres": 2801,
+			"Phombres": 17.4,
+			"Mujeres": 2763,
+			"Pmujeres": 15.9
+		},
+		"noOtraActividad": {
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 27893,
+			"Ptotal": 83.4,
+			"Hombres": 13295,
+			"Phombres": 82.6,
+			"Mujeres": 14598,
+			"Pmujeres": 84.1
+		}
+	},
+	"centrosPoblados": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 años y mas ",
+			"Total": 8870,
+			"Ptotal": 100,
+			"Hombres": 4636,
+			"Phombres": 52.3,
+			"Mujeres": 4234,
+			"Pmujeres": 47.7
+		},
+		"otraActividad": {
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 1193,
+			"Ptotal": 13.5,
+			"Hombres": 590,
+			"Phombres": 12.7,
+			"Mujeres": 604,
+			"Pmujeres": 14.3
+		},
+		"noOtraActividad": {
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 7677,
+			"Ptotal": 86.5,
+			"Hombres": 4046,
+			"Phombres": 87.3,
+			"Mujeres": 3631,
+			"Pmujeres": 85.7
+		}
+	}
+}

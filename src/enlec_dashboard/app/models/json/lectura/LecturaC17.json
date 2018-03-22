@@ -1,0 +1,542 @@
+{
+	"nacional": {
+		"totalPersonasMas5": [{
+			"pregunta": "Total de personas de 5 años y más*",
+			"Respuesta": "Total",
+			"Total": 42326,
+			"pTotal": 100,
+			"Hombres": 20732,
+			"Phombres": 49,
+			"Mujeres": 21594,
+			"Pmujeres": 51
+		}],
+		"consultaCifras": [{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "Si",
+				"Total": 7765,
+				"pTotal": 18.3,
+				"Hombres": 3770,
+				"Phombres": 18.2,
+				"Mujeres": 3995,
+				"Pmujeres": 18.5
+			},
+			{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "No",
+				"Total": 34561,
+				"pTotal": 81.7,
+				"Hombres": 16962,
+				"Phombres": 81.8,
+				"Mujeres": 17600,
+				"Pmujeres": 81.5
+			}
+		],
+		"miraVideos": [{
+				"pregunta": "Mira videos",
+				"Respuesta": "si",
+				"Total": 14312,
+				"pTotal": 33.8,
+				"Hombres": 7207,
+				"Phombres": 34.8,
+				"Mujeres": 7104,
+				"Pmujeres": 32.9
+			},
+			{
+				"pregunta": "Mira videos",
+				"Respuesta": "no",
+				"Total": 28015,
+				"pTotal": 66.2,
+				"Hombres": 13525,
+				"Phombres": 65.2,
+				"Mujeres": 14490,
+				"Pmujeres": 67.1
+			}
+		],
+		"participaenClubes": [{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "si",
+				"Total": 1557,
+				"pTotal": 3.7,
+				"Hombres": 741,
+				"Phombres": 3.6,
+				"Mujeres": 817,
+				"Pmujeres": 3.8
+			},
+			{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "no",
+				"Total": 40769,
+				"pTotal": 96.3,
+				"Hombres": 19991,
+				"Phombres": 96.4,
+				"Mujeres": 20778,
+				"Pmujeres": 96.2
+			}
+		],
+		"consultaLectores": [{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "si",
+				"Total": 2802,
+				"pTotal": 6.6,
+				"Hombres": 1418,
+				"Phombres": 6.8,
+				"Mujeres": 1384,
+				"Pmujeres": 6.4
+			},
+			{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "no",
+				"Total": 39524,
+				"pTotal": 93.4,
+				"Hombres": 19314,
+				"Phombres": 93.2,
+				"Mujeres": 20211,
+				"Pmujeres": 93.6
+			}
+		],
+		"consultaRedes": [{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "si",
+				"Total": 9363,
+				"pTotal": 22.1,
+				"Hombres": 4508,
+				"Phombres": 21.7,
+				"Mujeres": 4856,
+				"Pmujeres": 22.5
+			},
+			{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "no",
+				"Total": 32963,
+				"pTotal": 77.9,
+				"Hombres": 16224,
+				"Phombres": 78.3,
+				"Mujeres": 16739,
+				"Pmujeres": 77.5
+			}
+		],
+		"consultaPlataformas": [{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "si",
+				"Total": 13792,
+				"pTotal": 32.6,
+				"Hombres": 6777,
+				"Phombres": 32.7,
+				"Mujeres": 7015,
+				"Pmujeres": 32.5
+			},
+			{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "no",
+				"Total": 28534,
+				"pTotal": 67.4,
+				"Hombres": 13955,
+				"Phombres": 67.3,
+				"Mujeres": 14579,
+				"Pmujeres": 67.5
+			}
+		],
+		"escribeenRedes": [{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "si",
+				"Total": 8220,
+				"pTotal": 19.4,
+				"Hombres": 3932,
+				"Phombres": 19,
+				"Mujeres": 4289,
+				"Pmujeres": 19.9
+			},
+			{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "no",
+				"Total": 34106,
+				"pTotal": 80.6,
+				"Hombres": 16800,
+				"Phombres": 81,
+				"Mujeres": 17306,
+				"Pmujeres": 80.1
+			}
+		],
+		"consultaDiccionarios": [{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "si",
+				"Total": 12277,
+				"pTotal": 29,
+				"Hombres": 5710,
+				"Phombres": 27.5,
+				"Mujeres": 6567,
+				"Pmujeres": 30.4
+			},
+			{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "no",
+				"Total": 30049,
+				"pTotal": 71,
+				"Hombres": 15021,
+				"Phombres": 72.5,
+				"Mujeres": 15027,
+				"Pmujeres": 69.6
+			}
+		]
+	},
+	"cabeceras": {
+		"totalPersonasMas5": [{
+			"pregunta": "Total de personas de 5 años y más*",
+			"Respuesta": "Total",
+			"Total": 33456,
+			"pTotal": 100,
+			"Hombres": 16096,
+			"Phombres": 49,
+			"Mujeres": 17360,
+			"Pmujeres": 51
+		}],
+		"consultaCifras": [{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "Si",
+				"Total": 6938,
+				"pTotal": 20.7,
+				"Hombres": 3363,
+				"Phombres": 20.9,
+				"Mujeres": 3575,
+				"Pmujeres": 20.6
+			},
+			{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "No",
+				"Total": 26518,
+				"pTotal": 79.3,
+				"Hombres": 12733,
+				"Phombres": 79.1,
+				"Mujeres": 13785,
+				"Pmujeres": 79.4
+			}
+		],
+		"miraVideos": [{
+				"pregunta": "Mira videos",
+				"Respuesta": "si",
+				"Total": 12303,
+				"pTotal": 36.8,
+				"Hombres": 6160,
+				"Phombres": 38.3,
+				"Mujeres": 6143,
+				"Pmujeres": 35.4
+			},
+			{
+				"pregunta": "Mira videos",
+				"Respuesta": "no",
+				"Total": 21153,
+				"pTotal": 63.2,
+				"Hombres": 9936,
+				"Phombres": 61.7,
+				"Mujeres": 11217,
+				"Pmujeres": 64.6
+			}
+		],
+		"participaenClubes": [{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "si",
+				"Total": 1383,
+				"pTotal": 4.1,
+				"Hombres": 659,
+				"Phombres": 4.1,
+				"Mujeres": 725,
+				"Pmujeres": 4.2
+			},
+			{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "no",
+				"Total": 32073,
+				"pTotal": 95.9,
+				"Hombres": 15437,
+				"Phombres": 95.9,
+				"Mujeres": 16636,
+				"Pmujeres": 95.8
+			}
+		],
+		"consultaLectores": [{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "si",
+				"Total": 2513,
+				"pTotal": 7.5,
+				"Hombres": 1278,
+				"Phombres": 7.9,
+				"Mujeres": 1235,
+				"Pmujeres": 7.1
+			},
+			{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "no",
+				"Total": 30943,
+				"pTotal": 92.5,
+				"Hombres": 14818,
+				"Phombres": 92.1,
+				"Mujeres": 16125,
+				"Pmujeres": 92.9
+			}
+		],
+		"consultaRedes": [{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "si",
+				"Total": 7733,
+				"pTotal": 23.1,
+				"Hombres": 3675,
+				"Phombres": 22.8,
+				"Mujeres": 4058,
+				"Pmujeres": 23.4
+			},
+			{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "no",
+				"Total": 25723,
+				"pTotal": 76.9,
+				"Hombres": 12421,
+				"Phombres": 77.2,
+				"Mujeres": 13302,
+				"Pmujeres": 76.6
+			}
+		],
+		"consultaPlataformas": [{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "si",
+				"Total": 12085,
+				"pTotal": 36.1,
+				"Hombres": 5916,
+				"Phombres": 36.8,
+				"Mujeres": 6169,
+				"Pmujeres": 35.5
+			},
+			{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "no",
+				"Total": 21372,
+				"pTotal": 63.9,
+				"Hombres": 10180,
+				"Phombres": 63.2,
+				"Mujeres": 11192,
+				"Pmujeres": 64.5
+			}
+		],
+		"escribeenRedes": [{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "si",
+				"Total": 6727,
+				"pTotal": 20.1,
+				"Hombres": 3169,
+				"Phombres": 19.7,
+				"Mujeres": 3558,
+				"Pmujeres": 20.5
+			},
+			{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "no",
+				"Total": 26729,
+				"pTotal": 79.9,
+				"Hombres": 12927,
+				"Phombres": 80.3,
+				"Mujeres": 13802,
+				"Pmujeres": 79.5
+			}
+		],
+		"consultaDiccionarios": [{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "si",
+				"Total": 10140,
+				"pTotal": 30.3,
+				"Hombres": 4705,
+				"Phombres": 29.2,
+				"Mujeres": 5435,
+				"Pmujeres": 31.3
+			},
+			{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "no",
+				"Total": 23316,
+				"pTotal": 69.7,
+				"Hombres": 11391,
+				"Phombres": 70.8,
+				"Mujeres": 11925,
+				"Pmujeres": 68.7
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonasMas5": [{
+			"pregunta": "Total de personas de 5 años y más*",
+			"Respuesta": "Total",
+			"Total": 8870,
+			"pTotal": 100,
+			"Hombres": 4636,
+			"Phombres": 52.3,
+			"Mujeres": 4234,
+			"Pmujeres": 47.7
+		}],
+		"consultaCifras": [{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "Si",
+				"Total": 827,
+				"pTotal": 9.3,
+				"Hombres": 407,
+				"Phombres": 8.8,
+				"Mujeres": 420,
+				"Pmujeres": 9.9
+			},
+			{
+				"pregunta": "Consulta las cifras o recomendaciones del texto (notas al pie. remisi�n de publicidad. etc.)",
+				"Respuesta": "No",
+				"Total": 8043,
+				"pTotal": 90.7,
+				"Hombres": 4229,
+				"Phombres": 91.2,
+				"Mujeres": 3814,
+				"Pmujeres": 90.1
+			}
+		],
+		"miraVideos": [{
+				"pregunta": "Mira videos",
+				"Respuesta": "si",
+				"Total": 2008,
+				"pTotal": 22.6,
+				"Hombres": 1047,
+				"Phombres": 22.6,
+				"Mujeres": 961,
+				"Pmujeres": 22.7
+			},
+			{
+				"pregunta": "Mira videos",
+				"Respuesta": "no",
+				"Total": 6862,
+				"pTotal": 77.4,
+				"Hombres": 3589,
+				"Phombres": 77.4,
+				"Mujeres": 3273,
+				"Pmujeres": 77.3
+			}
+		],
+		"participaenClubes": [{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "si",
+				"Total": 174,
+				"pTotal": 2,
+				"Hombres": 82,
+				"Phombres": 1.8,
+				"Mujeres": 92,
+				"Pmujeres": 2.2
+			},
+			{
+				"pregunta": "Participa en foros o clubes de lectura",
+				"Respuesta": "no",
+				"Total": 8696,
+				"pTotal": 98,
+				"Hombres": 4554,
+				"Phombres": 98.2,
+				"Mujeres": 4142,
+				"Pmujeres": 97.8
+			}
+		],
+		"consultaLectores": [{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "si",
+				"Total": 289,
+				"pTotal": 3.3,
+				"Hombres": 140,
+				"Phombres": 3,
+				"Mujeres": 149,
+				"Pmujeres": 3.5
+			},
+			{
+				"pregunta": "Consulta otros lectores en plataformas especializadas",
+				"Respuesta": "no",
+				"Total": 8581,
+				"pTotal": 96.7,
+				"Hombres": 4496,
+				"Phombres": 97,
+				"Mujeres": 4086,
+				"Pmujeres": 96.5
+			}
+		],
+		"consultaRedes": [{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "si",
+				"Total": 1630,
+				"pTotal": 18.4,
+				"Hombres": 832,
+				"Phombres": 18,
+				"Mujeres": 798,
+				"Pmujeres": 18.8
+			},
+			{
+				"pregunta": "Consulta redes sociales",
+				"Respuesta": "no",
+				"Total": 7240,
+				"pTotal": 81.6,
+				"Hombres": 3803,
+				"Phombres": 82,
+				"Mujeres": 3437,
+				"Pmujeres": 81.2
+			}
+		],
+		"consultaPlataformas": [{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "si",
+				"Total": 1707,
+				"pTotal": 19.2,
+				"Hombres": 861,
+				"Phombres": 18.6,
+				"Mujeres": 846,
+				"Pmujeres": 20
+			},
+			{
+				"pregunta": "Consulta plataformas de preguntas y respuestas (Wikipedia. YahooRespuestas. google etc.)",
+				"Respuesta": "no",
+				"Total": 7163,
+				"pTotal": 80.8,
+				"Hombres": 3775,
+				"Phombres": 81.4,
+				"Mujeres": 3388,
+				"Pmujeres": 80
+			}
+		],
+		"escribeenRedes": [{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "si",
+				"Total": 1493,
+				"pTotal": 16.8,
+				"Hombres": 763,
+				"Phombres": 16.5,
+				"Mujeres": 730,
+				"Pmujeres": 17.2
+			},
+			{
+				"pregunta": "Escribe en redes sociales",
+				"Respuesta": "no",
+				"Total": 7377,
+				"pTotal": 83.2,
+				"Hombres": 3873,
+				"Phombres": 83.5,
+				"Mujeres": 3504,
+				"Pmujeres": 82.8
+			}
+		],
+		"consultaDiccionarios": [{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "si",
+				"Total": 2137,
+				"pTotal": 24.1,
+				"Hombres": 1005,
+				"Phombres": 21.7,
+				"Mujeres": 1132,
+				"Pmujeres": 26.7
+			},
+			{
+				"pregunta": "Consulta diccionarios",
+				"Respuesta": "no",
+				"Total": 6733,
+				"pTotal": 75.9,
+				"Hombres": 3630,
+				"Phombres": 78.3,
+				"Mujeres": 3102,
+				"Pmujeres": 73.3
+			}
+		]
+	}
+}
