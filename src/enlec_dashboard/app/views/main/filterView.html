@@ -3,31 +3,36 @@
 -->
 <h1>{{ mensaje }}</h1>
 <div class="contenedor-filtros">
-    <div class="row"> 
+    <div class="row">
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>TEMA</h6>
-          <select>
-            <option ng-repeat="objTema in temaList">{{ objTema.name }}</option>
+          <select ng-model="defaultTema.idTema"
+                  ng-options="tema.id as tema.name for tema in defaultTema.temaList"
+                  ng-change="getChangeTema(defaultTema.idTema)"
+                  ng-init="getChangeTema(defaultTema.idTema)">
+          </select>
+        </div>
+
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <h6>RANGO DE EDAD</h6>
+          <select ng-model="defaultRangoEdad.idEdad"
+                  ng-options="edad.id as edad.name for edad in defaultRangoEdad.edadList">
           </select>
         </div>
 
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>UBICACIÓN</h6>
-          <select ng-model="valor" ng-change="findDataBar1()">
-            <option ng-repeat="objUbicacion in ubicacionList">{{ objUbicacion.name }}</option>
+          <select ng-model="defaultUbicacion.idUbicacion"
+                  ng-options="ubicacion.id as ubicacion.name for ubicacion in defaultUbicacion.ubicacionList"
+                  ng-change="getChangeUbicacion(defaultUbicacion.idUbicacion)"
+                  ng-init="getChangeUbicacion(defaultUbicacion.idUbicacion)">
           </select>
         </div>
-        <div class="hidden-xs col-md-1 col-lg-1"></div>
+
         <div class="col-xs-12 col-md-2 col-lg-2">
-          <h6>RANGO DE EDAD</h6>
-          <select>
-            <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
-          </select>
-        </div>
-        <div class="col-xs-12 col-md-2 col-lg-2">
-          <h6>SEXO</h6>
-          <select>
-            <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
+          <h6>CIUDAD</h6>
+          <select ng-model="defaultCiudad.idCiudad"
+                  ng-options="ciudad.id as ciudad.name for ciudad in defaultCiudad.ciudadList">
           </select>
         </div>
         <div class="contenedor-boton-1 col-xs-12 col-md-2 col-lg-2">
