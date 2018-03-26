@@ -1,0 +1,669 @@
+{
+	"nacional": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 12 años y más*",
+			"respuesta": "Total",
+			"total": 36338,
+			"pTotal": 100,
+			"Hombres": 17650,
+			"pHombres": 48.6,
+			"Mujeres": 18688,
+			"pMujeres": 51.4
+		}],
+		"documentosdeTrabajo": [{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Sí",
+				"total": 12580,
+				"pTotal": 34.6,
+				"Hombres": 7086,
+				"pHombres": 40.1,
+				"Mujeres": 5495,
+				"pMujeres": 29.4
+			},
+			{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Nunca",
+				"total": 23758,
+				"pTotal": 65.4,
+				"Hombres": 10564,
+				"pHombres": 59.9,
+				"Mujeres": 13193,
+				"pMujeres": 70.6
+			}
+		],
+		"documentosAcademicos": [{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Sí",
+				"total": 10530,
+				"pTotal": 29,
+				"Hombres": 4860,
+				"pHombres": 27.5,
+				"Mujeres": 5670,
+				"pMujeres": 30.3
+			},
+			{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Nunca",
+				"total": 25808,
+				"pTotal": 71,
+				"Hombres": 12790,
+				"pHombres": 72.5,
+				"Mujeres": 13018,
+				"pMujeres": 69.7
+			}
+		],
+		"mensajesdeTexto": [{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Sí",
+				"total": 24025,
+				"pTotal": 66.1,
+				"Hombres": 11662,
+				"pHombres": 66.1,
+				"Mujeres": 12363,
+				"pMujeres": 66.2
+			},
+			{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Nunca",
+				"total": 12313,
+				"pTotal": 33.9,
+				"Hombres": 5988,
+				"pHombres": 33.9,
+				"Mujeres": 6325,
+				"pMujeres": 33.8
+			}
+		],
+		"correoElectronico": [{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Sí",
+				"total": 17002,
+				"pTotal": 46.8,
+				"Hombres": 8506,
+				"pHombres": 48.2,
+				"Mujeres": 8496,
+				"pMujeres": 45.5
+			},
+			{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Nunca",
+				"total": 19336,
+				"pTotal": 53.2,
+				"Hombres": 9144,
+				"pHombres": 51.8,
+				"Mujeres": 10192,
+				"pMujeres": 54.5
+			}
+		],
+		"mensajesdeRedes": [{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Sí",
+				"total": 22192,
+				"pTotal": 61.1,
+				"Hombres": 10709,
+				"pHombres": 60.7,
+				"Mujeres": 11482,
+				"pMujeres": 61.4
+			},
+			{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Nunca",
+				"total": 14146,
+				"pTotal": 38.9,
+				"Hombres": 6941,
+				"pHombres": 39.3,
+				"Mujeres": 7206,
+				"pMujeres": 38.6
+			}
+		],
+		"blogs": [{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Sí",
+				"total": 3592,
+				"pTotal": 9.9,
+				"Hombres": 1876,
+				"pHombres": 10.6,
+				"Mujeres": 1716,
+				"pMujeres": 9.2
+			},
+			{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Nunca",
+				"total": 32746,
+				"pTotal": 90.1,
+				"Hombres": 15774,
+				"pHombres": 89.4,
+				"Mujeres": 16972,
+				"pMujeres": 90.8
+			}
+		],
+		"literatura": [{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Sí",
+				"total": 3949,
+				"pTotal": 10.9,
+				"Hombres": 1713,
+				"pHombres": 9.7,
+				"Mujeres": 2237,
+				"pMujeres": 12
+			},
+			{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Nunca",
+				"total": 32389,
+				"pTotal": 89.1,
+				"Hombres": 15937,
+				"pHombres": 90.3,
+				"Mujeres": 16452,
+				"pMujeres": 88
+			}
+		],
+		"cartas": [{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Sí",
+				"total": 3917,
+				"pTotal": 10.8,
+				"Hombres": 1457,
+				"pHombres": 8.3,
+				"Mujeres": 2460,
+				"pMujeres": 13.2
+			},
+			{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Nunca",
+				"total": 32422,
+				"pTotal": 89.2,
+				"Hombres": 16193,
+				"pHombres": 91.7,
+				"Mujeres": 16228,
+				"pMujeres": 86.8
+			}
+		],
+		"historietas": [{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Sí",
+				"total": 1139,
+				"pTotal": 3.1,
+				"Hombres": 628,
+				"pHombres": 3.6,
+				"Mujeres": 512,
+				"pMujeres": 2.7
+			},
+			{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Nunca",
+				"total": 35199,
+				"pTotal": 96.9,
+				"Hombres": 17022,
+				"pHombres": 96.4,
+				"Mujeres": 18176,
+				"pMujeres": 97.3
+			}
+		],
+		"otro": [{
+				"pregunta": "Otro",
+				"respuesta": "Sí",
+				"total": 849,
+				"pTotal": 2.3,
+				"Hombres": 365,
+				"pHombres": 2.1,
+				"Mujeres": 484,
+				"pMujeres": 2.6
+			},
+			{
+				"pregunta": "Otro",
+				"respuesta": "Nunca",
+				"total": 35489,
+				"pTotal": 97.7,
+				"Hombres": 17285,
+				"pHombres": 97.9,
+				"Mujeres": 18204,
+				"pMujeres": 97.4
+			}
+		]
+	},
+
+	"cabecera": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 12 años y más*",
+			"respuesta": "Total",
+			"total": 29033,
+			"pTotal": 100,
+			"Hombres": 13829,
+			"pHombres": 47.6,
+			"Mujeres": 15204,
+			"pMujeres": 52.4
+		}],
+		"documentosdeTrabajo": [{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Sí",
+				"total": 11001,
+				"pTotal": 37.9,
+				"Hombres": 6085,
+				"pHombres": 44,
+				"Mujeres": 4915,
+				"pMujeres": 32.3
+			},
+			{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Nunca",
+				"total": 18032,
+				"pTotal": 62.1,
+				"Hombres": 7743,
+				"pHombres": 56,
+				"Mujeres": 10289,
+				"pMujeres": 67.7
+			}
+		],
+		"documentosAcademicos": [{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Sí",
+				"total": 8674,
+				"pTotal": 29.9,
+				"Hombres": 3979,
+				"pHombres": 28.8,
+				"Mujeres": 4695,
+				"pMujeres": 30.9
+			},
+			{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Nunca",
+				"total": 20359,
+				"pTotal": 70.1,
+				"Hombres": 9850,
+				"pHombres": 71.2,
+				"Mujeres": 10510,
+				"pMujeres": 69.1
+			}
+		],
+		"mensajesdeTexto": [{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Sí",
+				"total": 20484,
+				"pTotal": 70.6,
+				"Hombres": 9819,
+				"pHombres": 71,
+				"Mujeres": 10665,
+				"pMujeres": 70.1
+			},
+			{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Nunca",
+				"total": 8549,
+				"pTotal": 29.4,
+				"Hombres": 4010,
+				"pHombres": 29,
+				"Mujeres": 4540,
+				"pMujeres": 29.9
+			}
+		],
+		"correoElectronico": [{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Sí",
+				"total": 14980,
+				"pTotal": 51.6,
+				"Hombres": 7412,
+				"pHombres": 53.6,
+				"Mujeres": 7568,
+				"pMujeres": 49.8
+			},
+			{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Nunca",
+				"total": 14053,
+				"pTotal": 48.4,
+				"Hombres": 6417,
+				"pHombres": 46.4,
+				"Mujeres": 7637,
+				"pMujeres": 50.2
+			}
+		],
+		"mensajesdeRedes": [{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Sí",
+				"total": 18740,
+				"pTotal": 64.5,
+				"Hombres": 8941,
+				"pHombres": 64.7,
+				"Mujeres": 9798,
+				"pMujeres": 64.4
+			},
+			{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Nunca",
+				"total": 10293,
+				"pTotal": 35.5,
+				"Hombres": 4888,
+				"pHombres": 35.3,
+				"Mujeres": 5406,
+				"pMujeres": 35.6
+			}
+		],
+		"blogs": [{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Sí",
+				"total": 3171,
+				"pTotal": 10.9,
+				"Hombres": 1663,
+				"pHombres": 12,
+				"Mujeres": 1508,
+				"pMujeres": 9.9
+			},
+			{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Nunca",
+				"total": 25862,
+				"pTotal": 89.1,
+				"Hombres": 12166,
+				"pHombres": 88,
+				"Mujeres": 13696,
+				"pMujeres": 90.1
+			}
+		],
+		"literatura": [{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Sí",
+				"total": 3016,
+				"pTotal": 10.4,
+				"Hombres": 1322,
+				"pHombres": 9.6,
+				"Mujeres": 1694,
+				"pMujeres": 11.1
+			},
+			{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Nunca",
+				"total": 26017,
+				"pTotal": 89.6,
+				"Hombres": 12507,
+				"pHombres": 90.4,
+				"Mujeres": 13510,
+				"pMujeres": 88.9
+			}
+		],
+		"cartas": [{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Sí",
+				"total": 3175,
+				"pTotal": 10.9,
+				"Hombres": 1192,
+				"pHombres": 8.6,
+				"Mujeres": 1984,
+				"pMujeres": 13
+			},
+			{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Nunca",
+				"total": 25858,
+				"pTotal": 89.1,
+				"Hombres": 12637,
+				"pHombres": 91.4,
+				"Mujeres": 13221,
+				"pMujeres": 87
+			}
+		],
+		"historietas": [{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Sí",
+				"total": 891,
+				"pTotal": 3.1,
+				"Hombres": 488,
+				"pHombres": 3.5,
+				"Mujeres": 403,
+				"pMujeres": 2.6
+			},
+			{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Nunca",
+				"total": 28142,
+				"pTotal": 96.9,
+				"Hombres": 13341,
+				"pHombres": 96.5,
+				"Mujeres": 14802,
+				"pMujeres": 97.4
+			}
+		],
+		"otro": [{
+				"pregunta": "Otro",
+				"respuesta": "Sí",
+				"total": 641,
+				"pTotal": 2.2,
+				"Hombres": 260,
+				"pHombres": 1.9,
+				"Mujeres": 381,
+				"pMujeres": 2.5
+			},
+			{
+				"pregunta": "Otro",
+				"respuesta": "Nunca",
+				"total": 28392,
+				"pTotal": 97.8,
+				"Hombres": 13569,
+				"pHombres": 98.1,
+				"Mujeres": 14823,
+				"pMujeres": 97.5
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonas": [{
+			"pregunta": "Total de personas de 12 años y más*",
+			"respuesta": "Total",
+			"total": 7305,
+			"pTotal": 100,
+			"Hombres": 3821,
+			"pHombres": 52.3,
+			"Mujeres": 3484,
+			"pMujeres": 47.7
+		}],
+		"documentosdeTrabajo": [{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Sí",
+				"total": 1580,
+				"pTotal": 21.6,
+				"Hombres": 1000,
+				"pHombres": 26.2,
+				"Mujeres": 580,
+				"pMujeres": 16.6
+			},
+			{
+				"pregunta": "Documentos de trabajo",
+				"respuesta": "Nunca",
+				"total": 5725,
+				"pTotal": 78.4,
+				"Hombres": 2821,
+				"pHombres": 73.8,
+				"Mujeres": 2904,
+				"pMujeres": 83.4
+			}
+		],
+		"documentosAcademicos": [{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Sí",
+				"total": 1856,
+				"pTotal": 25.4,
+				"Hombres": 881,
+				"pHombres": 23,
+				"Mujeres": 975,
+				"pMujeres": 28
+			},
+			{
+				"pregunta": "Documentos académicos",
+				"respuesta": "Nunca",
+				"total": 5449,
+				"pTotal": 74.6,
+				"Hombres": 2941,
+				"pHombres": 77,
+				"Mujeres": 2508,
+				"pMujeres": 72
+			}
+		],
+		"mensajesdeTexto": [{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Sí",
+				"total": 3541,
+				"pTotal": 48.5,
+				"Hombres": 1843,
+				"pHombres": 48.2,
+				"Mujeres": 1699,
+				"pMujeres": 48.8
+			},
+			{
+				"pregunta": "Mensajes de texto (tel. móvil) o conversaciones en el chat",
+				"respuesta": "Nunca",
+				"total": 3764,
+				"pTotal": 51.5,
+				"Hombres": 1979,
+				"pHombres": 51.8,
+				"Mujeres": 1785,
+				"pMujeres": 51.2
+			}
+		],
+		"correoElectronico": [{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Sí",
+				"total": 2022,
+				"pTotal": 27.7,
+				"Hombres": 1094,
+				"pHombres": 28.6,
+				"Mujeres": 928,
+				"pMujeres": 26.6
+			},
+			{
+				"pregunta": "Correo electr�nico",
+				"respuesta": "Nunca",
+				"total": 5283,
+				"pTotal": 72.3,
+				"Hombres": 2727,
+				"pHombres": 71.4,
+				"Mujeres": 2556,
+				"pMujeres": 73.4
+			}
+		],
+		"mensajesdeRedes": [{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Sí",
+				"total": 3452,
+				"pTotal": 47.3,
+				"Hombres": 1768,
+				"pHombres": 46.3,
+				"Mujeres": 1684,
+				"pMujeres": 48.3
+			},
+			{
+				"pregunta": "Mensajes en redes sociales",
+				"respuesta": "Nunca",
+				"total": 3853,
+				"pTotal": 52.7,
+				"Hombres": 2053,
+				"pHombres": 53.7,
+				"Mujeres": 1800,
+				"pMujeres": 51.7
+			}
+		],
+		"blogs": [{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Sí",
+				"total": 421,
+				"pTotal": 5.8,
+				"Hombres": 213,
+				"pHombres": 5.6,
+				"Mujeres": 208,
+				"pMujeres": 6
+			},
+			{
+				"pregunta": "En blogs o foros de discusi�n",
+				"respuesta": "Nunca",
+				"total": 6884,
+				"pTotal": 94.2,
+				"Hombres": 3608,
+				"pHombres": 94.4,
+				"Mujeres": 3276,
+				"pMujeres": 94
+			}
+		],
+		"literatura": [{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Sí",
+				"total": 933,
+				"pTotal": 12.8,
+				"Hombres": 391,
+				"pHombres": 10.2,
+				"Mujeres": 542,
+				"pMujeres": 15.6
+			},
+			{
+				"pregunta": "Literatura, poes�a, cuentos, novelas",
+				"respuesta": "Nunca",
+				"total": 6372,
+				"pTotal": 87.2,
+				"Hombres": 3431,
+				"pHombres": 89.8,
+				"Mujeres": 2942,
+				"pMujeres": 84.4
+			}
+		],
+		"cartas": [{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Sí",
+				"total": 741,
+				"pTotal": 10.1,
+				"Hombres": 265,
+				"pHombres": 6.9,
+				"Mujeres": 476,
+				"pMujeres": 13.7
+			},
+			{
+				"pregunta": "Cartas o diarios",
+				"respuesta": "Nunca",
+				"total": 6564,
+				"pTotal": 89.9,
+				"Hombres": 3556,
+				"pHombres": 93.1,
+				"Mujeres": 3008,
+				"pMujeres": 86.3
+			}
+		],
+		"historietas": [{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Sí",
+				"total": 249,
+				"pTotal": 3.4,
+				"Hombres": 140,
+				"pHombres": 3.7,
+				"Mujeres": 109,
+				"pMujeres": 3.1
+			},
+			{
+				"pregunta": "Historietas o comics",
+				"respuesta": "Nunca",
+				"total": 7057,
+				"pTotal": 96.6,
+				"Hombres": 3682,
+				"pHombres": 96.3,
+				"Mujeres": 3375,
+				"pMujeres": 96.9
+			}
+		],
+		"otro": [{
+				"pregunta": "Otro",
+				"respuesta": "Sí",
+				"total": 208,
+				"pTotal": 2.8,
+				"Hombres": 105,
+				"pHombres": 2.8,
+				"Mujeres": 103,
+				"pMujeres": 2.9
+			},
+			{
+				"pregunta": "Otro",
+				"respuesta": "Nunca",
+				"total": 7097,
+				"pTotal": 97.2,
+				"Hombres": 3716,
+				"pHombres": 97.2,
+				"Mujeres": 3381,
+				"pMujeres": 97.1
+			}
+		]
+	}
+}

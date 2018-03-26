@@ -8,23 +8,38 @@
 <meta name="description" content="Biblioteca Virtual Departamento Administrativo Nacional de Estadística (DANE)">
 <title>Encuesta Nacional de Lectura - ENLEC 2017</title>
 </head>
+<body>
+  <div class="content">
+    <div class="container">
+      <!-- Header de la aplicación -->
+      <div ui-view="header"></div>
+      <h1>{{ mensaje }}</h1>
 
-<div>
-  <!-- Header de la aplicación -->
-  <div ui-view="header"></div>
-  <h1>{{ mensaje }}</h1>
+      <!-- Filtros o selectores generales de toda la vista principal -->
+      <div ui-view="filterView"></div>
 
-  <!-- Filtros o selectores generales de toda la vista principal -->
-  <div ui-view="filterView"></div>
+      <!-- Llamado vistas del dashboard -->
+      <div class="row"> 
+         <div class="col-xs-12 col-md-3 col-lg-3">
+            <div ui-view="horizontalBarChart1View"></div>
+            <div ui-view="horizontalBarChart2View"></div>
+            <div ui-view="infoView"></div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-6">
+            <div ui-view="exampleView"></div>
+            <div ui-view="circularChart1View"></div>
+            <div ui-view="numeroChart1View"></div>
+          </div>
+          <div class="col-xs-12 col-md-3 col-lg-3">
+            <div ui-view="horizontalBarChart1View"></div>
+            <div ui-view="horizontalBarChart2View"></div>
+            <div ui-view="infoView"></div>
+          </div>
+      </div> 
+     </div>      
+      <!-- Footer de la aplicación -->
+      <div ui-view="footer"></div>
+ </body>   
+  
 
-  <!-- Llamado vistas del dashboard -->
-  <div ui-view="horizontalBarChart1View"></div>
-  <div ui-view="horizontalBarChart2View"></div>
-  <div ui-view="infoView"></div>
-  <div ui-view="exampleView"></div>
-  <div ui-view="circularChart1View"></div>
-  <div ui-view="numeroChart1View"></div>
-
-  <!-- Footer de la aplicación -->
-  <div ui-view="footer"></div>
-</div>
+ 

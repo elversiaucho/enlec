@@ -1,0 +1,143 @@
+{
+	"nacional": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 anos y mas ",
+			"Total": 42326,
+			"pTotal": 100,
+			"hombres": 20732,
+			"pHombres": 49,
+			"mujeres": 21594,
+			"pMujeres": 51
+		},
+		"siGustaLeer": {
+			"pregunta": "Sí le gusta leer",
+			"Total": 13986,
+			"pTotal": 33,
+			"hombres": 5902,
+			"pHombres": 28.5,
+			"mujeres": 8083,
+			"pMujeres": 37.4
+		},
+		"niGustaniDisgusta": {
+			"pregunta": "Ni le gusta ni le disgusta leer ",
+			"Total": 16088,
+			"pTotal": 38,
+			"hombres": 8106,
+			"pHombres": 39.1,
+			"mujeres": 7981,
+			"pMujeres": 37
+		},
+		"nogustaLeer": {
+			"pregunta": "No le gusta leer",
+			"Total": 11978,
+			"pTotal": 28.3,
+			"hombres": 6582,
+			"pHombres": 31.8,
+			"mujeres": 5396,
+			"pMujeres": 25
+		},
+		"noSabeNoInforma": {
+			"pregunta": "No sabe / No informa",
+			"Total": 275,
+			"pTotal": 0.6,
+			"hombres": 140,
+			"pHombres": 0.7,
+			"mujeres": 134,
+			"pMujeres": 0.6
+		}
+	},
+	"cabeceras": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 anos y mas ",
+			"Total": 33456,
+			"pTotal": 100,
+			"hombres": 16096,
+			"pHombres": 48.1,
+			"mujeres": 17360,
+			"pMujeres": 51.9
+		},
+		"siGustaLeer": {
+			"pregunta": "Sí le gusta leer",
+			"Total": 11691,
+			"pTotal": 34.9,
+			"hombres": 4983,
+			"pHombres": 31,
+			"mujeres": 6708,
+			"pMujeres": 38.6
+		},
+		"niGustaniDisgusta": {
+			"pregunta": "Ni le gusta ni le disgusta leer ",
+			"Total": 12903,
+			"pTotal": 38.6,
+			"hombres": 6429,
+			"pHombres": 39.9,
+			"mujeres": 6474,
+			"pMujeres": 37.3
+		},
+		"nogustaLeer": {
+			"pregunta": "No le gusta leer",
+			"Total": 8683,
+			"pTotal": 26,
+			"hombres": 4599,
+			"pHombres": 28.6,
+			"mujeres": 4084,
+			"pMujeres": 23.5
+		},
+		"noSabeNoInforma": {
+			"pregunta": "No sabe / No informa",
+			"Total": 179,
+			"pTotal": 0.5,
+			"hombres": 85,
+			"pHombres": 0.5,
+			"mujeres": 94,
+			"pMujeres": 0.5
+		}
+	},
+	"centrosPoblados": {
+		"totalPersonasMas5": {
+			"pregunta": "Total de personas de 5 anos y mas ",
+			"Total": 8870,
+			"pTotal": 100,
+			"hombres": 4636,
+			"pHombres": 52.3,
+			"mujeres": 4234,
+			"pMujeres": 47.7
+		},
+		"siGustaLeer": {
+			"pregunta": "Sí le gusta leer",
+			"Total": 2295,
+			"pTotal": 25.9,
+			"hombres": 919,
+			"pHombres": 19.8,
+			"mujeres": 1376,
+			"pMujeres": 32.5
+		},
+		"niGustaniDisgusta": {
+			"pregunta": "Ni le gusta ni le disgusta leer ",
+			"Total": 3184,
+			"pTotal": 35.9,
+			"hombres": 1677,
+			"pHombres": 36.2,
+			"mujeres": 1507,
+			"pMujeres": 35.6
+		},
+		"nogustaLeer": {
+			"pregunta": "No le gusta leer",
+			"Total": 3295,
+			"pTotal": 37.1,
+			"hombres": 1983,
+			"pHombres": 42.8,
+			"mujeres": 1312,
+			"pMujeres": 31
+		},
+		"noSabeNoInforma": {
+			"pregunta": "No sabe / No informa",
+			"Total": 96,
+			"pTotal": 1.1,
+			"hombres": 56,
+			"pHombres": 1.2,
+			"mujeres": 40,
+			"pMujeres": 0.9
+		}
+	}
+}

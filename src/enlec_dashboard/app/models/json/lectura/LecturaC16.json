@@ -1,0 +1,143 @@
+{
+	"nacional": {
+		"totalPersonasmás5": {
+			"65": 3193,
+			"pregunta": "Total de personas de 5 años y más ",
+			"Total": 42326,
+			"pTotal": 100,
+			"5a11": 5988,
+			"p5a11": 14.1,
+			"12a25": 11546,
+			"p12a25": 27.3,
+			"26a40": 10293,
+			"p26a40": 24.3,
+			"41a64": 11305,
+			"p41a64": 26.7,
+			"p65": 7.5
+		},
+		"otraActividad": {
+			"65": 197,
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 6757,
+			"pTotal": 16,
+			"5a11": 860,
+			"p5a11": 14.4,
+			"12a25": 2779,
+			"p12a25": 24.1,
+			"26a40": 1708,
+			"p26a40": 16.6,
+			"41a64": 1212,
+			"p41a64": 10.7,
+			"p65": 6.2
+		},
+		"noOtraActividad": {
+			"65": 2996,
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 35570,
+			"pTotal": 84,
+			"5a11": 5128,
+			"p5a11": 85.6,
+			"12a25": 8767,
+			"p12a25": 75.9,
+			"26a40": 8585,
+			"p26a40": 83.4,
+			"41a64": 10093,
+			"p41a64": 89.3,
+			"p65": 93.8
+		}
+	},
+	"cabeceras": {
+		"totalPersonasmás5": {
+			"65": 2616,
+			"pregunta": "Total de personas de 5 años y más ",
+			"Total": 33456,
+			"pTotal": 100,
+			"5a11": 4423,
+			"p5a11": 13.2,
+			"12a25": 8867,
+			"p12a25": 26.5,
+			"26a40": 8328,
+			"p26a40": 24.9,
+			"41a64": 9222,
+			"p41a64": 27.6,
+			"p65": 7.8
+		},
+		"otraActividad": {
+			"65": 168,
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 5563,
+			"pTotal": 16.6,
+			"5a11": 665,
+			"p5a11": 15,
+			"12a25": 2231,
+			"p12a25": 25.2,
+			"26a40": 1471,
+			"p26a40": 17.7,
+			"41a64": 1028,
+			"p41a64": 11.1,
+			"p65": 6.4
+		},
+		"noOtraActividad": {
+			"65": 2448,
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 27893,
+			"pTotal": 83.4,
+			"5a11": 3758,
+			"p5a11": 85,
+			"12a25": 6636,
+			"p12a25": 74.8,
+			"26a40": 6857,
+			"p26a40": 82.3,
+			"41a64": 8194,
+			"p41a64": 88.9,
+			"p65": 93.6
+		}
+	},
+	"centrosPoblados": {
+		"totalPersonasmás5": {
+			"65": 577,
+			"pregunta": "Total de personas de 5 años y más ",
+			"Total": 8870,
+			"pTotal": 100,
+			"5a11": 1565,
+			"p5a11": 17.6,
+			"12a25": 2679,
+			"p12a25": 30.2,
+			"26a40": 1965,
+			"p26a40": 22.2,
+			"41a64": 2083,
+			"p41a64": 23.5,
+			"p65": 6.5
+		},
+		"otraActividad": {
+			"65": 29,
+			"pregunta": "Sí realiza otra actividad al mismo tiempo que lee",
+			"Total": 1193,
+			"pTotal": 13.5,
+			"5a11": 195,
+			"p5a11": 12.5,
+			"12a25": 548,
+			"p12a25": 20.5,
+			"26a40": 238,
+			"p26a40": 12.1,
+			"41a64": 184,
+			"p41a64": 8.8,
+			"p65": 5
+		},
+		"noOtraActividad": {
+			"65": 548,
+			"pregunta": "No realiza otra actividad al mismo tiempo que lee",
+			"Total": 7677,
+			"pTotal": 86.5,
+			"5a11": 1370,
+			"p5a11": 87.5,
+			"12a25": 2131,
+			"p12a25": 79.5,
+			"26a40": 1728,
+			"p26a40": 87.9,
+			"41a64": 1899,
+			"p41a64": 91.2,
+			"p65": 95
+		}
+	}
+}

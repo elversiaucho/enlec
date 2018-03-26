@@ -2,18 +2,36 @@
       subvista: definición filtros generales de la aplicación
 -->
 <h1>{{ mensaje }}</h1>
-<div>
-    TEMA
-    <select>
-      <option ng-repeat="objTema in temaList">{{ objTema.name }}</option>
-    </select>
+<div class="contenedor-filtros">
+    <div class="row"> 
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <h6>TEMA</h6>
+          <select>
+            <option ng-repeat="objTema in temaList">{{ objTema.name }}</option>
+          </select>
+        </div>
 
-    <select ng-model="valor" ng-change="findDataBar1()">
-      <option ng-repeat="objUbicacion in ubicacionList">{{ objUbicacion.name }}</option>
-    </select>
-
-    RANGO DE EDAD
-    <select>
-      <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
-    </select>
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <h6>UBICACIÓN</h6>
+          <select ng-model="valor" ng-change="findDataBar1()">
+            <option ng-repeat="objUbicacion in ubicacionList">{{ objUbicacion.name }}</option>
+          </select>
+        </div>
+        <div class="hidden-xs col-md-1 col-lg-1"></div>
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <h6>RANGO DE EDAD</h6>
+          <select>
+            <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
+          </select>
+        </div>
+        <div class="col-xs-12 col-md-2 col-lg-2">
+          <h6>SEXO</h6>
+          <select>
+            <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
+          </select>
+        </div>
+        <div class="contenedor-boton-1 col-xs-12 col-md-2 col-lg-2">
+            <button type="button" class="boton-descargar btn btn-default"><i class="fa fa-download"></i> Descargar Datos</button>
+        </div>
+    </div>
 </div>

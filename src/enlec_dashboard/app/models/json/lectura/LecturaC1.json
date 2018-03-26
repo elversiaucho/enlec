@@ -1,0 +1,542 @@
+{
+   "nacional": {
+      "totalPersonas": [{
+         "pregunta": "Total personas de 5 años y más*",
+         "respuesta": "Total",
+         "total": 42326,
+         "pTotal": 100,
+         "hombres": 20732,
+         "pHombres": 49,
+         "mujeres": 21594,
+         "pMujeres": 51
+      }],
+      "articulos": [{
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "Sí",
+            "total": 11943,
+            "pTotal": 28.2,
+            "hombres": 5758,
+            "pHombres": 27.8,
+            "mujeres": 6186,
+            "pMujeres": 28.6
+         },
+         {
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "No",
+            "total": 30383,
+            "pTotal": 71.8,
+            "hombres": 14974,
+            "pHombres": 72.2,
+            "mujeres": 15409,
+            "pMujeres": 71.4
+         }
+      ],
+      "blogs": [{
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "Sí",
+            "total": 6980,
+            "pTotal": 16.5,
+            "hombres": 3500,
+            "pHombres": 16.9,
+            "mujeres": 3481,
+            "pMujeres": 16.1
+         },
+         {
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "No",
+            "total": 35346,
+            "pTotal": 83.5,
+            "hombres": 17232,
+            "pHombres": 83.1,
+            "mujeres": 18114,
+            "pMujeres": 83.9
+         }
+      ],
+      "correos": [{
+            "pregunta": "Correos electrónicos",
+            "respuesta": "Sí",
+            "total": 16887,
+            "pTotal": 39.9,
+            "hombres": 8338,
+            "pHombres": 40.2,
+            "mujeres": 8549,
+            "pMujeres": 39.6
+         },
+         {
+            "pregunta": "Correos electrónicos",
+            "respuesta": "No",
+            "total": 25439,
+            "pTotal": 60.1,
+            "hombres": 12394,
+            "pHombres": 59.8,
+            "mujeres": 13046,
+            "pMujeres": 60.4
+         }
+      ],
+      "paginasWeb": [{
+            "pregunta": "Páginas web",
+            "respuesta": "Sí",
+            "total": 16344,
+            "pTotal": 38.6,
+            "hombres": 8116,
+            "pHombres": 39.1,
+            "mujeres": 8228,
+            "pMujeres": 38.1
+         },
+         {
+            "pregunta": "Páginas web",
+            "respuesta": "No",
+            "total": 25983,
+            "pTotal": 61.4,
+            "hombres": 12616,
+            "pHombres": 60.9,
+            "mujeres": 13366,
+            "pMujeres": 61.9
+         }
+      ],
+      "redesSociales": [{
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "Sí",
+            "total": 27096,
+            "pTotal": 64,
+            "hombres": 13100,
+            "pHombres": 63.2,
+            "mujeres": 13996,
+            "pMujeres": 64.8
+         },
+         {
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "No",
+            "total": 15230,
+            "pTotal": 36,
+            "hombres": 7631,
+            "pHombres": 36.8,
+            "mujeres": 7598,
+            "pMujeres": 35.2
+         }
+      ],
+      "noticias": [{
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "Sí",
+            "total": 12569,
+            "pTotal": 29.7,
+            "hombres": 6307,
+            "pHombres": 30.4,
+            "mujeres": 6262,
+            "pMujeres": 29
+         },
+         {
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "No",
+            "total": 29757,
+            "pTotal": 70.3,
+            "hombres": 14425,
+            "pHombres": 69.6,
+            "mujeres": 15333,
+            "pMujeres": 71
+         }
+      ],
+      "librosDigitales": [{
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "Sí",
+            "total": 6652,
+            "pTotal": 15.7,
+            "hombres": 3199,
+            "pHombres": 15.4,
+            "mujeres": 3454,
+            "pMujeres": 16
+         },
+         {
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "No",
+            "total": 35674,
+            "pTotal": 84.3,
+            "hombres": 17533,
+            "pHombres": 84.6,
+            "mujeres": 18141,
+            "pMujeres": 84
+         }
+      ],
+      "documentosdeTrabajo": [{
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "Sí",
+            "total": 7275,
+            "pTotal": 17.2,
+            "hombres": 3785,
+            "pHombres": 18.3,
+            "mujeres": 3490,
+            "pMujeres": 16.2
+         },
+         {
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "No",
+            "total": 35051,
+            "pTotal": 82.8,
+            "hombres": 16946,
+            "pHombres": 81.7,
+            "mujeres": 18105,
+            "pMujeres": 83.8
+         }
+      ]
+   },
+   "cabeceras": {
+      "totalPersonas": [{
+         "pregunta": "Total personas de 5 años y más*",
+         "respuesta": "Total",
+         "total": 33456.11,
+         "pTotal": 100,
+         "hombres": 16095.84,
+         "pHombres": 48.11,
+         "mujeres": 17360.27,
+         "pMujeres": 51.89
+      }],
+      "articulos": [{
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "Sí",
+            "total": 10130.63,
+            "pTotal": 30.28,
+            "hombres": 4841.09,
+            "pHombres": 30.08,
+            "mujeres": 5289.54,
+            "pMujeres": 30.47
+         },
+         {
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "No",
+            "total": 23325.47,
+            "pTotal": 69.72,
+            "hombres": 11254.75,
+            "pHombres": 69.92,
+            "mujeres": 12070.73,
+            "pMujeres": 69.53
+         }
+      ],
+      "blogs": [{
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "Sí",
+            "total": 6319.8,
+            "pTotal": 18.89,
+            "hombres": 3174.54,
+            "pHombres": 19.72,
+            "mujeres": 3145.25,
+            "pMujeres": 18.12
+         },
+         {
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "No",
+            "total": 27136.31,
+            "pTotal": 81.11,
+            "hombres": 12921.29,
+            "pHombres": 80.28,
+            "mujeres": 14215.01,
+            "pMujeres": 81.88
+         }
+      ],
+      "correos": [{
+            "pregunta": "Correos electrónicos",
+            "respuesta": "Sí",
+            "total": 14914.94,
+            "pTotal": 44.58,
+            "hombres": 7290.39,
+            "pHombres": 45.29,
+            "mujeres": 7624.55,
+            "pMujeres": 43.92
+         },
+         {
+            "pregunta": "Correos electrónicos",
+            "respuesta": "No",
+            "total": 18541.16,
+            "pTotal": 55.42,
+            "hombres": 8805.44,
+            "pHombres": 54.71,
+            "mujeres": 9735.72,
+            "pMujeres": 56.08
+         }
+      ],
+      "paginasWeb": [{
+            "pregunta": "Páginas web",
+            "respuesta": "Sí",
+            "total": 14420.91,
+            "pTotal": 43.1,
+            "hombres": 7134.78,
+            "pHombres": 44.33,
+            "mujeres": 7286.12,
+            "pMujeres": 41.97
+         },
+         {
+            "pregunta": "Páginas web",
+            "respuesta": "No",
+            "total": 19035.2,
+            "pTotal": 56.9,
+            "hombres": 8961.05,
+            "pHombres": 55.67,
+            "mujeres": 10074.15,
+            "pMujeres": 58.03
+         }
+      ],
+      "redesSociales": [{
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "Sí",
+            "total": 22961.2,
+            "pTotal": 68.63,
+            "hombres": 10936.92,
+            "pHombres": 67.95,
+            "mujeres": 12024.29,
+            "pMujeres": 69.26
+         },
+         {
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "No",
+            "total": 10494.9,
+            "pTotal": 31.37,
+            "hombres": 5158.92,
+            "pHombres": 32.05,
+            "mujeres": 5335.98,
+            "pMujeres": 30.74
+         }
+      ],
+      "noticias": [{
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "Sí",
+            "total": 11174.12,
+            "pTotal": 33.4,
+            "hombres": 5560.96,
+            "pHombres": 34.55,
+            "mujeres": 5613.16,
+            "pMujeres": 32.33
+         },
+         {
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "No",
+            "total": 22281.98,
+            "pTotal": 66.6,
+            "hombres": 10534.88,
+            "pHombres": 65.45,
+            "mujeres": 11747.1,
+            "pMujeres": 67.67
+         }
+      ],
+      "librosDigitales": [{
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "Sí",
+            "total": 5854.09,
+            "pTotal": 17.5,
+            "hombres": 2797.18,
+            "pHombres": 17.38,
+            "mujeres": 3056.91,
+            "pMujeres": 17.61
+         },
+         {
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "No",
+            "total": 27602.01,
+            "pTotal": 82.5,
+            "hombres": 13298.66,
+            "pHombres": 82.62,
+            "mujeres": 14303.35,
+            "pMujeres": 82.39
+         }
+      ],
+      "documentosdeTrabajo": [{
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "Sí",
+            "total": 6521.53,
+            "pTotal": 19.49,
+            "hombres": 3358.11,
+            "pHombres": 20.86,
+            "mujeres": 3163.41,
+            "pMujeres": 18.22
+         },
+         {
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "No",
+            "total": 26934.58,
+            "pTotal": 80.51,
+            "hombres": 12737.72,
+            "pHombres": 79.14,
+            "mujeres": 14196.86,
+            "pMujeres": 81.78
+         }
+      ]
+   },
+   "centrosPoblados": {
+      "totalPersonas": [{
+         "pregunta": "Total personas de 5 años y más*",
+         "respuesta": "Total",
+         "total": 8870,
+         "pTotal": 100,
+         "hombres": 4636,
+         "pHombres": 52.3,
+         "mujeres": 4234,
+         "pMujeres": 47.7
+      }],
+      "articulos": [{
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "Sí",
+            "total": 1813,
+            "pTotal": 20.4,
+            "hombres": 917,
+            "pHombres": 19.8,
+            "mujeres": 896,
+            "pMujeres": 21.2
+         },
+         {
+            "pregunta": " Artículos o documentos académicos en medios digitales",
+            "respuesta": "No",
+            "total": 7057,
+            "pTotal": 79.6,
+            "hombres": 3719,
+            "pHombres": 80.2,
+            "mujeres": 3338,
+            "pMujeres": 78.8
+         }
+      ],
+      "blogs": [{
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "Sí",
+            "total": 661,
+            "pTotal": 7.4,
+            "hombres": 325,
+            "pHombres": 7,
+            "mujeres": 335,
+            "pMujeres": 7.9
+         },
+         {
+            "pregunta": "Blogs o foros en internet",
+            "respuesta": "No",
+            "total": 8209,
+            "pTotal": 92.6,
+            "hombres": 4311,
+            "pHombres": 93,
+            "mujeres": 3899,
+            "pMujeres": 92.1
+         }
+      ],
+      "correos": [{
+            "pregunta": "Correos electrónicos",
+            "respuesta": "Sí",
+            "total": 1972,
+            "pTotal": 22.2,
+            "hombres": 1048,
+            "pHombres": 22.6,
+            "mujeres": 924,
+            "pMujeres": 21.8
+         },
+         {
+            "pregunta": "Correos electrónicos",
+            "respuesta": "No",
+            "total": 6898,
+            "pTotal": 77.8,
+            "hombres": 3588,
+            "pHombres": 77.4,
+            "mujeres": 3310,
+            "pMujeres": 78.2
+         }
+      ],
+      "paginasWeb": [{
+            "pregunta": "Páginas web",
+            "respuesta": "Sí",
+            "total": 1923,
+            "pTotal": 21.7,
+            "hombres": 981,
+            "pHombres": 21.2,
+            "mujeres": 942,
+            "pMujeres": 22.2
+         },
+         {
+            "pregunta": "Páginas web",
+            "respuesta": "No",
+            "total": 6947,
+            "pTotal": 78.3,
+            "hombres": 3655,
+            "pHombres": 78.8,
+            "mujeres": 3292,
+            "pMujeres": 77.8
+         }
+      ],
+      "redesSociales": [{
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "Sí",
+            "total": 4135,
+            "pTotal": 46.6,
+            "hombres": 2163,
+            "pHombres": 46.7,
+            "mujeres": 1972,
+            "pMujeres": 46.6
+         },
+         {
+            "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
+            "respuesta": "No",
+            "total": 4735,
+            "pTotal": 53.4,
+            "hombres": 2472,
+            "pHombres": 53.3,
+            "mujeres": 2262,
+            "pMujeres": 53.4
+         }
+      ],
+      "noticias": [{
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "Sí",
+            "total": 1394,
+            "pTotal": 15.7,
+            "hombres": 746,
+            "pHombres": 16.1,
+            "mujeres": 649,
+            "pMujeres": 15.3
+         },
+         {
+            "pregunta": "Noticias o artículos en medios digitales (revistas, periódicos, aplicaciones, etc.)",
+            "respuesta": "No",
+            "total": 7476,
+            "pTotal": 84.3,
+            "hombres": 3890,
+            "pHombres": 83.9,
+            "mujeres": 3585,
+            "pMujeres": 84.7
+         }
+      ],
+      "librosDigitales": [{
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "Sí",
+            "total": 798,
+            "pTotal": 9,
+            "hombres": 401,
+            "pHombres": 8.7,
+            "mujeres": 397,
+            "pMujeres": 9.4
+         },
+         {
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "No",
+            "total": 8072,
+            "pTotal": 91,
+            "hombres": 4234,
+            "pHombres": 91.3,
+            "mujeres": 3838,
+            "pMujeres": 90.6
+         }
+      ],
+      "documentosdeTrabajo": [{
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "Sí",
+            "total": 753,
+            "pTotal": 8.5,
+            "hombres": 427,
+            "pHombres": 9.2,
+            "mujeres": 326,
+            "pMujeres": 7.7
+         },
+         {
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "No",
+            "total": 8117,
+            "pTotal": 91.5,
+            "hombres": 4209,
+            "pHombres": 90.8,
+            "mujeres": 3908,
+            "pMujeres": 92.3
+         }
+      ]
+   }
+}

@@ -1,0 +1,479 @@
+{
+	"nacional": {
+		"totalPersonas5": [{
+			"pregunta": "Total personas de 5 años y más",
+			"respuesta": "Total",
+			"total": 44445,
+			"pTotal": 100,
+			"hombres": 21847,
+			"pHombres": 49.2,
+			"mujeres": 22598,
+			"pMujeres": 50.8
+		}],
+		"bibliotecaAprender": [{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "Sí",
+				"total": 41367,
+				"pTotal": 93.1,
+				"hombres": 20227,
+				"pHombres": 92.6,
+				"mujeres": 21139,
+				"pMujeres": 93.5
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "no",
+				"total": 3078,
+				"pTotal": 6.9,
+				"hombres": 1620,
+				"pHombres": 7.4,
+				"mujeres": 1458,
+				"pMujeres": 6.5
+			}
+		],
+		"bibliotecasAburridas": [{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "Sí",
+				"total": 6359,
+				"pTotal": 14.3,
+				"hombres": 3589,
+				"pHombres": 16.4,
+				"mujeres": 2771,
+				"pMujeres": 12.3
+			},
+			{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "no",
+				"total": 38085,
+				"pTotal": 85.7,
+				"hombres": 18259,
+				"pHombres": 83.6,
+				"mujeres": 19827,
+				"pMujeres": 87.7
+			}
+		],
+		"bibliotecaDesarrolloPers": [{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "Sí",
+				"total": 38432,
+				"pTotal": 86.5,
+				"hombres": 18638,
+				"pHombres": 85.3,
+				"mujeres": 19794,
+				"pMujeres": 87.6
+			},
+			{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "no",
+				"total": 6013,
+				"pTotal": 13.5,
+				"hombres": 3210,
+				"pHombres": 14.7,
+				"mujeres": 2804,
+				"pMujeres": 12.4
+			}
+		],
+		"bibliotecaNecesarias": [{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "Sí",
+				"total": 12357,
+				"pTotal": 27.8,
+				"hombres": 6246,
+				"pHombres": 28.6,
+				"mujeres": 6112,
+				"pMujeres": 27
+			},
+			{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "no",
+				"total": 32087,
+				"pTotal": 72.2,
+				"hombres": 15602,
+				"pHombres": 71.4,
+				"mujeres": 16486,
+				"pMujeres": 73
+			}
+		],
+		"bibliotecaCompartir": [{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "Sí",
+				"total": 28792,
+				"pTotal": 64.8,
+				"hombres": 13884,
+				"pHombres": 63.6,
+				"mujeres": 14908,
+				"pMujeres": 66
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "no",
+				"total": 15653,
+				"pTotal": 35.2,
+				"hombres": 7963,
+				"pHombres": 36.4,
+				"mujeres": 7690,
+				"pMujeres": 34
+			}
+		],
+		"bibliotecaTareas": [{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "Sí",
+				"total": 19730,
+				"pTotal": 44.4,
+				"hombres": 9897,
+				"pHombres": 45.3,
+				"mujeres": 9833,
+				"pMujeres": 43.5
+			},
+			{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "no",
+				"total": 24715,
+				"pTotal": 55.6,
+				"hombres": 11951,
+				"pHombres": 54.7,
+				"mujeres": 12764,
+				"pMujeres": 56.5
+			}
+		],
+		"bibliotecaPrestamo": [{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "Sí",
+				"total": 34541,
+				"pTotal": 77.7,
+				"hombres": 16841,
+				"pHombres": 77.1,
+				"mujeres": 17701,
+				"pMujeres": 78.3
+			},
+			{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "no",
+				"total": 9903,
+				"pTotal": 22.3,
+				"hombres": 5007,
+				"pHombres": 22.9,
+				"mujeres": 4897,
+				"pMujeres": 21.7
+			}
+		]
+	},
+	"cabeceras": {
+		"totalPersonas5": [{
+			"pregunta": "Total personas de 5 años y más",
+			"respuesta": "Total",
+			"total": 34661,
+			"pTotal": 100,
+			"hombres": 16680,
+			"pHombres": 48.1,
+			"mujeres": 17982,
+			"pMujeres": 51.9
+		}],
+		"bibliotecaAprender": [{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "Sí",
+				"total": 32444,
+				"pTotal": 93.6,
+				"hombres": 15544,
+				"pHombres": 93.2,
+				"mujeres": 16900,
+				"pMujeres": 94
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "no",
+				"total": 2217,
+				"pTotal": 6.4,
+				"hombres": 1136,
+				"pHombres": 6.8,
+				"mujeres": 1081,
+				"pMujeres": 6
+			}
+		],
+		"bibliotecasAburridas": [{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "Sí",
+				"total": 5079,
+				"pTotal": 14.7,
+				"hombres": 2828,
+				"pHombres": 17,
+				"mujeres": 2251,
+				"pMujeres": 12.5
+			},
+			{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "no",
+				"total": 29582,
+				"pTotal": 85.3,
+				"hombres": 13851,
+				"pHombres": 83,
+				"mujeres": 15731,
+				"pMujeres": 87.5
+			}
+		],
+		"bibliotecaDesarrolloPers": [{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "Sí",
+				"total": 30638,
+				"pTotal": 88.4,
+				"hombres": 14594,
+				"pHombres": 87.5,
+				"mujeres": 16044,
+				"pMujeres": 89.2
+			},
+			{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "no",
+				"total": 4023,
+				"pTotal": 11.6,
+				"hombres": 2085,
+				"pHombres": 12.5,
+				"mujeres": 1938,
+				"pMujeres": 10.8
+			}
+		],
+		"bibliotecaNecesarias": [{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "Sí",
+				"total": 9733,
+				"pTotal": 28.1,
+				"hombres": 4804,
+				"pHombres": 28.8,
+				"mujeres": 4930,
+				"pMujeres": 27.4
+			},
+			{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "no",
+				"total": 24928,
+				"pTotal": 71.9,
+				"hombres": 11876,
+				"pHombres": 71.2,
+				"mujeres": 13052,
+				"pMujeres": 72.6
+			}
+		],
+		"bibliotecaCompartir": [{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "Sí",
+				"total": 22659,
+				"pTotal": 65.4,
+				"hombres": 10731,
+				"pHombres": 64.3,
+				"mujeres": 11928,
+				"pMujeres": 66.3
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "no",
+				"total": 12002,
+				"pTotal": 34.6,
+				"hombres": 5949,
+				"pHombres": 35.7,
+				"mujeres": 6053,
+				"pMujeres": 33.7
+			}
+		],
+		"bibliotecaTareas": [{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "Sí",
+				"total": 15263,
+				"pTotal": 44,
+				"hombres": 7518,
+				"pHombres": 45.1,
+				"mujeres": 7745,
+				"pMujeres": 43.1
+			},
+			{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "no",
+				"total": 19398,
+				"pTotal": 56,
+				"hombres": 9161,
+				"pHombres": 54.9,
+				"mujeres": 10236,
+				"pMujeres": 56.9
+			}
+		],
+		"bibliotecaPrestamo": [{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "Sí",
+				"total": 27439,
+				"pTotal": 79.2,
+				"hombres": 13136,
+				"pHombres": 78.8,
+				"mujeres": 14303,
+				"pMujeres": 79.5
+			},
+			{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "no",
+				"total": 7222,
+				"pTotal": 20.8,
+				"hombres": 3543,
+				"pHombres": 21.2,
+				"mujeres": 3679,
+				"pMujeres": 20.5
+			}
+		]
+	},
+	"centrosPoblados": {
+		"totalPersonas5": [{
+			"pregunta": "Total personas de 5 años y más",
+			"respuesta": "Total",
+			"total": 9784,
+			"pTotal": 100,
+			"hombres": 5168,
+			"pHombres": 52.8,
+			"mujeres": 4616,
+			"pMujeres": 47.2
+		}],
+		"bibliotecaAprender": [{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "Sí",
+				"total": 8923,
+				"pTotal": 91.2,
+				"hombres": 4683,
+				"pHombres": 90.6,
+				"mujeres": 4239,
+				"pMujeres": 91.8
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para aprender, participar y crear",
+				"respuesta": "no",
+				"total": 861,
+				"pTotal": 8.8,
+				"hombres": 484,
+				"pHombres": 9.4,
+				"mujeres": 377,
+				"pMujeres": 8.2
+			}
+		],
+		"bibliotecasAburridas": [{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "Sí",
+				"total": 1281,
+				"pTotal": 13.1,
+				"hombres": 760,
+				"pHombres": 14.7,
+				"mujeres": 520,
+				"pMujeres": 11.3
+			},
+			{
+				"pregunta": "Las bibliotecas son lugares muy aburridos y silenciosos",
+				"respuesta": "no",
+				"total": 8503,
+				"pTotal": 86.9,
+				"hombres": 4407,
+				"pHombres": 85.3,
+				"mujeres": 4096,
+				"pMujeres": 88.7
+			}
+		],
+		"bibliotecaDesarrolloPers": [{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "Sí",
+				"total": 7793,
+				"pTotal": 79.7,
+				"hombres": 4043,
+				"pHombres": 78.2,
+				"mujeres": 3750,
+				"pMujeres": 81.2
+			},
+			{
+				"pregunta": "Las bibliotecas son importantes para el desarrollo de las personas en todas las etapas de su vida",
+				"respuesta": "no",
+				"total": 1990,
+				"pTotal": 20.3,
+				"hombres": 1124,
+				"pHombres": 21.8,
+				"mujeres": 866,
+				"pMujeres": 18.8
+			}
+		],
+		"bibliotecaNecesarias": [{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "Sí",
+				"total": 2624,
+				"pTotal": 26.8,
+				"hombres": 1442,
+				"pHombres": 27.9,
+				"mujeres": 1182,
+				"pMujeres": 25.6
+			},
+			{
+				"pregunta": "Las bibliotecas ya no son necesarias porque todo se encuentra en internet",
+				"respuesta": "no",
+				"total": 7160,
+				"pTotal": 73.2,
+				"hombres": 3726,
+				"pHombres": 72.1,
+				"mujeres": 3434,
+				"pMujeres": 74.4
+			}
+		],
+		"bibliotecaCompartir": [{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "Sí",
+				"total": 6133,
+				"pTotal": 62.7,
+				"hombres": 3153,
+				"pHombres": 61,
+				"mujeres": 2979,
+				"pMujeres": 64.5
+			},
+			{
+				"pregunta": "Las bibliotecas son espacios para compartir y encontrarse con otras personas",
+				"respuesta": "no",
+				"total": 3651,
+				"pTotal": 37.3,
+				"hombres": 2014,
+				"pHombres": 39,
+				"mujeres": 1637,
+				"pMujeres": 35.5
+			}
+		],
+		"bibliotecaTareas": [{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "Sí",
+				"total": 4467,
+				"pTotal": 45.7,
+				"hombres": 2378,
+				"pHombres": 46,
+				"mujeres": 2088,
+				"pMujeres": 45.2
+			},
+			{
+				"pregunta": "Las bibliotecas son sólo para hacer tareas o investigaciones acad�micas",
+				"respuesta": "no",
+				"total": 5317,
+				"pTotal": 54.3,
+				"hombres": 2789,
+				"pHombres": 54,
+				"mujeres": 2528,
+				"pMujeres": 54.8
+			}
+		],
+		"bibliotecaPrestamo": [{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "Sí",
+				"total": 7102,
+				"pTotal": 72.6,
+				"hombres": 3704,
+				"pHombres": 71.7,
+				"mujeres": 3398,
+				"pMujeres": 73.6
+			},
+			{
+				"pregunta": "Las bibliotecas son útiles para el préstamo de libros en ellas o a domicilio",
+				"respuesta": "no",
+				"total": 2682,
+				"pTotal": 27.4,
+				"hombres": 1464,
+				"pHombres": 28.3,
+				"mujeres": 1218,
+				"pMujeres": 26.4
+			}
+		]
+	}
+}

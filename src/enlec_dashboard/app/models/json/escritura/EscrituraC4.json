@@ -1,0 +1,293 @@
+{
+
+   "nacional": {
+      "totMayoresde12": [{
+         "pregunta": "Total personas de 12 años y más que afirmaron escribir* ",
+         "respuesta": "Total",
+         "total": 29917.9,
+         "pTotal": 100,
+         "Hombres": 14656.48,
+         "pHombres": 48.99,
+         "Mujeres": 15261.42,
+         "pMujeres": 51.01
+      }],
+      "papel": [{
+            "pregunta": "Papel",
+            "respuesta": "Sí",
+            "total": 18667.14,
+            "pTotal": 62.39,
+            "Hombres": 9000.06,
+            "pHombres": 61.41,
+            "Mujeres": 9667.08,
+            "pMujeres": 63.34
+         },
+         {
+            "pregunta": "Papel",
+            "respuesta": "No",
+            "total": 11250.75,
+            "pTotal": 37.61,
+            "Hombres": 5656.42,
+            "pHombres": 38.59,
+            "Mujeres": 5594.34,
+            "pMujeres": 36.66
+         }
+      ],
+      "computador": [{
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "Sí",
+            "total": 11037.67,
+            "pTotal": 36.89,
+            "Hombres": 5605.02,
+            "pHombres": 38.24,
+            "Mujeres": 5432.66,
+            "pMujeres": 35.6
+         },
+         {
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "No",
+            "total": 18880.22,
+            "pTotal": 63.11,
+            "Hombres": 9051.46,
+            "pHombres": 61.76,
+            "Mujeres": 9828.76,
+            "pMujeres": 64.4
+         }
+      ],
+      "tableta": [{
+            "pregunta": "Tableta",
+            "respuesta": "Sí",
+            "total": 1555.76,
+            "pTotal": 5.2,
+            "Hombres": 788.79,
+            "pHombres": 5.38,
+            "Mujeres": 766.97,
+            "pMujeres": 5.03
+         },
+         {
+            "pregunta": "Tableta",
+            "respuesta": "No",
+            "total": 28362.14,
+            "pTotal": 94.8,
+            "Hombres": 13867.69,
+            "pHombres": 94.62,
+            "Mujeres": 14494.45,
+            "pMujeres": 94.97
+         }
+      ],
+      "telefonoMovil": [{
+            "pregunta": "Teléfono móvil",
+            "respuesta": "Sí",
+            "total": 22232.97,
+            "pTotal": 74.31,
+            "Hombres": 10745.47,
+            "pHombres": 73.32,
+            "Mujeres": 11487.5,
+            "pMujeres": 75.27
+         },
+         {
+            "pregunta": "Teléfono móvil",
+            "respuesta": "No",
+            "total": 7684.93,
+            "pTotal": 25.69,
+            "Hombres": 3911.01,
+            "pHombres": 26.68,
+            "Mujeres": 3773.92,
+            "pMujeres": 24.73
+         }
+      ]
+   },
+
+   "cabeceras": {
+      "totMayoresde12": [{
+         "pregunta": "Total personas de 12 años y más que afirmaron escribir* ",
+         "respuesta": "Total",
+         "total": 24667.44,
+         "pTotal": 100,
+         "Hombres": 11918.49,
+         "pHombres": 48.32,
+         "Mujeres": 12748.95,
+         "pMujeres": 51.68
+      }],
+      "papel": [{
+            "pregunta": "Papel",
+            "respuesta": "Sí",
+            "total": 15057.32,
+            "pTotal": 61.04,
+            "Hombres": 7160.08,
+            "pHombres": 60.08,
+            "Mujeres": 7897.24,
+            "pMujeres": 61.94
+         },
+         {
+            "pregunta": "Papel",
+            "respuesta": "No",
+            "total": 9610.13,
+            "pTotal": 38.96,
+            "Hombres": 4758.42,
+            "pHombres": 39.92,
+            "Mujeres": 4851.71,
+            "pMujeres": 38.06
+         }
+      ],
+      "computador": [{
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "Sí",
+            "total": 9634.13,
+            "pTotal": 39.06,
+            "Hombres": 4854.06,
+            "pHombres": 40.73,
+            "Mujeres": 4780.07,
+            "pMujeres": 37.49
+         },
+         {
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "No",
+            "total": 15033.32,
+            "pTotal": 60.94,
+            "Hombres": 7064.43,
+            "pHombres": 59.27,
+            "Mujeres": 7968.88,
+            "pMujeres": 62.51
+         }
+      ],
+      "tableta": [{
+            "pregunta": "Tableta",
+            "respuesta": "Sí",
+            "total": 1334.05,
+            "pTotal": 5.41,
+            "Hombres": 671.1,
+            "pHombres": 5.63,
+            "Mujeres": 662.95,
+            "pMujeres": 5.2
+         },
+         {
+            "pregunta": "Tableta",
+            "respuesta": "No",
+            "total": 23333.4,
+            "pTotal": 94.59,
+            "Hombres": 11247.4,
+            "pHombres": 94.37,
+            "Mujeres": 12086,
+            "pMujeres": 94.8
+         }
+      ],
+      "telefonoMovil": [{
+            "pregunta": "Teléfono móvil",
+            "respuesta": "Sí",
+            "total": 18837.26,
+            "pTotal": 76.36,
+            "Hombres": 8967.03,
+            "pHombres": 75.24,
+            "Mujeres": 9870.23,
+            "pMujeres": 77.42
+         },
+         {
+            "pregunta": "Teléfono móvil",
+            "respuesta": "No",
+            "total": 5830.18,
+            "pTotal": 23.64,
+            "Hombres": 2951.46,
+            "pHombres": 24.76,
+            "Mujeres": 2878.72,
+            "pMujeres": 22.58
+         }
+      ]
+   },
+
+   "centrosPoblados": {
+      "totMayoresde12": [{
+         "pregunta": "Total personas de 12 años y más que afirmaron escribir* ",
+         "respuesta": "Total",
+         "total": 5250.45,
+         "pTotal": 100,
+         "Hombres": 2737.98,
+         "pHombres": 52.15,
+         "Mujeres": 2512.47,
+         "pMujeres": 47.85
+      }],
+      "papel": [{
+            "pregunta": "Papel",
+            "respuesta": "Sí",
+            "total": 3609.83,
+            "pTotal": 68.75,
+            "Hombres": 1839.99,
+            "pHombres": 67.2,
+            "Mujeres": 1769.84,
+            "pMujeres": 70.44
+         },
+         {
+            "pregunta": "Papel",
+            "respuesta": "No",
+            "total": 1640.63,
+            "pTotal": 31.25,
+            "Hombres": 898,
+            "pHombres": 32.8,
+            "Mujeres": 742.63,
+            "pMujeres": 29.56
+         }
+      ],
+      "computador": [{
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "Sí",
+            "total": 1403.55,
+            "pTotal": 26.73,
+            "Hombres": 750.95,
+            "pHombres": 27.43,
+            "Mujeres": 652.59,
+            "pMujeres": 25.97
+         },
+         {
+            "pregunta": "Computador de escritorio o portátil",
+            "respuesta": "No",
+            "total": 3846.91,
+            "pTotal": 73.27,
+            "Hombres": 1987.03,
+            "pHombres": 72.57,
+            "Mujeres": 1859.88,
+            "pMujeres": 74.03
+         }
+      ],
+      "tableta": [{
+            "pregunta": "Tableta",
+            "respuesta": "Sí",
+            "total": 221.72,
+            "pTotal": 4.22,
+            "Hombres": 117.69,
+            "pHombres": 4.3,
+            "Mujeres": 104.03,
+            "pMujeres": 4.14
+         },
+         {
+            "pregunta": "Tableta",
+            "respuesta": "No",
+            "total": 5028.74,
+            "pTotal": 95.78,
+            "Hombres": 2620.29,
+            "pHombres": 95.7,
+            "Mujeres": 2408.44,
+            "pMujeres": 95.86
+         }
+      ],
+      "telefonoMovil": [{
+            "pregunta": "Teléfono móvil",
+            "respuesta": "Sí",
+            "total": 3395.71,
+            "pTotal": 64.67,
+            "Hombres": 1778.44,
+            "pHombres": 64.95,
+            "Mujeres": 1617.27,
+            "pMujeres": 64.37
+         },
+         {
+            "pregunta": "Teléfono móvil",
+            "respuesta": "No",
+            "total": 1854.75,
+            "pTotal": 35.33,
+            "Hombres": 959.54,
+            "pHombres": 35.05,
+            "Mujeres": 895.2,
+            "pMujeres": 35.63
+         }
+      ]
+   }
+}

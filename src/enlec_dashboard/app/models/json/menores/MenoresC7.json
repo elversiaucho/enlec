@@ -1,0 +1,89 @@
+{
+	"nacional": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 4061,
+			"pTotal": 100,
+			"hombres": 2086,
+			"pHombres": 51.4,
+			"mujeres": 1975,
+			"pMujeres": 48.6
+		},
+		"siVisito": {
+			"pregunta": "Si visitó*",
+			"total": 321,
+			"pTotal": 7.9,
+			"hombres": 138,
+			"pHombres": 6.6,
+			"mujeres": 183,
+			"pMujeres": 9.3
+		},
+		"noVisito": {
+			"pregunta": "No visitó",
+			"total": 3740,
+			"pTotal": 92.1,
+			"hombres": 1948,
+			"pHombres": 93.4,
+			"mujeres": 1792,
+			"pMujeres": 90.7
+		}
+	},
+	"cabeceras": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 2930,
+			"pTotal": 100,
+			"hombres": 1486,
+			"pHombres": 50.7,
+			"mujeres": 1444,
+			"pMujeres": 49.3
+		},
+		"siVisito": {
+			"pregunta": "Si visitó*",
+			"total": 290,
+			"pTotal": 9.9,
+			"hombres": 130,
+			"pHombres": 8.7,
+			"mujeres": 160,
+			"pMujeres": 11.1
+		},
+		"noVisito": {
+			"pregunta": "No visitó",
+			"total": 2640,
+			"pTotal": 90.1,
+			"hombres": 1356,
+			"pHombres": 91.3,
+			"mujeres": 1284,
+			"pMujeres": 88.9
+		}
+	},
+	"centrosPoblados": {
+		"totalMenores": {
+			"pregunta": "Total personas de 0 a 4 años",
+			"total": 1131,
+			"pTotal": 100,
+			"hombres": 600,
+			"pHombres": 53.1,
+			"mujeres": 530,
+			"pMujeres": 46.9
+		},
+		"siVisito": {
+			"pregunta": "Si visitó*",
+			"total": 31,
+			"pTotal": 2.7,
+			"hombres": 8,
+			"pHombres": 1.4,
+			"mujeres": 23,
+			"pMujeres": 4.2
+		},
+		"noVisito": {
+			"pregunta": "No visitó",
+			"total": 1100,
+			"pTotal": 97.3,
+			"hombres": 592,
+			"pHombres": 98.6,
+			"mujeres": 508,
+			"pMujeres": 95.8
+		}
+	}
+}
