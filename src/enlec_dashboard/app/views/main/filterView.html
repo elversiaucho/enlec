@@ -5,33 +5,34 @@
     <div class="row">
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>TEMA</h6>
-          <select ng-model="defaultTema.idTema"
-                  ng-options="tema.id as tema.name for tema in defaultTema.temaList"
-                  ng-change="getChangeTema(defaultTema.idTema)"
-                  ng-init="getChangeTema(defaultTema.idTema)">
+          <select ng-model="objTema.idTema"
+                  ng-options="x.idTema as x.nameTema for x in objTema.temaList"
+                  ng-change="changeTema(objTema.idTema)"
+                  ng-init="changeTema(objTema.idTema)">
           </select>
         </div>
 
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>RANGO DE EDAD</h6>
-          <select ng-model="defaultRangoEdad.idEdad"
-                  ng-options="edad.id as edad.name for edad in defaultRangoEdad.edadList">
+          <select ng-model="objRangoEdad.idRangoEdad"
+                  ng-options="x.idRangoEdad as x.nameRangoEdad for x in objRangoEdad.rangoEdadList">
           </select>
         </div>
 
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>UBICACIÓN</h6>
-          <select ng-model="defaultUbicacion.idUbicacion"
-                  ng-options="ubicacion.id as ubicacion.name for ubicacion in defaultUbicacion.ubicacionList"
-                  ng-change="getChangeUbicacion(defaultUbicacion.idUbicacion)"
-                  ng-init="getChangeUbicacion(defaultUbicacion.idUbicacion)">
+          <select ng-model="objUbicacion.idUbicacion"
+                  ng-options="x.idUbicacion as x.nameUbicacion for x in objUbicacion.ubicacionList"
+                  ng-change="changeUbicacion(objUbicacion.idUbicacion)"
+                  ng-init="changeUbicacion(objUbicacion.idUbicacion)">
           </select>
         </div>
 
         <div class="col-xs-12 col-md-2 col-lg-2">
           <h6>CIUDAD</h6>
-          <select ng-model="defaultCiudad.idCiudad"
-                  ng-options="ciudad.id as ciudad.name for ciudad in defaultCiudad.ciudadList">
+          <select ng-model="objCiudad.idCiudad"
+                  ng-options="x.idCiudad as x.nameCiudad for x in objCiudad.ciudadList"
+                  ng-change="changeCiudad(objCiudad.idCiudad)">
           </select>
         </div>
         <div class="contenedor-boton-1 col-xs-12 col-md-2 col-lg-2">

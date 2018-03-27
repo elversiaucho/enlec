@@ -64,7 +64,10 @@ function horizontalBarController($rootScope, $scope, $http, lecturaService)
 			{
 					angular.forEach(data, function(d)
 					{
-							items.push(d);
+							if(d.ubicacion == filtro)
+							{
+									items.push(d);
+							}
 					});
 
 					$rootScope.dataBar3List = items;

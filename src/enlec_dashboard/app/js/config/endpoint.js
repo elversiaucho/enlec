@@ -46,7 +46,7 @@ var constantes = {
                     ENDPOINT_BIBLIOTECA_CUADRO_6:'app/models/json/biblioteca/biblioteca_cuadro_6.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_7:'app/models/json/biblioteca/biblioteca_cuadro_7.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_8:'app/models/json/biblioteca/biblioteca_cuadro_8.json',
-                    ENDPOINT_MENORES_CUADRO_1:'app/models/json/menores/menores_cuadro_1.json',
+                    ENDPOINT_MENORES_CUADRO_1:'app/models/json/menores/data.json',
                     ENDPOINT_MENORES_CUADRO_2:'app/models/json/menores/menores_cuadro_2.json',
                     ENDPOINT_MENORES_CUADRO_3:'app/models/json/menores/menores_cuadro_3.json',
                     ENDPOINT_MENORES_CUADRO_4:'app/models/json/menores/menores_cuadro_4.json',

@@ -41,12 +41,12 @@ var linkHorizontalBarChart = function($scope, $element, $attrs)
 				width = parseInt(d3.select("#" + chart_id).style("width")) - margin.left - margin.right;
 				height = parseInt(d3.select("#" + chart_id).style("height")) - margin.top - margin.bottom;
 
-				xMax = d3.max(data, function (d) { return d3.max(d.data, function (d) { return d.value; }); });
+				xMax = d3.max(data, function (d) { return d3.max(d.data, function (d) { return d.percentage; }); });
 
 				titleCategorys = data.map(function(d) { return d.data.map(function(d) { return d.key}); });
 
 				x = d3.scaleLinear().domain([0, xMax]).rangeRound([0, width]);
-				y0 = d3.scaleBand().domain(data.map(function(d) { return d.category })).rangeRound([height, 0]).paddingInner(0.1);
+				y0 = d3.scaleBand().domain(data.map(function(d) { return d.categorie })).rangeRound([height, 0]).paddingInner(0.1);
 		    y1 = d3.scaleBand().domain(titleCategorys[0]).rangeRound([y0.bandwidth(), 0]).paddingInner(0.05);
 				z = d3.scaleOrdinal().range(["#2A489B", "#E6007E"]);
 
@@ -59,12 +59,12 @@ var linkHorizontalBarChart = function($scope, $element, $attrs)
 
 				element = g.append("g").selectAll("g").data(data).enter()
 											.append("g")
-												.attr("transform", function(d) { return "translate(" + [0, y0(d.category)] + ")"; });
+												.attr("transform", function(d) { return "translate(" + [0, y0(d.categorie)] + ")"; });
 
 				rect = element.selectAll("rect").data(function(d) { return d.data }).enter()
 				        .append("rect")
 									.attr("y", function(d) { return y1(d.key); })
-									.attr("width", function(d) { return x(d.value); })
+									.attr("width", function(d) { return x(d.percentage); })
 									.attr("height", y1.bandwidth())
 									.attr("fill", function(d) { return z(d.key); });
 
