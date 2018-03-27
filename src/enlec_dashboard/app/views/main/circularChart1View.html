@@ -2,6 +2,26 @@
       subvista: dibujar directiva circular-chart
 -->
 <div>
-  <h1>Circular Chart View 1</h1>
-  <div circular-chart data="null"></div>
+  <h1>Circular Chart View 1**{{circular}}</h1>
+    </div>
+
+  <div circular-chart data='dataInfoList'><!-- id="circleChart" -->
+  	 
+  		
+  
+
+</div> 
+ 	filtros{{filtrarSexo}}
+ 	<div class="row">
+	<div class="col-lg-12">
+		<div class="col-sm-3">
+			<input type="radio" name="tipoLectura" ng-click="filtrar('nacional')"><span>Tipo de material de lectura</span>
+		</div>
+		<div class="col-sm-6">
+			<input type="radio" name="tipoLectura"><span>Otra actividad relacionada con lo que leen</span>
+		</div>
+	</div>
+
+	
 </div>
+

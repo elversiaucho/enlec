@@ -11,7 +11,9 @@ var constantes = {
                     ENDPOINT_INFO_1:'app/models/json/info/data1.json',
                     ENDPOINT_LECTURA_1:'app/models/json/lectura/data1.json',
                     ENDPOINT_LECTURA_2:'app/models/json/lectura/data2.json',
-                    ENDPOINT_LECTURA_3:'app/models/json/lectura/data3.json'
+                    ENDPOINT_LECTURA_3:'app/models/json/lectura/data3.json',
+                    
+                    ENDPOINT_LECTURA_C1:'app/models/json/lectura/LecturaC1.json'
                  };
 
 //Definición de constantes

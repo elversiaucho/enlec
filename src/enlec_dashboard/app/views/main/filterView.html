@@ -16,4 +16,11 @@
     <select>
       <option ng-repeat="objRango in rangoList">{{ objRango.name }}</option>
     </select>
+
+    SEXO
+    <select ng-model="dataS.singleSelect">
+      <option ng-repeat="sexo in rangoSexo">{{ sexo.name }}</option>
+    </select> 
+    <tt>singleSelect = {{data.singleSelect}}</tt>   
+
 </div>

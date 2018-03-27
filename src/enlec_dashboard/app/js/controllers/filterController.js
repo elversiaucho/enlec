@@ -19,6 +19,8 @@ function filterController($rootScope, $scope, $http, lecturaService)
 		$scope.rangoList = [{"name":"5 años y más"}];
 		$scope.mensaje = "Filter View";
 
+		$scope.rangoSexo= [{"name":"Seleccione..."},{"name":"Mujer"},{"name":"Hombre"}];
+
 		$scope.findDataBar1 = function findDataBar1()
 		{
 			  var items1 = [];
