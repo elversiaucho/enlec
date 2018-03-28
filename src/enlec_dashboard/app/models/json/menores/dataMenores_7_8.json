@@ -10,54 +10,54 @@
     "nameCiudad": null,
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 1214,
-            "percentage": 58.2
+            "value": 138,
+            "percentage": 6.6
           },
           {
             "key": "mujeres",
-            "value": 1238,
-            "percentage": 62.7
+            "value": 183,
+            "percentage": 9.3
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 872,
-            "percentage": 41.8
+            "value": 1948,
+            "percentage": 93.4
           },
           {
             "key": "mujeres",
-            "value": 737,
-            "percentage": 37.3
+            "value": 1792,
+            "percentage": 90.7
           }
         ]
       }
     ],
-    "SiLeGusta": {
+    "SiVisito": {
       "hombres": {
-        "value": 1214,
-        "porcentaje": 58.2
+        "value": 138,
+        "porcentaje": 6.6
       },
       "mujeres": {
-        "value": 1238,
-        "porcentaje": 62.7
+        "value": 183,
+        "porcentaje": 9.3
       }
     },
-    "NoLeGusta": {
+    "NoVisito": {
       "hombres": {
-        "value": 872,
-        "porcentaje": 41.8
+        "value": 1948,
+        "porcentaje": 93.4
       },
       "mujeres": {
-        "value": 737,
-        "porcentaje": 37.3
+        "value": 1792,
+        "porcentaje": 90.7
       }
     }
   },
@@ -72,54 +72,54 @@
     "nameCiudad": null,
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 933,
-            "percentage": 62.8
+            "value": 130,
+            "percentage": 8.7
           },
           {
             "key": "mujeres",
-            "value": 923,
-            "percentage": 63.9
+            "value": 160,
+            "percentage": 11.1
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 552,
-            "percentage": 37.2
+            "value": 1356,
+            "percentage": 91.3
           },
           {
             "key": "mujeres",
-            "value": 521,
-            "percentage": 36.1
+            "value": 1284,
+            "percentage": 88.9
           }
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "hombres": {
-        "value": 933,
-        "porcentaje": 62.8
+        "value": 130,
+        "porcentaje": 8.7
       },
       "mujeres": {
-        "value": 923,
-        "porcentaje": 63.9
+        "value": 160,
+        "porcentaje": 11.1
       }
     },
-    "No le gusta": {
+    "No visitó": {
       "hombres": {
-        "value": 552,
-        "porcentaje": 37.2
+        "value": 1356,
+        "porcentaje": 91.3
       },
       "mujeres": {
-        "value": 521,
-        "porcentaje": 36.1
+        "value": 1284,
+        "porcentaje": 88.9
       }
     }
   },
@@ -134,54 +134,54 @@
     "nameCiudad": null,
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 281,
-            "percentage": 46.7
+            "value": 8,
+            "percentage": 1.4
           },
           {
             "key": "mujeres",
-            "value": 315,
-            "percentage": 59.4
+            "value": 23,
+            "percentage": 4.2
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "hombres",
-            "value": 320,
-            "percentage": 53.3
+            "value": 592,
+            "percentage": 98.6
           },
           {
             "key": "mujeres",
-            "value": 216,
-            "percentage": 40.6
+            "value": 508,
+            "percentage": 95.8
           }
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "hombres": {
-        "value": 281,
-        "porcentaje": 46.7
+        "value": 8,
+        "porcentaje": 1.4
       },
       "mujeres": {
-        "value": 315,
-        "porcentaje": 59.4
+        "value": 23,
+        "porcentaje": 4.2
       }
     },
-    "No le gusta": {
+    "No visitó": {
       "hombres": {
-        "value": 320,
-        "porcentaje": 53.3
+        "value": 592,
+        "porcentaje": 98.6
       },
       "mujeres": {
-        "value": 216,
-        "porcentaje": 40.6
+        "value": 508,
+        "porcentaje": 95.8
       }
     }
   },
@@ -196,33 +196,33 @@
     "nameCiudad": "Mitú",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Mitú",
-            "value": 1,
-            "percentage": 56.7
+            "value": 0,
+            "percentage": 1.0
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Mitú",
-            "value": 1,
-            "percentage": 43.3
+            "value": 2,
+            "percentage": 99.9
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 1,
-      "porcentaje": 56.7
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 1.0
     },
-    "No le gusta": {
-      "value": 1,
-      "porcentaje": 43.3
+    "No visitó": {
+      "value": 2,
+      "porcentaje": 99.0
     }
   },
   {
@@ -236,33 +236,33 @@
     "nameCiudad": "Puerto Carreño",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Puerto Carreño",
-            "value": 1,
-            "percentage": 48.3
+            "value": 0,
+            "percentage": 3.4
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Puerto Carreño",
-            "value": 1,
-            "percentage": 51.7
+            "value": 2,
+            "percentage": 96.6
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 1,
-      "porcentaje": 48.3
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 3.4
     },
-    "No le gusta": {
-      "value": 1,
-      "porcentaje": 51.7
+    "No visitó": {
+      "value": 2,
+      "porcentaje": 96.6
     }
   },
   {
@@ -276,33 +276,33 @@
     "nameCiudad": "Inírida",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Inírida",
-            "value": 1,
-            "percentage": 47.7
+            "value": 0,
+            "percentage": 3.0
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Inírida",
             "value": 1,
-            "percentage": 52.3
+            "percentage": 97.0
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 1,
-      "porcentaje": 47.7
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 3.0
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 1,
-      "porcentaje": 52.3
+      "porcentaje": 97.0
     }
   },
   {
@@ -316,33 +316,33 @@
     "nameCiudad": "Leticia",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Leticia",
-            "value": 2,
-            "percentage": 51.4
+            "value": 0,
+            "percentage": 5.0
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Leticia",
-            "value": 1,
-            "percentage": 48.6
+            "value": 3,
+            "percentage": 95.0
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 2,
-      "porcentaje": 51.4
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 5.0
     },
-    "No le gusta": {
-      "value": 1,
-      "porcentaje": 48.6
+    "No visitó": {
+      "value": 3,
+      "porcentaje": 95.0
     }
   },
   {
@@ -356,33 +356,33 @@
     "nameCiudad": "San José del Guaviare",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "San José del Guaviare",
-            "value": 3,
-            "percentage": 52.6
+            "value": 0,
+            "percentage": 6.9
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "San José del Guaviare",
-            "value": 3,
-            "percentage": 47.4
+            "value": 6,
+            "percentage": 93.1
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 3,
-      "porcentaje": 52.6
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 6.9
     },
-    "No le gusta": {
-      "value": 3,
-      "porcentaje": 47.4
+    "No visitó": {
+      "value": 6,
+      "porcentaje": 93.1
     }
   },
   {
@@ -396,33 +396,33 @@
     "nameCiudad": "Mocoa",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Mocoa",
-            "value": 2,
-            "percentage": 51.5
+            "value": 0,
+            "percentage": 0.6
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Mocoa",
-            "value": 2,
-            "percentage": 48.5
+            "value": 3,
+            "percentage": 99.4
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 2,
-      "porcentaje": 51.5
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 0.6
     },
-    "No le gusta": {
-      "value": 2,
-      "porcentaje": 48.5
+    "No visitó": {
+      "value": 3,
+      "porcentaje": 99.4
     }
   },
   {
@@ -436,33 +436,33 @@
     "nameCiudad": "Arauca",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Arauca",
-            "value": 5,
-            "percentage": 63.0
+            "value": 1,
+            "percentage": 6.7
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Arauca",
-            "value": 3,
-            "percentage": 37.0
+            "value": 8,
+            "percentage": 93.3
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 5,
-      "porcentaje": 63.0
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 6.7
     },
-    "No le gusta": {
-      "value": 3,
-      "porcentaje": 37.0
+    "No visitó": {
+      "value": 8,
+      "porcentaje": 93.3
     }
   },
   {
@@ -476,33 +476,33 @@
     "nameCiudad": "Yopal",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Yopal",
-            "value": 7,
-            "percentage": 58.8
+            "value": 1,
+            "percentage": 7.6
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Yopal",
-            "value": 5,
-            "percentage": 41.2
+            "value": 11,
+            "percentage": 92.4
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 7,
-      "porcentaje": 58.8
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 7.6
     },
-    "No le gusta": {
-      "value": 5,
-      "porcentaje": 41.2
+    "No visitó": {
+      "value": 11,
+      "porcentaje": 92.4
     }
   },
   {
@@ -516,33 +516,33 @@
     "nameCiudad": "Riohacha",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Riohacha",
-            "value": 13,
-            "percentage": 43.8
+            "value": 2,
+            "percentage": 7.8
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Riohacha",
-            "value": 16,
-            "percentage": 56.2
+            "value": 27,
+            "percentage": 92.2
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 13,
-      "porcentaje": 43.8
+    "Si visitó": {
+      "value": 2,
+      "porcentaje": 7.8
     },
-    "No le gusta": {
-      "value": 16,
-      "porcentaje": 56.2
+    "No visitó": {
+      "value": 27,
+      "porcentaje": 92.2
     }
   },
   {
@@ -556,33 +556,33 @@
     "nameCiudad": "Sincelejo",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Sincelejo",
-            "value": 12,
-            "percentage": 60.7
+            "value": 0,
+            "percentage": 2.0
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Sincelejo",
-            "value": 8,
-            "percentage": 39.3
+            "value": 20,
+            "percentage": 98.0
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 12,
-      "porcentaje": 60.7
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 2.0
     },
-    "No le gusta": {
-      "value": 8,
-      "porcentaje": 39.3
+    "No visitó": {
+      "value": 20,
+      "porcentaje": 98.0
     }
   },
   {
@@ -596,33 +596,33 @@
     "nameCiudad": "Montería",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Montería",
-            "value": 21,
-            "percentage": 69.2
+            "value": 0,
+            "percentage": 0.5
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Montería",
-            "value": 9,
-            "percentage": 30.8
+            "value": 30,
+            "percentage": 99.5
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 21,
-      "porcentaje": 69.2
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 0.5
     },
-    "No le gusta": {
-      "value": 9,
-      "porcentaje": 30.8
+    "No visitó": {
+      "value": 30,
+      "porcentaje": 99.5
     }
   },
   {
@@ -636,33 +636,33 @@
     "nameCiudad": "Valledupar",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Valledupar",
-            "value": 17,
-            "percentage": 45.6
+            "value": 2,
+            "percentage": 5.3
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Valledupar",
-            "value": 20,
-            "percentage": 54.4
+            "value": 36,
+            "percentage": 94.7
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 17,
-      "porcentaje": 45.6
+    "Si visitó": {
+      "value": 2,
+      "porcentaje": 5.3
     },
-    "No le gusta": {
-      "value": 20,
-      "porcentaje": 54.4
+    "No visitó": {
+      "value": 36,
+      "porcentaje": 94.7
     }
   },
   {
@@ -676,33 +676,33 @@
     "nameCiudad": "Santa Marta",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Santa Marta",
-            "value": 26,
-            "percentage": 64.2
+            "value": 2,
+            "percentage": 4.2
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Santa Marta",
-            "value": 15,
-            "percentage": 35.8
+            "value": 39,
+            "percentage": 95.8
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 26,
-      "porcentaje": 64.2
+    "Si visitó": {
+      "value": 2,
+      "porcentaje": 4.2
     },
-    "No le gusta": {
-      "value": 15,
-      "porcentaje": 35.8
+    "No visitó": {
+      "value": 39,
+      "porcentaje": 95.8
     }
   },
   {
@@ -716,33 +716,33 @@
     "nameCiudad": "Cartagena",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Cartagena",
-            "value": 39,
-            "percentage": 50.5
+            "value": 2,
+            "percentage": 2.2
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Cartagena",
-            "value": 39,
-            "percentage": 49.5
+            "value": 76,
+            "percentage": 97.8
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 39,
-      "porcentaje": 50.5
+    "Si visitó": {
+      "value": 2,
+      "porcentaje": 2.2
     },
-    "No le gusta": {
-      "value": 39,
-      "porcentaje": 49.5
+    "No visitó": {
+      "value": 76,
+      "porcentaje": 97.8
     }
   },
   {
@@ -756,33 +756,33 @@
     "nameCiudad": "Barranquilla",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Barranquilla",
-            "value": 71,
-            "percentage": 77.9
+            "value": 1,
+            "percentage": 1.5
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Barranquilla",
-            "value": 20,
-            "percentage": 22.1
+            "value": 90,
+            "percentage": 98.5
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 71,
-      "porcentaje": 77.9
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 1.5
     },
-    "No le gusta": {
-      "value": 20,
-      "porcentaje": 22.1
+    "No visitó": {
+      "value": 90,
+      "porcentaje": 98.5
     }
   },
   {
@@ -796,33 +796,33 @@
     "nameCiudad": "Tunja",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Tunja",
-            "value": 9,
-            "percentage": 69.9
+            "value": 1,
+            "percentage": 10.7
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Tunja",
-            "value": 4,
-            "percentage": 30.1
+            "value": 12,
+            "percentage": 89.3
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 9,
-      "porcentaje": 69.9
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 10.7
     },
-    "No le gusta": {
-      "value": 4,
-      "porcentaje": 30.1
+    "No visitó": {
+      "value": 12,
+      "porcentaje": 89.3
     }
   },
   {
@@ -836,33 +836,33 @@
     "nameCiudad": "Villavicencio",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Villavicencio",
-            "value": 22,
-            "percentage": 54.9
+            "value": 3,
+            "percentage": 7.5
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Villavicencio",
-            "value": 18,
-            "percentage": 45.1
+            "value": 3.7,
+            "percentage": 92.5
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 22,
-      "porcentaje": 54.9
+    "Si visitó": {
+      "value": 3,
+      "porcentaje": 7.5
     },
-    "No le gusta": {
-      "value": 18,
-      "porcentaje": 45.1
+    "No visitó": {
+      "value": 37,
+      "porcentaje": 92.5
     }
   },
   {
@@ -876,33 +876,33 @@
     "nameCiudad": "Bucaramanga",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Bucaramanga",
-            "value": 20,
-            "percentage": 56.5
+            "value": 1,
+            "percentage": 3.1
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Bucaramanga",
-            "value": 16,
-            "percentage": 43.5
+            "value": 35,
+            "percentage": 96.9
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 20,
-      "porcentaje": 56.5
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 3.1
     },
-    "No le gusta": {
-      "value": 16,
-      "porcentaje": 43.5
+    "No visitó": {
+      "value": 35,
+      "porcentaje": 96.9
     }
   },
   {
@@ -916,33 +916,33 @@
     "nameCiudad": "Cúcuta",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Cúcuta",
-            "value": 27,
-            "percentage": 50.2
+            "value": 4,
+            "percentage": 7.4
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Cúcuta",
-            "value": 27,
-            "percentage": 49.8
+            "value": 50,
+            "percentage": 92.6
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 27,
-      "porcentaje": 50.2
+    "Si visitó": {
+      "value": 4,
+      "porcentaje": 7.4
     },
-    "No le gusta": {
-      "value": 27,
-      "porcentaje": 49.8
+    "No visitó": {
+      "value": 50,
+      "porcentaje": 92.6
     }
   },
   {
@@ -956,33 +956,33 @@
     "nameCiudad": "San Andrés",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "San Andrés",
-            "value": 2,
-            "percentage": 47.7
+            "value": 0,
+            "percentage": 3.0
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "San Andrés",
-            "value": 2,
-            "percentage": 52.3
+            "value": 4,
+            "percentage": 97.0
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 2,
-      "porcentaje": 47.7
+    "Si visitó": {
+      "value": 0,
+      "porcentaje": 3.0
     },
-    "No le gusta": {
-      "value": 2,
-      "porcentaje": 52.3
+    "No visitó": {
+      "value": 4,
+      "porcentaje": 97.0
     }
   },
   {
@@ -996,33 +996,33 @@
     "nameCiudad": "Bogotá",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Bogotá",
-            "value": 408,
-            "percentage": 71.6
+            "value": 126,
+            "percentage": 22.1
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Bogotá",
-            "value": 162,
-            "percentage": 28.4
+            "value": 443,
+            "percentage": 77.9
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 408,
-      "porcentaje": 71.6
+    "Si visitó": {
+      "value": 126,
+      "porcentaje": 22.1
     },
-    "No le gusta": {
-      "value": 162,
-      "porcentaje": 28.4
+    "No visitó": {
+      "value": 443,
+      "porcentaje": 77.9
     }
   },
   {
@@ -1036,33 +1036,33 @@
     "nameCiudad": "Florencia",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Florencia",
-            "value": 7,
-            "percentage": 54.1
+            "value": 1,
+            "percentage": 4.4
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Florencia",
-            "value": 6,
-            "percentage": 45.9
+            "value": 13,
+            "percentage": 95.6
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 7,
-      "porcentaje": 54.1
+    "Si visitó": {
+      "value": 1,
+      "porcentaje": 4.4
     },
-    "No le gusta": {
-      "value": 6,
-      "porcentaje": 45.9
+    "No visitó": {
+      "value": 13,
+      "porcentaje": 95.6
     }
   },
   {
@@ -1076,33 +1076,33 @@
     "nameCiudad": "Neiva",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Neiva",
-            "value": 15,
-            "percentage": 63.8
+            "value": 2,
+            "percentage": 7.6
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Neiva",
-            "value": 9,
-            "percentage": 36.2
+            "value": 22,
+            "percentage": 92.4
           }
         ]
       }
     ],
-    "Si le gusta": {
-      "value": 15,
-      "porcentaje": 63.8
+    "Si visitó": {
+      "value": 2,
+      "porcentaje": 7.6
     },
-    "No le gusta": {
-      "value": 9,
-      "porcentaje": 36.2
+    "No visitó": {
+      "value": 22,
+      "porcentaje": 92.4
     }
   },
   {
@@ -1116,31 +1116,31 @@
     "nameCiudad": "Armenia",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Armenia",
-            "value": 12,
-            "percentage": 57.3
+            "value": 2,
+            "percentage": 10.2
           }
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Armenia",
-            "value": 9,
-            "percentage": 42.7
+            "value": 19,
+            "percentage": 89.8
           }
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 12,
       "porcentaje": 57.3
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 9,
       "porcentaje": 42.7
     }
@@ -1156,7 +1156,7 @@
     "nameCiudad": "Manizales",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Manizales",
@@ -1166,7 +1166,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Manizales",
@@ -1176,11 +1176,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 16,
       "porcentaje": 73.7
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 6,
       "porcentaje": 26.3
     }
@@ -1196,7 +1196,7 @@
     "nameCiudad": "Pereira",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Pereira",
@@ -1206,7 +1206,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Pereira",
@@ -1216,11 +1216,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 16,
       "porcentaje": 72.7
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 6,
       "porcentaje": 27.3
     }
@@ -1236,7 +1236,7 @@
     "nameCiudad": "Ibagué",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Ibagué",
@@ -1246,7 +1246,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Ibagué",
@@ -1256,11 +1256,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 22,
       "porcentaje": 64.8
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 12,
       "porcentaje": 35.2
     }
@@ -1276,7 +1276,7 @@
     "nameCiudad": "Quibdó",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Quibdó",
@@ -1286,7 +1286,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Quibdó",
@@ -1296,11 +1296,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 6,
       "porcentaje": 40.8
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 8,
       "porcentaje": 59.2
     }
@@ -1316,7 +1316,7 @@
     "nameCiudad": "Medellín",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Medellín",
@@ -1326,7 +1326,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Medellín",
@@ -1336,11 +1336,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 78,
       "porcentaje": 63.8
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 44,
       "porcentaje": 36.2
     }
@@ -1356,7 +1356,7 @@
     "nameCiudad": "Popayán",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Popayán",
@@ -1366,7 +1366,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Popayán",
@@ -1376,11 +1376,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 10,
       "porcentaje": 61.3
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 6,
       "porcentaje": 38.7
     }
@@ -1396,7 +1396,7 @@
     "nameCiudad": "Pasto",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Pasto",
@@ -1406,7 +1406,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Pasto",
@@ -1416,11 +1416,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 17,
       "porcentaje": 72.4
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 7,
       "porcentaje": 27.6
     }
@@ -1436,7 +1436,7 @@
     "nameCiudad": "Cali",
     "values": [
       {
-        "categorie": "Sí le gusta",
+        "categorie": "Sí visitó",
         "data": [
           {
             "key": "Cali",
@@ -1446,7 +1446,7 @@
         ]
       },
       {
-        "categorie": "No le gusta",
+        "categorie": "No visitó",
         "data": [
           {
             "key": "Cali",
@@ -1456,11 +1456,11 @@
         ]
       }
     ],
-    "Si le gusta": {
+    "Si visitó": {
       "value": 112,
       "porcentaje": 67.0
     },
-    "No le gusta": {
+    "No visitó": {
       "value": 55,
       "porcentaje": 33.0
     }
