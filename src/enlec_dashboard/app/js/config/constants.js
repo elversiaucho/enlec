@@ -7,7 +7,10 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 var constantes = {
-                    ID_UBICACION_32_CIUDADES:114                  
+                    ID_UBICACION_32_CIUDADES:114,
+                    FALSE:false,
+                    NULL:null,
+                    ID_NO_CIUDAD:0
                  };
 
 //Definición de constantes

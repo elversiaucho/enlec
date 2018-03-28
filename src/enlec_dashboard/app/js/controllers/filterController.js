@@ -53,8 +53,8 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 
 		//Filtro Ciudad
 		$scope.objCiudad = {};
-	 	$scope.objCiudad.idCiudad = 0;
-		$scope.objCiudad.isCiudad = false;
+	 	$scope.objCiudad.idCiudad = CONS.ID_NO_CIUDAD;
+		$scope.objCiudad.isCiudad = CONS.FALSE;
 		var dataCiudad = [{"idCiudad":97001, "nameCiudad":"Mitú", "idUbicacion":114},
 											{"idCiudad":99001, "nameCiudad":"Puerto Carreño", "idUbicacion":114},
 											{"idCiudad":94001, "nameCiudad":"Inírida", "idUbicacion":114},
@@ -126,9 +126,9 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 				}
 				else
 				{
-						$scope.objCiudad.idCiudad = 0;
-						$scope.objCiudad.ciudadList = null;
-						$scope.objCiudad.isCiudad = false;
+						$scope.objCiudad.idCiudad = CONS.ID_NO_CIUDAD;
+						$scope.objCiudad.ciudadList = CONS.NULL;
+						$scope.objCiudad.isCiudad = CONS.FALSE;
 				}
 
 	 		  filtro = {"idTema":$scope.objTema.idTema,
