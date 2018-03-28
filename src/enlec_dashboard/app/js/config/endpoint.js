@@ -14,7 +14,7 @@ var constantes = {
                     ENDPOINT_LECTURA_3:'app/models/json/lectura/data3.json',
 
                     
-                    ENDPOINT_LECTURA_C1:'app/models/json/lectura/LecturaC1.json'
+                    ENDPOINT_LECTURA_C1:'app/models/json/lectura/lectura_cuadro_1.json',
 
                     ENDPOINT_LECTURA_CUADRO_1:'app/models/json/lectura/lectura_cuadro_1.json',
                     ENDPOINT_LECTURA_CUADRO_2:'app/models/json/lectura/lectura_cuadro_2.json',
