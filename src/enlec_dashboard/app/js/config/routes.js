@@ -26,9 +26,9 @@ function configuration($stateProvider, $urlRouterProvider)
                         {
                           templateUrl:'app/views/templates/header.html'
                         },
-                        'horizontalBarChart1View@main':
+                        'horizontalBarChart_1_2_View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart1View.html'
+                            templateUrl:'app/views/main/horizontalBarChart_1_2_View.html'
                         },
                         'horizontalBarChart3View@main':
                         {
@@ -37,7 +37,7 @@ function configuration($stateProvider, $urlRouterProvider)
                         'horizontalBarChart5View@main':
                         {
                             templateUrl:'app/views/main/horizontalBarChart5View.html'
-                        },                        
+                        },
                         'circularChart1View@main':
                         {
                             templateUrl:'app/views/main/circularChart1View.html'
