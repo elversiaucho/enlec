@@ -155,7 +155,7 @@ $scope.objCiudad.isCiudad = false;
 	 var filtro = {"idTema":$scope.objTema.idTema, "idRangoEdad":$scope.objRangoEdad.idRangoEdad, "idUbicacion":$scope.objUbicacion.idUbicacion, "idCiudad":$scope.objCiudad.idCiudad};
 
 
-	 $scope.getMenoresCuadro1(filtro);
+	 $scope.getMenoresCuadro_1_2(filtro);
 
 	 //$scope.getMenoresCuadro3(filtro);
 	 //$scope.getMenoresCuadro5(filtro);
@@ -173,19 +173,18 @@ $scope.objCiudad.isCiudad = false;
 	 var filtro = {"idTema":$scope.objTema.idTema, "idRangoEdad":$scope.objRangoEdad.idRangoEdad, "idUbicacion":$scope.objUbicacion.idUbicacion, "idCiudad":$scope.objCiudad.idCiudad};
 
 
- $scope.getMenoresCuadro1(filtro);
-	 //$scope.getMenoresCuadro1(filtro);
+ $scope.getMenoresCuadro_1_2(filtro);
 	 //$scope.getMenoresCuadro3(filtro);
 	 //$scope.getMenoresCuadro5(filtro);
 	 //$scope.getMenoresCuadro7(filtro);
 
  };
 
-		$scope.getMenoresCuadro1 = function getMenoresCuadro1(filtro)
+		$scope.getMenoresCuadro_1_2 = function getMenoresCuadro_1_2(filtro)
 		{
 				var items1 = [];
 
-				menoresService.getMenoresCuadro1().then(success, error);
+				menoresService.getMenoresCuadro_1_2().then(success, error);
 
 				//Obtener data
 				function success(data)

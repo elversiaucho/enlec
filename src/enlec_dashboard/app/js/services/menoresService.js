@@ -21,9 +21,9 @@ function menoresService($http, $q, CONFIG)
     var deferred7 = $q.defer();
     var deferred8 = $q.defer();
 
-		factory.getMenoresCuadro1 = function()
+		factory.getMenoresCuadro_1_2 = function()
   	{
- 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_1).then(result, error);
+ 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_1_2).then(result, error);
 
 				function result(result)
 				{
@@ -36,23 +36,6 @@ function menoresService($http, $q, CONFIG)
         };
 
 				return deferred1.promise;
-  	};
-
-    factory.getMenoresCuadro2 = function()
-  	{
- 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_2).then(result, error);
-
-				function result(result)
-				{
-        		deferred2.resolve(result.data);
-        };
-
-        function error(error)
-        {
-          deferred2.reject(error)
-        };
-
-				return deferred2.promise;
   	};
 
     factory.getMenoresCuadro3 = function()

@@ -27,16 +27,6 @@ function configuration($stateProvider, $urlRouterProvider)
                         {
                           templateUrl:'app/views/templates/header.html'
                         },
-                        'exampleView@main':
-                        {
-                            templateUrl:'app/views/main/exampleView.html',
-                            controller:'exampleController'
-                        },
-                        'infoView@main':
-                        {
-                            templateUrl:'app/views/main/infoView.html',
-                            controller:'infoController'
-                        },
                         'horizontalBarChart1View@main':
                         {
                             templateUrl:'app/views/main/horizontalBarChart1View.html',
