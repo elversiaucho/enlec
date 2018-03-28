@@ -7,7 +7,10 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 var constantes = {
+                    ID_UBICACION_TOTAL_NACIONAL:111,
                     ID_UBICACION_32_CIUDADES:114,
+                    ID_TEMA_ACTIVIDADES_MENORES:4,                    
+                    ID_VALOR_INICIAL:0,
                     FALSE:false,
                     NULL:null,
                     ID_NO_CIUDAD:0
