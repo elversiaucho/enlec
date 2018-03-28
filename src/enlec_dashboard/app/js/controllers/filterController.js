@@ -7,9 +7,9 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 app_enlec.controller('filterController', filterController);
-filterController.$inject= ['$rootScope', '$scope', '$http', 'lecturaService', 'menoresService'];
+filterController.$inject= ['$rootScope', '$scope', '$http', 'lecturaService', 'menoresService', 'CONS'];
 
-function filterController($rootScope, $scope, $http, lecturaService, menoresService)
+function filterController($rootScope, $scope, $http, lecturaService, menoresService, CONS)
 {
 	  ///////////////////////////////////////////////////////////////////////////////
 		//Definición de variables
@@ -108,7 +108,7 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
  		{
 			  var filtro;
 
-				if(idUbicacion == 114)
+				if(idUbicacion == CONS.ID_UBICACION_32_CIUDADES)
 				{
 	 				var items = [];
 

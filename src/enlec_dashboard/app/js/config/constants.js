@@ -6,7 +6,9 @@
     * date: 28/03/2018
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
-var constantes = {};
+var constantes = {
+                    ID_UBICACION_32_CIUDADES:114                  
+                 };
 
 //Definición de constantes
 app_enlec.constant('CONS', constantes);

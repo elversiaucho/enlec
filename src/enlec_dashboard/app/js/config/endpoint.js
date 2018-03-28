@@ -49,7 +49,7 @@ var endpoint = {
                   MENORES_CUADRO_1_2:'app/models/json/menores/dataMenores_1_2.json',
                   MENORES_CUADRO_3_4:'app/models/json/menores/dataMenores_3_4.json',
                   MENORES_CUADRO_5_6:'app/models/json/menores/dataMenores_5_6.json',
-                  MENORES_CUADRO_7_8:'app/models/json/menores/dataMenores_7_8.json',
+                  MENORES_CUADRO_7_8:'app/models/json/menores/dataMenores_7_8.json'
                 };
 
 //Definición de constantes
