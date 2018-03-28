@@ -83,6 +83,9 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 									"idCiudad":$scope.objCiudad.idCiudad};
 
 	 			$scope.getMenoresCuadro_1_2(filtro);
+				$scope.getMenoresCuadro_3_4(filtro);
+				$scope.getMenoresCuadro_5_6(filtro);
+				$scope.getMenoresCuadro_7_8(filtro);
  		};
 
  		$scope.changeCiudad = function changeCiudad(idCiudad)
@@ -95,11 +98,14 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 									"idCiudad":idCiudad};
 
  				$scope.getMenoresCuadro_1_2(filtro);
+				$scope.getMenoresCuadro_3_4(filtro);
+				$scope.getMenoresCuadro_5_6(filtro);
+				$scope.getMenoresCuadro_7_8(filtro);
  	  };
 
 		$scope.getMenoresCuadro_1_2 = function getMenoresCuadro_1_2(filtro)
 		{
-				var items1 = [];
+				var items = [];
 
 				menoresService.getMenoresCuadro_1_2().then(success, error);
 
@@ -115,26 +121,94 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 								{
 										angular.forEach(d.values, function(d,i)
 										{
-												items1.push(d);
+												items.push(d);
 										});
 							  }
 					 });
 
-					$rootScope.dataMenores_1_2_List = items1;
+					$rootScope.dataMenores_1_2_List = items;
 			}
 		};
 
 		$scope.getMenoresCuadro_3_4 = function getMenoresCuadro_3_4(filtro)
 		{
+				var items = [];
 
+				menoresService.getMenoresCuadro_3_4().then(success, error);
+
+				//Obtener data
+				function success(data)
+				{
+						angular.forEach(data, function(d, i)
+						{
+								if(d.idTema == filtro.idTema
+									  && d.idRangoEdad == filtro.idRangoEdad
+										    && d.idUbicacion == filtro.idUbicacion
+												   && d.idCiudad == filtro.idCiudad)
+								{
+										angular.forEach(d.values, function(d,i)
+										{
+												items.push(d);
+										});
+							  }
+					 });
+
+					$rootScope.dataMenores_3_4_List = items;
+			}
 		};
 
 		$scope.getMenoresCuadro_5_6 = function getMenoresCuadro_5_6(filtro)
 		{
+				var items = [];
+
+				menoresService.getMenoresCuadro_5_6().then(success, error);
+
+				//Obtener data
+				function success(data)
+				{
+						angular.forEach(data, function(d, i)
+						{
+								if(d.idTema == filtro.idTema
+										&& d.idRangoEdad == filtro.idRangoEdad
+												&& d.idUbicacion == filtro.idUbicacion
+													 && d.idCiudad == filtro.idCiudad)
+								{
+										angular.forEach(d.values, function(d,i)
+										{
+												items.push(d);
+										});
+								}
+					 });
+
+					$rootScope.dataMenores_5_6_List = items;
+			}
 		};
 
 		$scope.getMenoresCuadro_7_8 = function getMenoresCuadro_7_8(filtro)
 		{
+				var items = [];
+
+				menoresService.getMenoresCuadro_7_8().then(success, error);
+
+				//Obtener data
+				function success(data)
+				{
+						angular.forEach(data, function(d, i)
+						{
+								if(d.idTema == filtro.idTema
+										&& d.idRangoEdad == filtro.idRangoEdad
+												&& d.idUbicacion == filtro.idUbicacion
+													 && d.idCiudad == filtro.idCiudad)
+								{
+										angular.forEach(d.values, function(d,i)
+										{
+												items.push(d);
+										});
+								}
+					 });
+
+					$rootScope.dataMenores_7_8_List = items;
+			}
 		};
 
 		//Mensaje de error
