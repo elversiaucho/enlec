@@ -120,7 +120,7 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 							  }
 					 });
 
-					$rootScope.dataBar1List = items1;
+					$rootScope.dataMenores_1_2_List = items1;
 			}
 		};
 
