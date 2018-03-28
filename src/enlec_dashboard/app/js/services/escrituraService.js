@@ -7,9 +7,9 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 app_enlec.factory('escrituraService', escrituraService);
-escrituraService.$inject = ['$http', '$q', 'CONFIG'];
+escrituraService.$inject = ['$http', '$q', 'ENDPOINT'];
 
-function escrituraService($http, $q, CONFIG)
+function escrituraService($http, $q, ENDPOINT)
 {
 		var factory = {};
 		var deferred1 = $q.defer();

@@ -1,22 +1,30 @@
+/**
+    * file: horizontalBarChart.scss
+    * description: Estilo directiva horizontal-bar-Chart
+    * author: Martha Janneth Jiménez Barreto
+    * version: 1.0.0
+    * date: 28/03/2018
+    * company: Departamento Administrativo Nacional de Estadística - DANE
+**/
 @charset "UTF-8";
 /*------------Fonts--------------*/
 @font-face {
   font-family: 'Open Sans';
   src: url('../fonts/Open_Sans/OpenSans-Regular.eot'); /* IE9 Compat Modes */
-  src: local('Open Sans'), local('Open Sans'), 
+  src: local('Open Sans'), local('Open Sans'),
        url('../../../bower_components/google-open-sans/open-sans/regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('../../../bower_components/google-open-sans/open-sans/regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('../../../bower_components/google-open-sans/open-sans/regular.woff') format('woff'), /* Pretty Modern Browsers */
        url('../../../bower_components/google-open-sans/open-sans/regular.ttf')  format('truetype'); /* Safari, Android, iOS */
  font-style: normal;
  font-weight: 400;
-} 
+}
 
 @font-face {
 font-family: 'Roboto Slab';
 src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
      url('../../../bower_components/roboto-slab-fontface-bower/fonts/RobotoSlab-Regular.woff') format('woff'),
-	 url('../../../bower_components/roboto-slab-fontface-bower/fonts/Roboto_Slab-Regular.ttf') format('truetype'); 
+	 url('../../../bower_components/roboto-slab-fontface-bower/fonts/Roboto_Slab-Regular.ttf') format('truetype');
 font-style: normal;
 font-weight: 400;
 }
@@ -61,9 +69,9 @@ body {
   text-align: right;
   font-family: 'Roboto Slab';
   font-size: 2em;
-  color: #631028; 
+  color: #631028;
   }
-} 
+}
 .fecha_dane{
   font-family: 'Open Sans';
   font-size: 14px;
@@ -152,7 +160,7 @@ body {
   .text-info_dane p, .text-info_dane ul li p a{
     font-size: 11.5px;
   }
-  .col-border{    
+  .col-border{
     padding: 0 15px;
   }
 
@@ -416,13 +424,13 @@ margin: 10px 0 0 0;
 }
 a{
     color:#70706F;
-    text-decoration:none; 
+    text-decoration:none;
     font-size: 0.9em;
 }
 a:hover, a:focus{
     color:#8D143E;
     cursor: pointer;
-    text-decoration:none; 
+    text-decoration:none;
 }
 a .fa{
     margin:0 10px 0 10px;
@@ -432,11 +440,11 @@ a .fa{
 
 }
 @media (max-width: 992px) {
-   
+
 
 }
 @media (max-width: 767px) {
-   
+
 }
 
 @media (max-width: 495px){
@@ -463,21 +471,21 @@ a .fa{
     font-size: 1.5em;
   }
 }
- 
+
 
 .btn_callapse{
-background: #8d143d;	
-outline: none;	
+background: #8d143d;
+outline: none;
 color: white;
 border-color: #8d143d;
 border-bottom: none;
 border-top-color: #8d143d;
-	
+
 }
 
 
 .position_logo{
-display: flex;	
+display: flex;
  display: -webkit-flex;
   display:         flex;
   -webkit-align-items: center;
@@ -486,7 +494,7 @@ display: flex;
           justify-content: center;
 }
 
-	
+
 
 
 /**Filtros encabezado**/
@@ -500,7 +508,7 @@ display: flex;
 	margin-bottom: 2px;
 }
 .contenedor-filtros .form-control{
-	height: 30px;	
+	height: 30px;
 	padding: 0 5px;
 }
 .contenedor-filtros .btn-default{
@@ -544,13 +552,13 @@ display: flex;
 border-bottom: 1px solid #b0b1b0;
 	padding-bottom: 20px;
 	margin-bottom: 40px;
-	display: block;	
+	display: block;
 }
 .contenedor-grupo-datos:last-child {
 border-bottom: 0px;
 	padding-bottom: 20px;
 	margin-bottom: 40px;
-	display: block;	
+	display: block;
 }
 .contenedor-porcentaje{
   margin-bottom: 35px;
@@ -629,7 +637,7 @@ border-bottom: 0px;
    padding: 1px 1px 0px 8px;
    border: 1px solid #e0e0e0;
 }
-	
+
 .nota-informativa:before {
     content: "";
     position: absolute;
@@ -651,9 +659,9 @@ border-bottom: 0px;
 	font-size: 0.8em;
 }
 .disabled{
-	
-}	
-	
+
+}
+
 
 /**Visualización gráfica en Mobile**/
 .tabla-datos-mobile{

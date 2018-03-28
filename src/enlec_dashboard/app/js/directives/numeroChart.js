@@ -47,8 +47,6 @@ var linkNumeroChart = function($scope, $element, $attrs)
 							}
 					 ];
 
-
-
 		var divPrincipal = d3.select($element[0])
 		    										.selectAll('divPrincipal')
 		    												.data(data).enter()
@@ -81,7 +79,6 @@ var linkNumeroChart = function($scope, $element, $attrs)
 									  .append("span")
 											 .text(function(d) { return d.ubicacion });
 
-
 						div1.selectAll('p1')
 								.data(data).enter()
 									.append("p")
@@ -89,14 +86,10 @@ var linkNumeroChart = function($scope, $element, $attrs)
 								  .append("span")
 										.text(function(d) { return data[0].values[0].valueMiles + " miles" }); //42.326 (miles)
 
-
-
 	var div2 = divPrincipal.selectAll('div2')
 								.data(data).enter()
 						  		 .append('div')
 											.attr("class","row");
-
-
 
 	var div2_1	=	div2.selectAll('div2_1')
 							  	 .data(data).enter()
@@ -110,18 +103,12 @@ var linkNumeroChart = function($scope, $element, $attrs)
 									  .append("span")
 											.text(function(d) { return data[0].values[1].valuePorcentaje + " %"}); //30,4 %
 
-
-
 							div2_1.selectAll('p')
 								 	.data(data).enter()
 										.append("p")
 											.attr("class", "titulo-detalle-valor-general")
 										.append("span")
 										  .text(function(d) { return data[0].values[1].key }); //MUJERES
-
-
-
-
 
 							 div2_1.selectAll('p1')
 									 .data(data).enter()
@@ -130,13 +117,10 @@ var linkNumeroChart = function($scope, $element, $attrs)
 											.append("span")
 												.text(function(d) { return data[0].values[1].valueMiles + " (miles)" }); //20.000 (miles)
 
-
  var div2_2	=	div2.selectAll('div2_2')
 								.data(data).enter()
 						  		.append('div')
 										.attr("class","col-xs-6 col-md-6 col-lg-6");
-
-
 
 				  div2_2.selectAll('h3')
 								.data(data).enter()
@@ -145,14 +129,12 @@ var linkNumeroChart = function($scope, $element, $attrs)
 								 .append("span")
 										.text(function(d) { return data[0].values[2].valuePorcentaje + " %"}); //40,0 %
 
-
 					  div2_2.selectAll('p')
 							  		.data(data).enter()
 											.append("p")
 												.attr("class", "titulo-detalle-valor-general")
 								 		  .append("span")
 											 .text(function(d) { return data[0].values[2].key }); //"HOMBRES"
-
 
 						div2_2.selectAll('p1')
 								 .data(data).enter()
