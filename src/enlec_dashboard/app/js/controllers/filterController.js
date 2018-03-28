@@ -16,6 +16,7 @@ function filterController($rootScope, $scope, $http, lecturaService, menoresServ
 		$scope.digital = "Digital";
 		$scope.mensaje = "Filter View";
 
+
 ///////////////////////////////////////////////////////////////////////////////
 //Filtros
 $scope.objTema = {};
@@ -182,6 +183,7 @@ $scope.objCiudad.isCiudad = false;
  };
 
 		$scope.getMenoresCuadro1 = function getMenoresCuadro1(filtro)
+
 		{
 				var items1 = [];
 

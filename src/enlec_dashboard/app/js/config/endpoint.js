@@ -12,6 +12,10 @@ var constantes = {
                     ENDPOINT_LECTURA_1:'app/models/json/lectura/data1.json',
                     ENDPOINT_LECTURA_2:'app/models/json/lectura/data2.json',
                     ENDPOINT_LECTURA_3:'app/models/json/lectura/data3.json',
+
+                    
+                    ENDPOINT_LECTURA_C1:'app/models/json/lectura/LecturaC1.json'
+
                     ENDPOINT_LECTURA_CUADRO_1:'app/models/json/lectura/lectura_cuadro_1.json',
                     ENDPOINT_LECTURA_CUADRO_2:'app/models/json/lectura/lectura_cuadro_2.json',
                     ENDPOINT_LECTURA_CUADRO_3:'app/models/json/lectura/lectura_cuadro_3.json',
@@ -54,6 +58,7 @@ var constantes = {
                     ENDPOINT_MENORES_CUADRO_6:'app/models/json/menores/menores_cuadro_6.json',
                     ENDPOINT_MENORES_CUADRO_7:'app/models/json/menores/menores_cuadro_7.json',
                     ENDPOINT_MENORES_CUADRO_8:'app/models/json/menores/menores_cuadro_8.json'
+
                  };
 
 //Definición de constantes
