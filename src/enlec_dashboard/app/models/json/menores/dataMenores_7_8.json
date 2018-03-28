@@ -1137,12 +1137,12 @@
       }
     ],
     "Si visitó": {
-      "value": 12,
-      "porcentaje": 57.3
+      "value": 2,
+      "porcentaje": 10.2
     },
     "No visitó": {
-      "value": 9,
-      "porcentaje": 42.7
+      "value": 19,
+      "porcentaje": 89.8
     }
   },
   {
@@ -1160,8 +1160,8 @@
         "data": [
           {
             "key": "Manizales",
-            "value": 16,
-            "percentage": 73.7
+            "value": 3,
+            "percentage": 14.0
           }
         ]
       },
@@ -1170,19 +1170,19 @@
         "data": [
           {
             "key": "Manizales",
-            "value": 6,
-            "percentage": 26.3
+            "value": 18,
+            "percentage": 86.0
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 16,
-      "porcentaje": 73.7
+      "value": 3,
+      "porcentaje": 14.0
     },
     "No visitó": {
-      "value": 6,
-      "porcentaje": 26.3
+      "value": 18,
+      "porcentaje": 86.0
     }
   },
   {
@@ -1200,8 +1200,8 @@
         "data": [
           {
             "key": "Pereira",
-            "value": 16,
-            "percentage": 72.7
+            "value": 2,
+            "percentage": 6.8
           }
         ]
       },
@@ -1210,19 +1210,19 @@
         "data": [
           {
             "key": "Pereira",
-            "value": 6,
-            "percentage": 27.3
+            "value": 21,
+            "percentage": 93.2
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 16,
-      "porcentaje": 72.7
+      "value": 2,
+      "porcentaje": 6.8
     },
     "No visitó": {
-      "value": 6,
-      "porcentaje": 27.3
+      "value": 21,
+      "porcentaje": 93.2
     }
   },
   {
@@ -1240,8 +1240,8 @@
         "data": [
           {
             "key": "Ibagué",
-            "value": 22,
-            "percentage": 64.8
+            "value": 4,
+            "percentage": 10.4
           }
         ]
       },
@@ -1250,19 +1250,19 @@
         "data": [
           {
             "key": "Ibagué",
-            "value": 12,
-            "percentage": 35.2
+            "value": 31,
+            "percentage": 89.6
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 22,
-      "porcentaje": 64.8
+      "value": 4,
+      "porcentaje": 10.4
     },
     "No visitó": {
-      "value": 12,
-      "porcentaje": 35.2
+      "value": 31,
+      "porcentaje": 89.6
     }
   },
   {
@@ -1280,8 +1280,8 @@
         "data": [
           {
             "key": "Quibdó",
-            "value": 6,
-            "percentage": 40.8
+            "value": 0,
+            "percentage": 0.7
           }
         ]
       },
@@ -1290,19 +1290,19 @@
         "data": [
           {
             "key": "Quibdó",
-            "value": 8,
-            "percentage": 59.2
+            "value": 14,
+            "percentage": 99.3
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 6,
-      "porcentaje": 40.8
+      "value": 0,
+      "porcentaje": 0.7
     },
     "No visitó": {
-      "value": 8,
-      "porcentaje": 59.2
+      "value": 14,
+      "porcentaje": 99.3
     }
   },
   {
@@ -1320,8 +1320,8 @@
         "data": [
           {
             "key": "Medellín",
-            "value": 78,
-            "percentage": 63.8
+            "value": 18,
+            "percentage": 14.6
           }
         ]
       },
@@ -1330,19 +1330,19 @@
         "data": [
           {
             "key": "Medellín",
-            "value": 44,
-            "percentage": 36.2
+            "value": 105,
+            "percentage": 85.4
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 78,
-      "porcentaje": 63.8
+      "value": 18,
+      "porcentaje": 14.6
     },
     "No visitó": {
-      "value": 44,
-      "porcentaje": 36.2
+      "value": 105,
+      "porcentaje": 85.4
     }
   },
   {
@@ -1360,8 +1360,8 @@
         "data": [
           {
             "key": "Popayán",
-            "value": 10,
-            "percentage": 61.3
+            "value": 1,
+            "percentage": 7.8
           }
         ]
       },
@@ -1370,19 +1370,19 @@
         "data": [
           {
             "key": "Popayán",
-            "value": 6,
-            "percentage": 38.7
+            "value": 14,
+            "percentage": 92.2
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 10,
-      "porcentaje": 61.3
+      "value": 1,
+      "porcentaje": 7.8
     },
     "No visitó": {
-      "value": 6,
-      "porcentaje": 38.7
+      "value": 14,
+      "porcentaje": 92.2
     }
   },
   {
@@ -1400,8 +1400,8 @@
         "data": [
           {
             "key": "Pasto",
-            "value": 17,
-            "percentage": 72.4
+            "value": 3,
+            "percentage": 13.8
           }
         ]
       },
@@ -1410,19 +1410,19 @@
         "data": [
           {
             "key": "Pasto",
-            "value": 7,
-            "percentage": 27.6
+            "value": 21,
+            "percentage": 86.2
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 17,
-      "porcentaje": 72.4
+      "value": 3,
+      "porcentaje": 13.8
     },
     "No visitó": {
-      "value": 7,
-      "porcentaje": 27.6
+      "value": 21,
+      "porcentaje": 86.2
     }
   },
   {
@@ -1440,8 +1440,8 @@
         "data": [
           {
             "key": "Cali",
-            "value": 112,
-            "percentage": 67.0
+            "value": 21,
+            "percentage": 12.5
           }
         ]
       },
@@ -1450,19 +1450,19 @@
         "data": [
           {
             "key": "Cali",
-            "value": 55,
-            "percentage": 33.0
+            "value": 147,
+            "percentage": 87.5
           }
         ]
       }
     ],
     "Si visitó": {
-      "value": 112,
-      "porcentaje": 67.0
+      "value": 21,
+      "porcentaje": 12.5
     },
     "No visitó": {
-      "value": 55,
-      "porcentaje": 33.0
+      "value": 147,
+      "porcentaje": 87.5
     }
   }
 ]

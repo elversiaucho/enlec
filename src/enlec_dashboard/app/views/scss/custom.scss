@@ -518,7 +518,7 @@ display: flex;
 	vertical-align: middle;
 	}
 .boton-descargar{
-	margin-top: 10px !important;
+	margin-top: 14px !important;
 	    width: min-content;
 }
 .contenedor-boton-1{
@@ -537,6 +537,27 @@ display: flex;
 }
 .btn-group{
 	    width: max-content;
+}
+.rango-edad {
+	margin-right: -30px;
+	margin-left: 10px;
+}
+.filtro-ciudad{
+	margin-right: -30px;
+    margin-left: 50px;
+}
+
+@media(max-width:995px){
+	.filtro-ciudad{
+    margin-left: 0px;
+}
+	.contenedor-boton-1 {
+    margin-left: 0px;
+}
+	.rango-edad {
+    margin-right:0px;
+    margin-left: 0px;
+}
 }
 
 /**contenido general**/
@@ -690,7 +711,7 @@ border-bottom: 0px;
 
 @media (max-width: 1184px){
 	.contenedor-boton-1{
-		    margin-left: -10px;
+		    margin-left: 5px;
 	}
 }
 @media(max-width: 992px){
