@@ -7,11 +7,7 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 var constantes = {
-                    ENDPOINT_EXAMPLE_1:'app/models/json/example/data1.json',
-                    ENDPOINT_INFO_1:'app/models/json/info/data1.json',
-                    ENDPOINT_LECTURA_1:'app/models/json/lectura/data1.json',
-                    ENDPOINT_LECTURA_2:'app/models/json/lectura/data2.json',
-                    ENDPOINT_LECTURA_3:'app/models/json/lectura/data3.json',
+                    //Tema Lectura
                     ENDPOINT_LECTURA_CUADRO_1:'app/models/json/lectura/lectura_cuadro_1.json',
                     ENDPOINT_LECTURA_CUADRO_2:'app/models/json/lectura/lectura_cuadro_2.json',
                     ENDPOINT_LECTURA_CUADRO_3:'app/models/json/lectura/lectura_cuadro_3.json',
@@ -30,6 +26,7 @@ var constantes = {
                     ENDPOINT_LECTURA_CUADRO_16:'app/models/json/lectura/lectura_cuadro_16.json',
                     ENDPOINT_LECTURA_CUADRO_17:'app/models/json/lectura/lectura_cuadro_17.json',
                     ENDPOINT_LECTURA_CUADRO_18:'app/models/json/lectura/lectura_cuadro_18.json',
+                    //Tema Escritura
                     ENDPOINT_ESCRITURA_CUADRO_1:'app/models/json/escritura/escritura_cuadro_1.json',
                     ENDPOINT_ESCRITURA_CUADRO_2:'app/models/json/escritura/escritura_cuadro_2.json',
                     ENDPOINT_ESCRITURA_CUADRO_3:'app/models/json/escritura/escritura_cuadro_3.json',
@@ -38,6 +35,7 @@ var constantes = {
                     ENDPOINT_ESCRITURA_CUADRO_6:'app/models/json/escritura/escritura_cuadro_6.json',
                     ENDPOINT_ESCRITURA_CUADRO_7:'app/models/json/escritura/escritura_cuadro_7.json',
                     ENDPOINT_ESCRITURA_CUADRO_8:'app/models/json/escritura/escritura_cuadro_8.json',
+                    //Tema Asistencia a bibliotecas
                     ENDPOINT_BIBLIOTECA_CUADRO_1:'app/models/json/biblioteca/biblioteca_cuadro_1.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_2:'app/models/json/biblioteca/biblioteca_cuadro_2.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_3:'app/models/json/biblioteca/biblioteca_cuadro_3.json',
@@ -46,7 +44,8 @@ var constantes = {
                     ENDPOINT_BIBLIOTECA_CUADRO_6:'app/models/json/biblioteca/biblioteca_cuadro_6.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_7:'app/models/json/biblioteca/biblioteca_cuadro_7.json',
                     ENDPOINT_BIBLIOTECA_CUADRO_8:'app/models/json/biblioteca/biblioteca_cuadro_8.json',
-                    ENDPOINT_MENORES_CUADRO_1_2:'app/models/json/menores/dataMenores_1_2.json',                    
+                    //Tema Actividades con menores de 5 años
+                    ENDPOINT_MENORES_CUADRO_1_2:'app/models/json/menores/dataMenores_1_2.json',
                     ENDPOINT_MENORES_CUADRO_3:'app/models/json/menores/menores_cuadro_3.json',
                     ENDPOINT_MENORES_CUADRO_4:'app/models/json/menores/menores_cuadro_4.json',
                     ENDPOINT_MENORES_CUADRO_5:'app/models/json/menores/menores_cuadro_5.json',

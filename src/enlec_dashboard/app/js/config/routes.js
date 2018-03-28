@@ -20,8 +20,7 @@ function configuration($stateProvider, $urlRouterProvider)
                 {
                     '':
                         {
-                            templateUrl:'app/views/main.html',
-                            controller:'mainController'
+                            templateUrl:'app/views/main.html'
                         },
                         'header@main':
                         {
@@ -29,33 +28,27 @@ function configuration($stateProvider, $urlRouterProvider)
                         },
                         'horizontalBarChart1View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart1View.html',
-                            controller:'horizontalBarController'
+                            templateUrl:'app/views/main/horizontalBarChart1View.html'
                         },
                         'horizontalBarChart3View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart3View.html',
-                            controller:'horizontalBarController'
+                            templateUrl:'app/views/main/horizontalBarChart3View.html'
                         },
                         'horizontalBarChart5View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart5View.html',
-                            controller:'horizontalBarController'
+                            templateUrl:'app/views/main/horizontalBarChart5View.html'
                         },
                         'horizontalBarChart7View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart7View.html',
-                            controller:'horizontalBarController'
+                            templateUrl:'app/views/main/horizontalBarChart7View.html'
                         },
                         'circularChart1View@main':
                         {
-                            templateUrl:'app/views/main/circularChart1View.html',
-                            controller:'circularController'
+                            templateUrl:'app/views/main/circularChart1View.html'
                         },
                         'numeroChart1View@main':
                         {
-                            templateUrl:'app/views/main/numeroChart1View.html',
-                            controller:'numeroController'
+                            templateUrl:'app/views/main/numeroChart1View.html'
                         },
                         'filterView@main':
                         {
