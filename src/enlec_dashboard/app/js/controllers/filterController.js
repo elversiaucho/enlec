@@ -42,7 +42,7 @@ $scope.objUbicacion.ubicacionList = [
 $scope.objCiudad = {};
 	 $scope.objCiudad.idCiudad = 0;
 ///////////////////////////////////////////////////////////////////////////////
-
+$scope.objCiudad.isCiudad = false;
 
 
  $scope.changeTema = function changeTema(idTema)
@@ -137,11 +137,17 @@ if(idUbicacion == 114)
 
 			 items.push(d);
 		 }
-	 })
+	 });
 
 	 $scope.objCiudad.idCiudad = items[0].idCiudad;
 $scope.objCiudad.ciudadList = items;
+$scope.objCiudad.isCiudad = true;
 
+}
+else {
+	$scope.objCiudad.idCiudad = 0;
+$scope.objCiudad.ciudadList = null;
+$scope.objCiudad.isCiudad = false;
 }
 
 
@@ -149,10 +155,8 @@ $scope.objCiudad.ciudadList = items;
 	 var filtro = {"idTema":$scope.objTema.idTema, "idRangoEdad":$scope.objRangoEdad.idRangoEdad, "idUbicacion":$scope.objUbicacion.idUbicacion, "idCiudad":$scope.objCiudad.idCiudad};
 
 
-if(filtro.idCiudad == 0)
-{
 	 $scope.getMenoresCuadro1(filtro);
- }
+
 	 //$scope.getMenoresCuadro3(filtro);
 	 //$scope.getMenoresCuadro5(filtro);
 	 //$scope.getMenoresCuadro7(filtro);

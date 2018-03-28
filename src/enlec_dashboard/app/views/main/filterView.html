@@ -29,8 +29,9 @@
         </div>
 
         <div class="col-xs-12 col-md-2 col-lg-2">
-          <h6>CIUDAD</h6>
+          <h6 ng-show="objCiudad.isCiudad">CIUDAD</h6>
           <select ng-model="objCiudad.idCiudad"
+                  ng-show="objCiudad.isCiudad"
                   ng-options="x.idCiudad as x.nameCiudad for x in objCiudad.ciudadList"
                   ng-change="changeCiudad(objCiudad.idCiudad)">
           </select>
