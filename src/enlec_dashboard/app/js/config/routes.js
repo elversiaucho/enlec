@@ -42,9 +42,19 @@ function configuration($stateProvider, $urlRouterProvider)
                             templateUrl:'app/views/main/horizontalBarChart1View.html',
                             controller:'horizontalBarController'
                         },
-                        'horizontalBarChart2View@main':
+                        'horizontalBarChart3View@main':
                         {
-                            templateUrl:'app/views/main/horizontalBarChart2View.html',
+                            templateUrl:'app/views/main/horizontalBarChart3View.html',
+                            controller:'horizontalBarController'
+                        },
+                        'horizontalBarChart5View@main':
+                        {
+                            templateUrl:'app/views/main/horizontalBarChart5View.html',
+                            controller:'horizontalBarController'
+                        },
+                        'horizontalBarChart7View@main':
+                        {
+                            templateUrl:'app/views/main/horizontalBarChart7View.html',
                             controller:'horizontalBarController'
                         },
                         'circularChart1View@main':

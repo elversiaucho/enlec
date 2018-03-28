@@ -1,0 +1,1221 @@
+[
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 111,
+    "nameUbicacion": "Total nacional",
+    "idCiudad": 0,
+    "nameCiudad": null,
+
+"values":[
+  {
+    "categorie":"Sí le gusta",
+    "data":[
+          {"key":"hombres", "value":1214, "percentage":58.2},
+                {"key":"mujeres", "value":1238, "percentage":62.7}
+             ]
+    },
+    {
+          "categorie":"No le gusta",
+    "data":[
+          {"key":"hombres", "value":872, "percentage":41.8},
+                {"key":"mujeres", "value":737, "percentage":37.3}
+             ]
+  }
+],
+    "SiLeGusta": {
+      "hombres": {
+        "value": 1214,
+        "porcentaje": 58.2
+      },
+      "mujeres": {
+        "value": 1238,
+        "porcentaje": 62.7
+      }
+    },
+    "NoLeGusta": {
+      "hombres": {
+        "value": 872,
+        "porcentaje": 41.8
+      },
+      "mujeres": {
+        "value": 737,
+        "porcentaje": 37.3
+      }
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 112,
+    "nameUbicacion": "Cabeceras",
+    "idCiudad": 0,
+    "nameCiudad": null,
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"hombres", "value":933, "percentage":62.8},
+                    {"key":"mujeres", "value":923, "percentage":63.9}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"hombres", "value":552, "percentage":37.2},
+                    {"key":"mujeres", "value":521, "percentage":36.1}
+                 ]
+      }
+    ],
+    "Si le gusta": {
+      "hombres": {
+        "value": 933,
+        "porcentaje": 62.8
+      },
+      "mujeres": {
+        "value": 923,
+        "porcentaje": 63.9
+      }
+    },
+    "No le gusta": {
+      "hombres": {
+        "value": 552,
+        "porcentaje": 37.2
+      },
+      "mujeres": {
+        "value": 521,
+        "porcentaje": 36.1
+      }
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 113,
+    "nameUbicacion": "Centros poblados y rural disperso",
+    "idCiudad": 0,
+    "nameCiudad": null,
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"hombres", "value":281, "percentage":46.7},
+                    {"key":"mujeres", "value":315, "percentage":59.4}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"hombres", "value":320, "percentage":53.3},
+                    {"key":"mujeres", "value":216, "percentage":40.6}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "hombres": {
+        "value": 281,
+        "porcentaje": 46.7
+      },
+      "mujeres": {
+        "value": 315,
+        "porcentaje": 59.4
+      }
+    },
+    "No le gusta": {
+      "hombres": {
+        "value": 320,
+        "porcentaje": 53.3
+      },
+      "mujeres": {
+        "value": 216,
+        "porcentaje": 40.6
+      }
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 97001,
+    "nameCiudad": "Mitú",
+
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Mitú", "value":1, "percentage":56.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Mitú", "value":1, "percentage":43.3}
+                 ]
+      }
+    ],
+
+
+    "Si le gusta": {
+      "value": 1,
+      "porcentaje": 56.7
+    },
+    "No le gusta": {
+      "value": 1,
+      "porcentaje": 43.3
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 99001,
+    "nameCiudad": "Puerto Carreño",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Puerto Carreño", "value":1, "percentage":48.3}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Puerto Carreño", "value":1, "percentage":51.7}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 1,
+      "porcentaje": 48.3
+    },
+    "No le gusta": {
+      "value": 1,
+      "porcentaje": 51.7
+    }
+  },
+
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad":94001 ,
+    "nameCiudad": "Inírida",
+
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Inírida", "value":1, "percentage":47.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Inírida", "value":1, "percentage":52.3}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 1,
+      "porcentaje": 47.7
+    },
+    "No le gusta": {
+      "value": 1,
+      "porcentaje": 52.3
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 91001,
+    "nameCiudad": "Leticia",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Leticia", "value":2, "percentage":51.4}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Leticia", "value":1, "percentage":48.6}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 2,
+      "porcentaje": 51.4
+    },
+    "No le gusta": {
+      "value": 1,
+      "porcentaje": 48.6
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 95001,
+    "nameCiudad": "San José del Guaviare",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"San José del Guaviare", "value":3, "percentage":52.6}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"San José del Guaviare", "value":3, "percentage":47.4}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 3,
+      "porcentaje": 52.6
+    },
+    "No le gusta": {
+      "value": 3,
+      "porcentaje": 47.4
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 86001,
+    "nameCiudad": "Mocoa",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Mocoa", "value":2, "percentage":51.5}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Mocoa", "value":2, "percentage":48.5}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 2,
+      "porcentaje": 51.5
+    },
+    "No le gusta": {
+      "value": 2,
+      "porcentaje": 48.5
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 81001,
+    "nameCiudad": "Arauca",
+    "Si le gusta": {
+      "value": 5,
+      "porcentaje": 63.0
+    },
+    "No le gusta": {
+      "value": 3,
+      "porcentaje": 37.0
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 85001,
+    "nameCiudad": "Yopal",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Yopal", "value":7, "percentage":58.8}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Yopal", "value":5, "percentage":41.2}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 7,
+      "porcentaje": 58.8
+    },
+    "No le gusta": {
+      "value": 5,
+      "porcentaje": 41.2
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 44001,
+    "nameCiudad": "Riohacha",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Riohacha", "value":13, "percentage":43.8}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Riohacha", "value":16, "percentage":56.2}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 13,
+      "porcentaje": 43.8
+    },
+    "No le gusta": {
+      "value": 16,
+      "porcentaje": 56.2
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 70001,
+    "nameCiudad": "Sincelejo",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Sincelejo", "value":12, "percentage":60.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Sincelejo", "value":8, "percentage":39.3}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 12,
+      "porcentaje": 60.7
+    },
+    "No le gusta": {
+      "value": 8,
+      "porcentaje": 39.3
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad":23001 ,
+    "nameCiudad": "Montería",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Montería", "value":21, "percentage":69.2}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Montería", "value":9, "percentage":30.8}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 21,
+      "porcentaje": 69.2
+    },
+    "No le gusta": {
+      "value": 9,
+      "porcentaje": 30.8
+    }
+ },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 20001,
+    "nameCiudad": "Valledupar",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Valledupar", "value":17, "percentage":45.6}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Valledupar", "value":20, "percentage":54.4}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 17,
+      "porcentaje": 45.6
+    },
+    "No le gusta": {
+      "value": 20,
+      "porcentaje": 54.4
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 47001,
+    "nameCiudad": "Santa Marta",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Santa Marta", "value":26, "percentage":64.2}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Santa Marta", "value":15, "percentage":35.8}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 26,
+      "porcentaje": 64.2
+    },
+    "No le gusta": {
+      "value": 15,
+      "porcentaje": 35.8
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 13001,
+    "nameCiudad": "Cartagena",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Cartagena", "value":39, "percentage":50.5}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Cartagena", "value":39, "percentage":49.5}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 39,
+      "porcentaje": 50.5
+    },
+    "No le gusta": {
+      "value": 39,
+      "porcentaje": 49.5
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 8001,
+    "nameCiudad": "Barranquilla",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Barranquilla", "value":71, "percentage":77.9}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Barranquilla", "value":20, "percentage":22.1}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 71,
+      "porcentaje": 77.9
+    },
+    "No le gusta": {
+      "value": 20,
+      "porcentaje": 22.1
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 15001,
+    "nameCiudad": "Tunja",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Tunja", "value":9, "percentage":69.9}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Tunja", "value":4, "percentage":30.1}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 9,
+      "porcentaje": 69.9
+    },
+    "No le gusta": {
+      "value": 4,
+      "porcentaje": 30.1
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 50001,
+    "nameCiudad": "Villavicencio",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Villavicencio", "value":22, "percentage":54.9}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Villavicencio", "value":18, "percentage":45.1}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 22,
+      "porcentaje": 54.9
+    },
+    "No le gusta": {
+      "value": 18,
+      "porcentaje": 45.1
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 68001,
+    "nameCiudad": "Bucaramanga",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Bucaramanga", "value":20, "percentage":56.5}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Bucaramanga", "value":16, "percentage":43.5}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 20,
+      "porcentaje": 56.5
+    },
+    "No le gusta": {
+      "value": 16,
+      "porcentaje": 43.5
+    }
+  },
+  {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad":54001 ,
+    "nameCiudad": "Cúcuta",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Cúcuta", "value":27, "percentage":50.2}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Cúcuta", "value":27, "percentage":49.8}
+                 ]
+      }
+    ],
+
+
+    "Si le gusta": {
+      "value": 27,
+      "porcentaje": 50.2
+    },
+    "No le gusta": {
+      "value": 27,
+      "porcentaje": 49.8
+    }
+  },
+    {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 88564,
+    "nameCiudad": "San Andrés",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"San Andrés", "value":2, "percentage":47.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"San Andrés", "value":2, "percentage":52.3}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 2,
+      "porcentaje": 47.7
+    },
+    "No le gusta": {
+      "value": 2,
+      "porcentaje": 52.3
+    }
+  },
+    {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 11001,
+    "nameCiudad": "Bogotá",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Bogotá", "value":408, "percentage":71.6}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Bogotá", "value":162, "percentage":28.4}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 408,
+      "porcentaje": 71.6
+    },
+    "No le gusta": {
+      "value": 162,
+      "porcentaje": 28.4
+    }
+  },
+    {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 18001,
+    "nameCiudad": "Florencia",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Florencia", "value":7, "percentage":54.1}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Florencia", "value":6, "percentage":45.9}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 7,
+      "porcentaje": 54.1
+    },
+    "No le gusta": {
+      "value": 6,
+      "porcentaje": 45.9
+    }
+  },
+    {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 41001,
+    "nameCiudad": "Neiva",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Neiva", "value":15, "percentage":63.8}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Neiva", "value":9, "percentage":36.2}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 15,
+      "porcentaje": 63.8
+    },
+    "No le gusta": {
+      "value": 9,
+      "porcentaje": 36.2
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 63001,
+    "nameCiudad": "Armenia",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Armenia", "value":12, "percentage":57.3}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Armenia", "value":9, "percentage":42.7}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 12,
+      "porcentaje": 57.3
+    },
+    "No le gusta": {
+      "value": 9,
+      "porcentaje": 42.7
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 17001,
+    "nameCiudad": "Manizales",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Manizales", "value":16, "percentage":73.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Manizales", "value":6, "percentage":26.3}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 16,
+      "porcentaje": 73.7
+    },
+    "No le gusta": {
+      "value": 6,
+      "porcentaje": 26.3
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 66001,
+    "nameCiudad": "Pereira",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Pereira", "value":16, "percentage":72.7}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Pereira", "value":6, "percentage":27.3}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 16,
+      "porcentaje": 72.7
+    },
+    "No le gusta": {
+      "value": 6,
+      "porcentaje": 27.3
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 73001,
+    "nameCiudad": "Ibagué",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Ibagué", "value":22, "percentage":64.8}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Ibagué", "value":12, "percentage":35.2}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 22,
+      "porcentaje": 64.8
+    },
+    "No le gusta": {
+      "value": 12,
+      "porcentaje": 35.2
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 27001,
+   "nameCiudad": "Quibdó",
+
+   "values":[
+     {
+       "categorie":"Sí le gusta",
+       "data":[
+             {"key":"Quibdó", "value":6, "percentage":40.8}
+                ]
+       },
+       {
+             "categorie":"No le gusta",
+       "data":[
+             {"key":"Quibdó", "value":8, "percentage":59.2}
+                ]
+     }
+   ],
+
+    "Si le gusta": {
+      "value": 6,
+      "porcentaje": 40.8
+    },
+    "No le gusta": {
+      "value": 8,
+      "porcentaje": 59.2
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 5001,
+    "nameCiudad": "Medellín",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Medellín", "value":78, "percentage":63.8}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Medellín", "value":44, "percentage":36.2}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 78,
+      "porcentaje": 63.8
+    },
+    "No le gusta": {
+      "value": 44,
+      "porcentaje": 36.2
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 19001,
+    "nameCiudad": "Popayán",
+
+
+        "values":[
+          {
+            "categorie":"Sí le gusta",
+            "data":[
+                  {"key":"Popayán", "value":10, "percentage":61.3}
+                     ]
+            },
+            {
+                  "categorie":"No le gusta",
+            "data":[
+                  {"key":"Popayán", "value":6, "percentage":38.7}
+                     ]
+          }
+        ],
+
+    "Si le gusta": {
+      "value": 10,
+      "porcentaje": 61.3
+    },
+    "No le gusta": {
+      "value": 6,
+      "porcentaje": 38.7
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 52001,
+    "nameCiudad": "Pasto",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Pasto", "value":17, "percentage":72.4}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Pasto", "value":7, "percentage":27.6}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 17,
+      "porcentaje": 72.4
+    },
+    "No le gusta": {
+      "value": 7,
+      "porcentaje": 27.6
+    }
+  },
+      {
+    "idTema": 4,
+    "nameTema": "Actividades con menores de 5 años",
+    "idRangoEdad": 28,
+    "nameRangoEdad": "0 a 4 años",
+    "idUbicacion": 114,
+    "nameUbicacion": "32 ciudades",
+    "idCiudad": 76001,
+    "nameCiudad": "Cali",
+
+    "values":[
+      {
+        "categorie":"Sí le gusta",
+        "data":[
+              {"key":"Cali", "value":112, "percentage":67.0}
+                 ]
+        },
+        {
+              "categorie":"No le gusta",
+        "data":[
+              {"key":"Cali", "value":55, "percentage":33.0}
+                 ]
+      }
+    ],
+
+    "Si le gusta": {
+      "value": 112,
+      "porcentaje": 67.0
+    },
+    "No le gusta": {
+      "value": 55,
+      "porcentaje": 33.0
+    }
+  }
+]

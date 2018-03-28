@@ -79,7 +79,7 @@ body {
 
 .linea-dane {
     margin-bottom: -8px;
-    background-image: url(../img/pattern-dane.png);
+    background-image: url(app/views/imgs/pattern-dane.png);
     background-repeat: repeat-x;height: 33px;
     margin-top: 20px;
 }
@@ -491,7 +491,7 @@ display: flex;
 
 /**Filtros encabezado**/
 .contenedor-filtros{
-	padding: 5px 20px 0px 20px;
+	padding: 8px 20px 17px 20px;
 	background-color: #f3f3f3;
 	margin: 5px 0 10px 0;
 }
