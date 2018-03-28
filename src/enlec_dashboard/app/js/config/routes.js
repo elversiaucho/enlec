@@ -44,7 +44,8 @@ function configuration($stateProvider, $urlRouterProvider)
                         },
                         'circularChart1View@main':
                         {
-                            templateUrl:'app/views/main/circularChart1View.html'
+                            templateUrl:'app/views/main/circularChart1View.html',
+                            controller:'circularController'
                         },
                         'numeroChart1View@main':
                         {

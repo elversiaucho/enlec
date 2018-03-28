@@ -26,12 +26,12 @@ circularController.$inject= ['$rootScope', '$scope', '$http', 'temporalService']
 function circularController($rootScope, $scope, $http, temporalService)
 {
 	 $scope.circular="desde Controller circular";
-   $scope.findCircularData  = findCircularData('cabeceras');
+   $scope.findCircularData=findCircularData('cabeceras');
 
 
- function findCircularData(filtro)
+function findCircularData(filtro)
 			{
-       alert("hola filtro:"+filtro);
+       //alert("hola filtro:"+filtro);
 				var items = [];
         var fSexo=$scope.filtrarSexo=filtro;
         
@@ -53,14 +53,12 @@ function circularController($rootScope, $scope, $http, temporalService)
 				//Obtener data
 				function success(data)
 				{
+        var i=0;
+        var circuloData=[], dataLc1=[];
 						angular.forEach(data, function(d)
 						{
 								items.push(d);
 						});
-
-				//$scope.dataInfoList = items;		
-        var i=0;
-        var circuloData=[], dataLc1=[];
 
         angular.forEach(items[fSexo], function(value, key) {
         if (value[0].respuesta=='Sí'){

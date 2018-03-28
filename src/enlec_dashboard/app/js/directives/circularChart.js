@@ -29,140 +29,80 @@ var linkCircularChart = function($scope, $element, $attrs) {
 
     function drawChart(data) {
 
-            /////data de prueba
-      data_P = [
-    /*{
-       "filtro": "nacional",
-       "category": "totalPersonas",
-       "pregunta": "Total personas de 5 a�os y m�s*",
-       "respuesta": "Total",
-       "total": 42326,
-       "pTotal": 100,
-       "hombres": 20732,
-       "pHombres": 49,
-       "mujeres": 21594,
-       "pMujeres": 51
-     },*/
-    /* {
-       "filtro": "nacional",
-       "category": "articulos",
-       "pregunta": " Art�culos o documentos acad�micos en medios digitales",
-       "respuesta": "Sí",
-       "total": 11943,
-       "pTotal": 28.2,
-       "hombres": 5758,
-       "pHombres": 27.8,
-       "mujeres": 6186,
-       "pMujeres": 28.6
-     },*/
-
-    /* {
-       "filtro": "nacional",
-       "category": "blogs",
-       "pregunta": "Blogs o foros en internet",
-       "respuesta": "Sí",
-       "total": 6980,
-       "pTotal": 16.5,
-       "hombres": 3500,
-       "pHombres": 16.9,
-       "mujeres": 3481,
-       "pMujeres": 16.1
-     },
-     
-     {
-       "filtro": "nacional",
-       "category": "correos",
-       "pregunta": "Correos electr�nicos",
-       "respuesta": "Sí",
-       "total": 16887,
-       "pTotal": 39.9,
-       "hombres": 8338,
-       "pHombres": 40.2,
-       "mujeres": 8549,
-       "pMujeres": 39.6
-     },
-     
-     {
-       "filtro": "nacional",
-       "category": "paginasWeb",
-       "pregunta": "P�ginas web",
-       "respuesta": "Sí",
-       "total": 16344,
-       "pTotal": 38.6,
-       "hombres": 8116,
-       "pHombres": 39.1,
-       "mujeres": 8228,
-       "pMujeres": 38.1
-     },*/
-
-    {
-        "filtro": "nacional",
-        "category": "redesSociales",
-        "pregunta": "Redes sociales (Facebook, Twitter, Instagram, WhatsApp, etc.)",
-        "respuesta": "Sí",
-        "total": 27096,
-        "pTotal": 64,
-        "hombres": 13100,
-        "pHombres": 63.2,
-        "mujeres": 13996,
-        "pMujeres": 64.8
-    },
-
-    {
-        "filtro": "nacional",
-        "category": "noticias",
-        "pregunta": "Noticias o art�culos en medios digitales (revistas, peri�dicos, aplicaciones, etc.)",
-        "respuesta": "Sí",
-        "total": 12569,
-        "pTotal": 29.7,
-        "hombres": 6307,
-        "pHombres": 30.4,
-        "mujeres": 6262,
-        "pMujeres": 29
-    },
-
-    {
-        "filtro": "nacional",
-        "category": "librosDigitales",
-        "pregunta": "Libros digitales (total o parcialmente)",
-        "respuesta": "Sí",
-        "total": 6652,
-        "pTotal": 15.7,
-        "hombres": 3199,
-        "pHombres": 15.4,
-        "mujeres": 3454,
-        "pMujeres": 16
-    },
-
-    {
-        "filtro": "nacional",
-        "category": "documentosdeTrabajo",
-        "pregunta": "Documentos de trabajo en Internet",
-        "respuesta": "Sí",
-        "total": 7275,
-        "pTotal": 17.2,
-        "hombres": 3785,
-        "pHombres": 18.3,
-        "mujeres": 3490,
-        "pMujeres": 16.2
-
-    }
-];
-            //////
-
-        const width = 960,
-            height = 600,
-            chartRadius = height / 2 - 40; // radio del grafico
-        // var circuloData=[], data=[];
-
         if (typeof(data) != 'undefined') {
 
             if (typeof(data[0].hombres) != "undefined")
                 desagergaSexo = true;
             colorTotal = "gray";
         }
+        else return false;
+                /////data de prueba
+          data_P = 
+          [
+      
+        {
+            "filtro": "nacional",
+            "category": "redesSociales",
+            "pregunta": "Redes sociales",
+            "respuesta": "Sí",
+            "total": 27096,
+            "pTotal": 64,
+            "hombres": 13100,
+            "pHombres": 63.2,
+            "mujeres": 13996,
+            "pMujeres": 64.8
+        },
 
-        console.log(circuloData=data);
+        {
+            "filtro": "nacional",
+            "category": "noticias",
+            "pregunta": "Noticias o artículos en medios digitales",
+            "respuesta": "Sí",
+            "total": 12569,
+            "pTotal": 29.7,
+            "hombres": 6307,
+            "pHombres": 30.4,
+            "mujeres": 6262,
+            "pMujeres": 29
+        },
+
+        {
+            "filtro": "nacional",
+            "category": "librosDigitales",
+            "pregunta": "Libros digitales (total o parcialmente)",
+            "respuesta": "Sí",
+            "total": 6652,
+            "pTotal": 15.7,
+            "hombres": 3199,
+            "pHombres": 15.4,
+            "mujeres": 3454,
+            "pMujeres": 16
+        },
+
+        {
+            "filtro": "nacional",
+            "category": "documentosdeTrabajo",
+            "pregunta": "Documentos de trabajo en Internet",
+            "respuesta": "Sí",
+            "total": 7275,
+            "pTotal": 17.2,
+            "hombres": 3785,
+            "pHombres": 18.3,
+            "mujeres": 3490,
+            "pMujeres": 16.2
+
+        }
+    ];
+            //////
+
+        const width = 660,
+            height = 300,
+            chartRadius = height / 2 - 40; // radio del grafico
+        // var circuloData=[], data=[];
+
+
+
+       
         svg = d3.select($element[0]).append('svg')
             .attr('width', width)
             .attr('height', height)
@@ -224,9 +164,8 @@ var linkCircularChart = function($scope, $element, $attrs) {
             .attr('y', function(d, i) {
                 return -getOuterRadius(i) + arcPadding
             })
-            .text(function(d) {
-                return d.pregunta
-            });
+            .text(function(d) {return d.pregunta})
+            .attr("id", "texto-opciones");
 
 
 
@@ -359,10 +298,10 @@ var linkCircularChart = function($scope, $element, $attrs) {
         }
 
         function showTooltip(d) {
-            tooltip.style('left', (d3.event.pageX +10) + 'px') //
+            tooltip.html(d.pTotal + " %")
+                .style('left', (d3.event.pageX +10) + 'px') //
                 .style('top',(d3.event.pageY -25 )+ 'px') //d3.event.pageY
-                .style('display', 'inline-block')
-                .html(d.pTotal + " %"); //
+                .style('display', 'inline-block'); //
         }
 
         function hideTooltip() {
