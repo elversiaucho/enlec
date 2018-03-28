@@ -13,7 +13,7 @@ function infoService($http, $q, CONFIG)
 {
 		var factory = {};
 		var deferred = $q.defer();
-	
+
   	factory.findDataInfo = function()
   	{
   			$http.get(CONFIG.ENDPOINT_INFO_1).then(result, error);
