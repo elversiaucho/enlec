@@ -46,9 +46,9 @@ var constantes = {
                     ENDPOINT_BIBLIOTECA_CUADRO_8:'app/models/json/biblioteca/biblioteca_cuadro_8.json',
                     //Tema Actividades con menores de 5 años
                     ENDPOINT_MENORES_CUADRO_1_2:'app/models/json/menores/dataMenores_1_2.json',
-                    ENDPOINT_MENORES_CUADRO_3_4:'app/models/json/menores/dataMenores_1_2.json',
-                    ENDPOINT_MENORES_CUADRO_5_6:'app/models/json/menores/dataMenores_1_2.json',
-                    ENDPOINT_MENORES_CUADRO_7_8:'app/models/json/menores/dataMenores_1_2.json',
+                    ENDPOINT_MENORES_CUADRO_3_4:'app/models/json/menores/dataMenores_3_4.json',
+                    ENDPOINT_MENORES_CUADRO_5_6:'app/models/json/menores/dataMenores_5_6.json',
+                    ENDPOINT_MENORES_CUADRO_7_8:'app/models/json/menores/dataMenores_7_8.json',
                  };
 
 //Definición de constantes
