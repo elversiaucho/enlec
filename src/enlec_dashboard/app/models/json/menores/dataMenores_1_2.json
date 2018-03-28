@@ -434,6 +434,28 @@
     "nameUbicacion": "32 ciudades",
     "idCiudad": 81001,
     "nameCiudad": "Arauca",
+    "values": [
+      {
+        "categorie": "Sí le gusta",
+        "data": [
+          {
+            "key": "Arauca",
+            "value": 5,
+            "percentage": 63.0
+          }
+        ]
+      },
+      {
+        "categorie": "No le gusta",
+        "data": [
+          {
+            "key": "Arauca",
+            "value": 3,
+            "percentage": 37.0
+          }
+        ]
+      }
+    ],
     "Si le gusta": {
       "value": 5,
       "porcentaje": 63.0
