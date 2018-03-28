@@ -7,19 +7,19 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 app_enlec.factory('menoresService', menoresService);
-menoresService.$inject = ['$http', '$q', 'CONFIG'];
+menoresService.$inject = ['$http', '$q', 'ENDPOINT'];
 
-function menoresService($http, $q, CONFIG)
+function menoresService($http, $q, ENDPOINT)
 {
 		var factory = {};
 		var deferred1 = $q.defer();
 		var deferred2 = $q.defer();
 		var deferred3 = $q.defer();
-    var deferred4 = $q.defer();    
+    var deferred4 = $q.defer();
 
 		factory.getMenoresCuadro_1_2 = function()
   	{
- 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_1_2).then(result, error);
+ 				$http.get(ENDPOINT.MENORES_CUADRO_1_2).then(result, error);
 
 				function result(result)
 				{
@@ -36,7 +36,7 @@ function menoresService($http, $q, CONFIG)
 
 		factory.getMenoresCuadro_3_4 = function()
   	{
- 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_3_4).then(result, error);
+ 				$http.get(ENDPOINT.MENORES_CUADRO_3_4).then(result, error);
 
 				function result(result)
 				{
@@ -53,7 +53,7 @@ function menoresService($http, $q, CONFIG)
 
 		factory.getMenoresCuadro_5_6 = function()
 		{
-				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_5_6).then(result, error);
+				$http.get(ENDPOINT.MENORES_CUADRO_5_6).then(result, error);
 
 				function result(result)
 				{
@@ -70,7 +70,7 @@ function menoresService($http, $q, CONFIG)
 
 		factory.getMenoresCuadro_7_8 = function()
   	{
- 				$http.get(CONFIG.ENDPOINT_MENORES_CUADRO_7_8).then(result, error);
+ 				$http.get(ENDPOINT.MENORES_CUADRO_7_8).then(result, error);
 
 				function result(result)
 				{

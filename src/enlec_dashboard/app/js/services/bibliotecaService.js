@@ -7,9 +7,9 @@
     * company: Departamento Administrativo Nacional de Estadística - DANE
 **/
 app_enlec.factory('bibliotecaService', bibliotecaService);
-bibliotecaService.$inject = ['$http', '$q', 'CONFIG'];
+bibliotecaService.$inject = ['$http', '$q', 'ENDPOINT'];
 
-function bibliotecaService($http, $q, CONFIG)
+function bibliotecaService($http, $q, ENDPOINT)
 {
 		var factory = {};
 		var deferred1 = $q.defer();
